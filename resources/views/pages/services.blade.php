@@ -730,7 +730,7 @@
                 </div>
             </div>
             <div class="jarallax image-container col-md-6 pull-right">
-                <img src="images/background/5.jpeg" class="jarallax-img" alt="">
+                <img src="{{asset('images/background/5.jpeg')}}" class="jarallax-img" alt="">
             </div>
         </section>
 

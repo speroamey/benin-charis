@@ -72,9 +72,38 @@ Route::get('/services/{slug}', function ($slug) {
     }
     return view('pages.services')->with('slug',$slug)->with('sujet',$sujet);
 })->name('services');
+
+Route::get('/secteurs/{slug}', function ($slug) {
+    $sujet="";
+    switch ($slug) {
+        case 'agency-banking-solution-pour-une-inclusion-financière':
+            $sujet="Agency Banking solution pour une inclusion  financière";
+            break;
+        case 'Telecommunication':
+            $sujet="Télécommunication";
+            break;
+        case 'energie-ressource-produits-industriels':
+            $sujet="Énergie, ressources & produits industriels ";
+            break;
+
+        case 'Batiments-et-travaux-publique':
+            $sujet="Bâtiments et Travaux Publique BTP";
+            break;
+        case 'immobilier':
+            $sujet ="Immobilier";
+            break;
+
+        default:
+            # code...
+            break;
+    }
+    return view('pages.secteurs')->with('slug',$slug)->with('sujet',$sujet);
+})->name('secteurs');
+
 Route::get('/nous-contacter', function () {
     return view('pages.contact-us');
 });
+
 Route::get('/blog/{title}', function ($title) {
     $sujet="";
     switch ($title) {

@@ -109,8 +109,7 @@
                                             <div class="col-megamenu">
                                                 <h6 class="title">Secteur Financier</h6>
                                                 <ul class="list-unstyled">
-                                                    <li><a href="#">Agency Banking solution pour une inclusion
-                                                            financière</a></li>
+                                                    <li><a href="{{route('secteurs','agency-banking-solution-pour-une-inclusion-financière')}}">Agency Banking solution pour une inclusion  financière</a></li>
 
                                                 </ul>
                                             </div> <!-- col-megamenu.// -->
@@ -119,7 +118,7 @@
                                             <div class="col-megamenu">
                                                 <h6 class="title">Secteur Télécommunication</h6>
                                                 <ul class="list-unstyled">
-                                                    <li><a href="#">Télécoms</a></li>
+                                                    <li><a href="{{route('secteurs','Telecommunication')}}">Réseaux & Télécoms</a></li>
 
                                                 </ul>
                                             </div> <!-- col-megamenu.// -->
@@ -127,7 +126,7 @@
                                                 <h6 class="title"> Énergie, ressource & produits industriels
                                                 </h6>
                                                 <ul class="list-unstyled">
-                                                    <li><a href="#"> Énergie, ressource & produits
+                                                    <li><a href="{{route('secteurs','energie-ressource-produits-industriels')}}"> Énergie, ressource & produits
                                                             industriels</a></li>
 
                                                 </ul>
@@ -137,8 +136,8 @@
                                             <div class="col-megamenu">
                                                 <h6 class="title">l’investissement Immobilier</h6>
                                                 <ul class="list-unstyled">
-                                                    <li><a href="#">Immobilier</a></li>
-                                                    <li><a href="#"> Bâtiments et Travaux Publique</a></li>
+                                                    <li><a href="{{route('secteurs','immobilier')}}">Immobilier</a></li>
+                                                    <li><a href="{{route('secteurs','Batiments-et-travaux-publique')}}"> Bâtiments et Travaux Publique</a></li>
                                                 </ul>
                                             </div> <!-- col-megamenu.// -->
                                         </div>

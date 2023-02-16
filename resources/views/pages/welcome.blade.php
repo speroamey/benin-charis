@@ -574,57 +574,53 @@
 
 @push('custom-scripts')
 
-    {{-- <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9QACWaLVsNlAgz4vJJmdSh5XB0Aap2xM&callback=initMap&v=weekly"
-      defer
-    ></script>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script>
-        function initMap() {
-            const default_cordinate = { lat: 5.364256, lng: -3.975483 };
-            const map = new google.maps.Map(document.getElementById("default_map"), {
-                zoom: 13,
-                center: default_cordinate,
-            });
-            const marker = new google.maps.Marker({
-                            position: default_cordinate,
-                            map: map, });
-            const geocoder = new google.maps.Geocoder();
-            const infowindow = new google.maps.InfoWindow();
-            document.getElementById("select-agency").addEventListener("change", () => {
-                geocodeLatLng(geocoder, map, infowindow);
-            });
-        }
-
-        function geocodeLatLng(geocoder, map, infowindow) {
-            const input = document.getElementById("latlng").value;
-            const latitude =  parseFloat($("select option:selected").data('lat').replace(",","."));
-            const longitude   =  parseFloat( $("select option:selected").data('lng').replace(",","."));
-            const latlngStr =[latitude, longitude];
-
-            const latlng = {
-                lat:latitude,
-                lng: longitude,
-            };
-            geocoder
-                .geocode({ location: latlng })
-                .then((response) => {
-                    if (response.results[0]) {
-                        map.setZoom(13);
-                        const marker = new google.maps.Marker({
-                            position: latlng,
-                            map: map,
-                        });
-
-                        infowindow.setContent(response.results[0].formatted_address);
-                        infowindow.open(map, marker);
-                    } else {
-                            window.alert("No results found");
-                    }
-                })
-                .catch((e) => window.alert("Geocoder failed due to: " + e));
-        }
-        window.initMap = initMap;
-        // $(document).ready(function(e) { alert("cool"); });
-    </script> --}}
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9QACWaLVsNlAgz4vJJmdSh5XB0Aap2xM&callback=initMap&v=weekly"
+defer></script>
+<script>
+function initMap() {
+    const default_cordinate = { lat: 5.364256, lng: -3.975483 };
+    const map = new google.maps.Map(document.getElementById("default_map"), {
+        zoom: 13,
+        center: default_cordinate,
+    });
+    const marker = new google.maps.Marker({
+        position: default_cordinate,
+        map: map,
+    });
+    const geocoder = new google.maps.Geocoder();
+    const infowindow = new google.maps.InfoWindow();
+    document.getElementById("select-agency").addEventListener("change", () => {
+        geocodeLatLng(geocoder, map, infowindow);
+    });
+}
+function geocodeLatLng(geocoder, map, infowindow) {
+    const input = document.getElementById("latlng").value;
+    const latitude = parseFloat($("select option:selected").data('lat').replace(",", "."));
+    const longitude = parseFloat($("select option:selected").data('lng').replace(",", "."));
+    const latlngStr = [latitude, longitude];
+    const latlng = {
+        lat: latitude,
+        lng: longitude,
+    };
+    geocoder
+        .geocode({ location: latlng })
+        .then((response) => {
+            if (response.results[0]) {
+                map.setZoom(13);
+                const marker = new google.maps.Marker({
+                    position: latlng,
+                    map: map,
+                });
+                infowindow.setContent(response.results[0].formatted_address);
+                infowindow.open(map, marker);
+            } else {
+                window.alert("No results found");
+            }
+        })
+        .catch((e) => window.alert("Geocoder failed due to: " + e));
+}
+window.initMap = initMap;
+    // $(document).ready(function(e) { alert("cool"); });
+</script>
 @endpush
