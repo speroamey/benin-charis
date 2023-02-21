@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="widget">
-                    <a href="url('/')"><img alt="" class="img-fluid mb20" src="{{asset('images/logo-light.png')}}">
+                    <a href="url('/')"><img alt="" class="img-fluid mb1" src="{{asset('images/logo-light.png')}}" width="150">
                     </a>
                     <address class="s1">
                         <span><i class="id-color fa fa-map-marker fa-lg"></i>Riviéra 3, Abidjan, Côte

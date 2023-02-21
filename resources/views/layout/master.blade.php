@@ -37,10 +37,23 @@ Author: Spero AMEY / WAKPARE-AMEY M'pouamon
         <link href="{{asset('css/coloring.css')}}" rel="stylesheet" type="text/css" />
 
         <style type="text/css">
+            .navbar {
+                position: absolute;
+            }
+
+            .nav-link{
+                color: #fff !important;
+            }
+            .dropdown-menu{
+                background-color: #212529;
+                color: #fff;
+            }
             .navbar .megamenu {
                 padding: 1rem;
             }
-
+            .navbar-collapse {
+                flex-grow: 0 !important;
+            }
             /* ============ desktop view ============ */
             @media all and (min-width: 992px) {
 

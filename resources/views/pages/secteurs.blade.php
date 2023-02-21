@@ -29,7 +29,7 @@
         <!-- section close -->
         <section aria-label="section" data-bgcolor="#ffffff">
             <div class="container">
-                
+
                 @if ( $slug == 'agency-banking-solution-pour-une-inclusion-financière')
                     <div class="row align-items-center">
                         <div class="row">
@@ -44,7 +44,7 @@
                                 </p>
                             </div>
 
-                            
+
                             <div class="col-md-6 offset-md-1">
                                 <div class="de-images">
                                     <div class="di-text text-white bg-color">
@@ -65,17 +65,17 @@
                                     LAJOY est le partenaire idéal dans la mise en place d'une Agency Banking. Nous offrons des offres sur mesure aux 2 acteurs principaux de l'industrie:
                                     <ul>
                                         <li>
-                                            Les institutions financières : Les difficultés des institutions financières commencent par leur inaccessibilité sur tout l'étendue du territoire, en raison du nombre limité d’agences bancaires concentrées dans les villes, alors que la majorité de la population vit encore dans les zones rurales. Le modèle d’Agency Banking peut apporter un retour sur investissement de plus de 300 % en l’espace de trois ans. Ce modèle agit sur le parcours client, les revenu généré, l'impact visuel, la communication et le marketing de l'institution financière. Ainsi, une amélioration du volume d'épargne avec la réduction des files d'attente donc l'augmentation de l'expérience client. 
+                                            Les institutions financières : Les difficultés des institutions financières commencent par leur inaccessibilité sur tout l'étendue du territoire, en raison du nombre limité d’agences bancaires concentrées dans les villes, alors que la majorité de la population vit encore dans les zones rurales. Le modèle d’Agency Banking peut apporter un retour sur investissement de plus de 300 % en l’espace de trois ans. Ce modèle agit sur le parcours client, les revenu généré, l'impact visuel, la communication et le marketing de l'institution financière. Ainsi, une amélioration du volume d'épargne avec la réduction des files d'attente donc l'augmentation de l'expérience client.
                                         </li>
                                         <li>
-                                            Nous accompagnons les institutions financières à mettre en place leur stratégie d'affaire, leur stratégie marketing et leur stratégie de déploiement pour répondre à leur vision et leurs priorités. Afin qu’elles puissent répondre aux besoins du marché, nous mettons à leur disposition la plateforme agency banking de LAJOY. 
+                                            Nous accompagnons les institutions financières à mettre en place leur stratégie d'affaire, leur stratégie marketing et leur stratégie de déploiement pour répondre à leur vision et leurs priorités. Afin qu’elles puissent répondre aux besoins du marché, nous mettons à leur disposition la plateforme agency banking de LAJOY.
                                         </li>
                                         <li>
                                             Les investisseurs : LAJOY offre à ses investisseurs un service sur mesure pour garantir la rentabilité de leur investissement. Nous les accompagnons (installation, recrutement, formation, gestion, marketing, produits financiers) pour que leurs agences soient au cœur de l'activité économique de leur secteur et ainsi être le centre financier de référence dans leur zone d’activité.
                                         </li>
                                     </ul>
                                 </p>
-                              
+
                             </div>
                         </div>
 
@@ -143,7 +143,7 @@
                                 <h2>{{$sujet}}</h2>
                                 <p>
                                     Notre entreprise est spécialisée dans l'accompagnement de projets immobiliers, que ce soit pour l'achat, la location ou la construction. Nous proposons des services de conseil, de formation et de financement pour aider nos clients à réaliser leur projet en toute sérénité. Nous réalisons également la construction de logements de standing et de qualité, adaptés aux besoins de nos clients.
-                                   
+
                                 </p>
                                 <p>
                                     Notre équipe est composée de professionnels hautement qualifiés dans le domaine bancaire, de l'architecture et de la construction. Nous mettons notre savoir-faire et notre expertise au service de nos clients pour répondre efficacement à leurs attentes. Nos collaborateurs sont passionnés par leur métier et apportent leur soutien à chaque étape du projet.
@@ -162,12 +162,12 @@
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-md-10">
-                               
+
                                 <p>
-                                    Nous avons acquis une solide expérience au fil des années au Canada, où nous avons une firme de financement immobilier. L’accréditation de notre firme de financement auprès de l’autorité des marchés financiers apportent des garantis et démontre le professionnalisme de nos services. Durant ses années d’accompagnement sur mesure destinée à notre clientèle de la diaspora et des clients prestigieux, nous avons développé une connaissance approfondie du marché et des tendances immobilières en Côte d’Ivoire.                                     
+                                    Nous avons acquis une solide expérience au fil des années au Canada, où nous avons une firme de financement immobilier. L’accréditation de notre firme de financement auprès de l’autorité des marchés financiers apportent des garantis et démontre le professionnalisme de nos services. Durant ses années d’accompagnement sur mesure destinée à notre clientèle de la diaspora et des clients prestigieux, nous avons développé une connaissance approfondie du marché et des tendances immobilières en Côte d’Ivoire.
                                 </p>
                                 <p>
-                                    Nous sommes en mesure de vous accompagner dans toutes vos démarches de financement, d'achat ou de construction, en vous apportant une assistance professionnelle et multidisciplinaire. Faites confiance à notre expertise pour réussir votre projet immobilier. 
+                                    Nous sommes en mesure de vous accompagner dans toutes vos démarches de financement, d'achat ou de construction, en vous apportant une assistance professionnelle et multidisciplinaire. Faites confiance à notre expertise pour réussir votre projet immobilier.
                                 </p>
                             </div>
                         </div>
@@ -199,8 +199,8 @@
                         <div class="row justify-content-center">
                             <div class="col-md-10">
                                 <p>
-                                    Gérer le changement est également important pour une entreprise de BTP qui souhaite s'adapter aux nouvelles tendances et aux évolutions du marché. Cela implique de former son équipe aux nouvelles technologies et aux méthodes de travail, de communiquer de manière transparente sur les changements à venir, et de mettre en place des mécanismes de gestion de crise pour faire face aux difficultés inévitables qui peuvent survenir lors du processus de changement. 
-                                    
+                                    Gérer le changement est également important pour une entreprise de BTP qui souhaite s'adapter aux nouvelles tendances et aux évolutions du marché. Cela implique de former son équipe aux nouvelles technologies et aux méthodes de travail, de communiquer de manière transparente sur les changements à venir, et de mettre en place des mécanismes de gestion de crise pour faire face aux difficultés inévitables qui peuvent survenir lors du processus de changement.
+
                                 </p>
                                 <p>
                                     Vu l’importance de ce secteur d’activité sur l’économie ivoirienne, LAJOY offre différent service afin d’accompagner les entreprises du secteur à accroître leur rendement :
@@ -253,13 +253,13 @@
                                 <p>
                                     <ul>
                                         <li>
-                                            La mise en place d'une politique de responsabilité sociale de l'entreprise (RSE) en intégrant les préoccupations sociales, environnementales et économiques dans les activités et décisions de l'entreprise.  
+                                            La mise en place d'une politique de responsabilité sociale de l'entreprise (RSE) en intégrant les préoccupations sociales, environnementales et économiques dans les activités et décisions de l'entreprise.
                                         </li>
                                         <li>
                                             La mise en place d’une stratégie marketing pour fidéliser les clients existants et accroitre l’image de marque de l’entreprise
                                         </li>
                                         <li>
-                                            Amélioration des processus de travail 
+                                            Amélioration des processus de travail
                                         </li>
                                         <li>
                                             Stratégie de déploiement commercial
@@ -271,9 +271,9 @@
                     </div>
                 @endif
 
-               
-            
-            
+
+
+
             </div>
         </section>
         <section data-bgcolor="#111111" class="text-light">
@@ -284,7 +284,7 @@
                         <h2>
                             Laissez Notre Expérience<br>être votre guide
                         </h2>
-                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        {{-- <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                             <li class="nav-item">
                                 <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Notre Identité</a>
                             </li>
@@ -294,7 +294,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Nos Partenaires</a>
                             </li>
-                        </ul>
+                        </ul> --}}
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                                 <p>
@@ -335,7 +335,7 @@
                                     <a href="{{route('blog',['marketing-par-les-donnees'])}}" class="btn-custom capsule">Lire plus</a>
                                 </div>
                             </div>
-                            <img src="{{asset('images/services/1.jpg')}}" alt="" class="img-responsive" />
+                            <img src="{{asset('images/services/marketing.jpeg')}}" alt="" class="img-responsive" />
                         </div>
                     </div>
                     <div class="col-md-4 wow fadeInRight" data-wow-delay=".4s">
@@ -350,7 +350,7 @@
                                     <a href="{{route('blog',['le-marketing-de-donnees'])}}" class="btn-custom capsule">Lire plus</a>
                                 </div>
                             </div>
-                            <img src="{{asset('images/services/2.jpg')}}" alt="" class="img-responsive" />
+                            <img src="{{asset('images/services/marketing-2.jpeg')}}" alt="" class="img-responsive" />
                         </div>
                     </div>
                     <div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
@@ -366,7 +366,7 @@
                                     <a href="{{route('blog',['le-marketing-et-la-communication'])}}" class="btn-custom capsule">Lire plus</a>
                                 </div>
                             </div>
-                            <img src="{{asset('images/services/3.jpg')}}" alt="" class="img-responsive" />
+                            <img src="{{asset('images/services/marketing-3.jpeg')}}" alt="" class="img-responsive" />
                         </div>
                     </div>
                 </div>

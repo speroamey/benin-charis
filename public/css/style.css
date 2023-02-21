@@ -2,7 +2,7 @@
 
 
 /* JUSTICA
-/* created by designesia customed by Spero AMEY
+/* created by designesia
 
 * body
 * header
@@ -323,7 +323,7 @@ header.smaller.scroll-light {
 
 header.header-light .h-phone,
 header.smaller.scroll-light .h-phone {
-    color: #00364A;
+    color: #111111;
 }
 
 header:not(.header-light).smaller.scroll-light div#logo .logo {
@@ -347,7 +347,7 @@ header.smaller.scroll-light .social-icons i {
 }
 
 header.smaller.scroll-light #mainmenu a {
-    color: #00364A;
+    color: #111111;
 }
 
 header.smaller.scroll-light #mainmenu li li a:hover {
@@ -595,7 +595,7 @@ header .header-col.mid .social-icons {
     float: none;
 }
 
-#mainmenu >ul {
+#mainmenu ul {
     margin: 0px 0px;
     padding: 0px;
     height: 30px;
@@ -609,7 +609,7 @@ header .header-col.mid .social-icons {
     box-shadow: 2px 2px 30px 0px rgba(20, 20, 20, 0.1);
 }
 
-#mainmenu >li {
+#mainmenu li {
     margin: 0px 0px;
     padding: 0px 0px;
     float: left;
@@ -643,10 +643,9 @@ header .header-col.mid .social-icons {
     padding: 0 5px;
 }
 
-/* header.smaller.scroll-light #mainmenu>li.menu-item-has-children>a:after {
+header.smaller.scroll-light #mainmenu>li.menu-item-has-children>a:after {
     color: rgba(0, 0, 0, .6);
 }
-
 
 #mainmenu a {
     position: relative;
@@ -667,7 +666,7 @@ header .header-col.mid .social-icons {
     text-transform: uppercase;
     line-height: 14px;
     border-bottom: solid 1px #ffffff;
-} */
+}
 
 #mainmenu li:hover a span {
     width: 100%;
@@ -695,22 +694,16 @@ header .header-col.mid .social-icons {
 #mainmenu li li:last-child {
     border-bottom: none;
 }
-#mainmenu .dropdown-menu{
-    background-color: #00364A;
-}
-#mainmenu h6{
-    color: #fff;
-}
+
 #mainmenu li li a {
-    padding: 5px 1px;
+    padding: 5px 15px;
     border-top: none;
-    color: #fff;
+    color: #111111;
     width: 100%;
     border-left: none;
     text-align: left;
     font-weight: normal;
-    font-size: larger;
-    /* border-bottom: solid 1px rgba(255, 255, 255, .1); */
+    border-bottom: solid 1px rgba(255, 255, 255, .1);
 }
 
 .rtl #mainmenu li li a {
@@ -736,15 +729,15 @@ header .header-col.mid .social-icons {
     background: #1a8b49;
 }
 
-/* #mainmenu li ul {
-    width: 100vw;
+#mainmenu li ul {
+    width: 210px;
     height: auto;
     position: absolute;
     left: 0px;
     z-index: 10;
     visibility: hidden;
     opacity: 0;
-} */
+}
 
 #mainmenu li li {
     font-size: 12px;
@@ -994,7 +987,7 @@ section.no-bg,
 /* ================================================== */
 
 footer {
-    background: #00364A;
+    background: #111111;
     color: #ffffff;
     padding: 80px 0 0 0;
 }
@@ -1209,7 +1202,7 @@ header.header-light .logo-2 {
     padding: 0 30px;
     overflow: hidden;
     top: 0;
-    background: #00364A;
+    background: #111111;
 }
 
 #topbar.topbar-dark {
@@ -2050,7 +2043,7 @@ input[type="checkbox"] {
 
 #form_subscribe input[type=text]:focus {
     background: #ffffff;
-    color: #00364A;
+    color: #111111;
 }
 
 #form_subscribe #btn-submit i {
@@ -2732,7 +2725,7 @@ a.btn-custom.btn-white {
 }
 
 a.btn-custom.btn-black {
-    background: #00364A;
+    background: #111111;
 }
 
 header a.btn-custom {
@@ -3143,7 +3136,7 @@ hr {
 }
 
 .field-set label {
-    color: #00364A;
+    color: #111111;
     font-weight: 500;
 }
 
@@ -3169,9 +3162,12 @@ footer.footer-light h5 {
     margin-top: 0;
     font-family: "Jost";
     font-weight: 600;
-    color: #00364A;
+    /* color: #fff; */
 }
 
+h6{
+    font-size: 1.3rem !important;
+}
 footer h1,
 footer h2,
 footer h4,
@@ -4103,7 +4099,7 @@ i.font60 {
 .feature-box-type-1.s2 i,
 .feature-box-type-1.s2:hover i {
     background: #f8f8f8;
-    color: #00364A;
+    color: #111111;
 }
 
 .feature-box-type-1 .text {
@@ -4425,7 +4421,7 @@ i.font60 {
     font-family: "FontAwesome";
     content: "\f00c";
     margin-right: 15px;
-    background: #00364A;
+    background: #111111;
     padding: 5px;
     border-radius: 3px;
     font-size: 12px;
@@ -4920,7 +4916,7 @@ i.font60 {
 
 .pricing-s2 .top .price {
     margin-bottom: 30px;
-    color: #00364A;
+    color: #111111;
 }
 
 .pricing-s2.text-light .top .price,
@@ -5343,7 +5339,7 @@ i.font60 {
 
 .accordion-section-title {
     font-family: "Jost";
-    color: #00364A;
+    color: #111111;
     width: 100%;
     padding: 15px;
     display: inline-block;
@@ -6297,7 +6293,7 @@ a.btn-right {
     display: block;
     font-family: "Jost";
     border: none;
-    color: #00364A;
+    color: #111111;
     font-weight: 300;
     padding: 30px 40px 30px 40px;
     background: #f8f8f8;
@@ -7769,7 +7765,7 @@ blockquote {
     border: none;
     border-left: solid 3px #333333;
     padding-left: 30px;
-    color: #00364A;
+    color: #111111;
 }
 
 blockquote span {
@@ -8418,7 +8414,7 @@ span.icon {
 }
 
 .f_box .f_bg {
-    background: #00364A;
+    background: #111111;
     display: block;
     position: absolute;
     z-index: 1;
@@ -8798,7 +8794,7 @@ margin:5px;
     padding-left: 60px;
     display: block;
     text-decoration: none;
-    color: #00364A;
+    color: #111111;
 }
 
 .widget-post .post-date {
@@ -11010,7 +11006,7 @@ a.read_more i {
 .de_table:not(.no-heading) .tr:first-child {
     font-weight: 600;
     border-bottom: 2px solid #ddd;
-    color: #00364A;
+    color: #111111;
 }
 
 .de_table .tr:nth-child(even) {
@@ -11501,7 +11497,7 @@ a.read_more i {
 
 .box-highlight .content,
 .box-highlight .content strong {
-    color: #00364A;
+    color: #111111;
 }
 
 .box-highlight .content.v1 p {
@@ -12496,7 +12492,7 @@ img {
     }
 }
 
-/* -------------------------------------------------- 
+/* --------------------------------------------------
 	design for 768px
 	/* ================================================== */
 
@@ -12595,7 +12591,7 @@ img {
         padding: 0;
         margin-top: 0;
         height: auto;
-        background: #00364A;
+        background: #111111;
         padding: 15px 0 15px 0;
     }
 
@@ -13195,8 +13191,8 @@ img {
 
 }
 
-/* -------------------------------------------------- 
-	custom for 320px & 480px 
+/* --------------------------------------------------
+	custom for 320px & 480px
 	/* -------------------------------------------------- */
 
 @media only screen and (max-width: 767px) {
@@ -13356,7 +13352,7 @@ img {
     }
 }
 
-/* -------------------------------------------------- 
+/* --------------------------------------------------
 	design for 480px
 	/* -------------------------------------------------- */
 
@@ -13385,7 +13381,7 @@ img {
     }
 }
 
-/* -------------------------------------------------- 
+/* --------------------------------------------------
 	design for 320px
 	/* -------------------------------------------------- */
 
@@ -13451,3 +13447,15 @@ img {
         background-attachment: scroll;
     }
 }
+
+.navbar ul li {
+    margin-top: 16px;
+}
+
+.navbar ul li a{
+    color: rgb(210, 206, 206);
+    font-size: 16px;
+    /* background-color: black; */
+}
+
+

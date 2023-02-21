@@ -17,29 +17,25 @@
         <div class="clearfix"></div>
     </div>
 </div>
-<!-- header begin -->
-<header class="header-light navbar navbar-expand-lg">
+<header class="transparent  navbar navbar-expand-lg">
     <div class="container">
-        <div class="row ">
-            <div class="col-md-12 ">
-                <div class="de-flex sm-pt10">
-                    <div class="de-flex-col ">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="de-flex sm-pt1">
+                    <div class="de-flex-col">
                         <!-- logo begin -->
                         <div id="logo">
-                            <a href="{{url('/')}}" class="navbar-brand">
-                                <img alt="" class="logo" src="{{asset('images/logo-light.png')}}" />
-                                <img alt="" class="logo-2" src="{{asset('images/logo.png')}}" width="100" />
+                            <a href="index.html">
+                                <img alt="" class="logo" src="images/logo-light.png" width="150" />
+                                <img alt="" class="logo-2" src="images/logo.png" width="150" />
                             </a>
                         </div>
                         <!-- logo close -->
                     </div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
                     <div class="collapse navbar-collapse" id="main_nav">
-                        <ul class="navbar-nav" id="mainmenu">
+                        <ul class="navbar-nav">
                             <li class="nav-item active"> <a class="nav-link" href="{{url('/')}}">Accueil </a> </li>
+
                             <li class="nav-item dropdown has-megamenu">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Services
                                 </a>
@@ -122,6 +118,10 @@
 
                                                 </ul>
                                             </div> <!-- col-megamenu.// -->
+
+                                        </div><!-- end col-3 -->
+                                        <div class="col-lg-3 col-6">
+
                                             <div class="col-megamenu">
                                                 <h6 class="title"> Énergie, ressource & produits industriels
                                                 </h6>
@@ -131,7 +131,7 @@
 
                                                 </ul>
                                             </div>
-                                        </div><!-- end col-3 -->
+                                        </div>
                                         <div class="col-lg-3 col-6">
                                             <div class="col-megamenu">
                                                 <h6 class="title">l’investissement Immobilier</h6>
@@ -148,11 +148,18 @@
                             <li class="nav-item"><a class="nav-link" href="{{url('/')}}#temoignage"> Témoignages </a></li>
                             <li class="nav-item"><a class="nav-link" href="{{url('a-propos-de-nous')}}"> À Propos </a></li>
                             <li class="nav-item"><a class="nav-link" href="{{url('nous-contacter')}}"> Nous Contacter </a></li>
+
                         </ul>
+
+
                     </div>
+                    {{-- <div class="de-flex-col">
+                        <div class="h-phone md-hide"><span>Need&nbsp;Help?</span><i class="fa fa-phone"></i> 1 200 300 9000</div>
+                        <span id="menu-btn"></span>
+                    </div> --}}
                     <div class="de-flex-col">
                         <div class="h-phone md-hide"><span>Besoin&nbsp;d'appeler?</span><i
-                                class="fa fa-phone"></i><a href="tel: +225 07 89 71 64 24"> +225 07 89 71 64
+                                class="fa fa-phone"></i><a href="tel: +225 07 89 71 64 24" class="text-white"> +225 07 89 71 64
                                 24</a> </div>
                         <span id="menu-btn"></span>
                     </div>

@@ -92,13 +92,11 @@ a.btn-border:hover,
 .post-content .date-box,
 #mainmenu li a b
 {
-	background:var(--primary-color);
-	color: #00364A;
+	background:	var(--primary-color);
+	color: #fff;
 }
 
-/* #mainmenu li li a{
-	background:#111111;
-} */
+
 a,a:hover,
 .id-color,
 #mainmenu li:hover > ul,
@@ -176,8 +174,14 @@ a.btn-custom.btn-white,
 i.id-color
 {
 	color:var(--primary-color);
+	/* color: #fff; */
 }
 
+
+.navbar li:hover{
+    color: rgb(210, 206, 206);
+    background-color: black;
+}
 .id-color-2,
 span.id-color-2{
 	color:var(--secondary-color);
@@ -237,31 +241,31 @@ background-image:linear-gradient(to top right, var(--primary-color), var(--prima
 .overlay-gradient {
 background: -moz-linear-gradient(45deg, rgba(var(--primary-color-rgb),0.9) 0%, rgba(var(--primary-color-2-rgb),0.9) 100%);
 background: -webkit-linear-gradient(45deg, rgba(var(--primary-color-rgb),0.9) 0%,rgba(var(--primary-color-2-rgb),0.9) 100%);
-background: linear-gradient(45deg, rgba(var(--primary-color-rgb),0.9) 0%,rgba(var(--primary-color-2-rgb),0.9) 100%); 
+background: linear-gradient(45deg, rgba(var(--primary-color-rgb),0.9) 0%,rgba(var(--primary-color-2-rgb),0.9) 100%);
 }
 
 .overlay-gradient.t80{
 background: -moz-linear-gradient(45deg, rgba(var(--primary-color-rgb),0.8) 0%, rgba(var(--primary-color-2-rgb),0.8) 100%);
 background: -webkit-linear-gradient(45deg, rgba(var(--primary-color-rgb),0.8) 0%,rgba(var(--primary-color-2-rgb),0.8) 100%);
-background: linear-gradient(45deg, rgba(var(--primary-color-rgb),0.8) 0%,rgba(var(--primary-color-2-rgb),0.8) 100%); 
+background: linear-gradient(45deg, rgba(var(--primary-color-rgb),0.8) 0%,rgba(var(--primary-color-2-rgb),0.8) 100%);
 }
 
 .overlay-gradient.t70{
 background: -moz-linear-gradient(45deg, rgba(var(--primary-color-rgb),0.7) 0%, rgba(var(--primary-color-2-rgb),0.7) 100%);
 background: -webkit-linear-gradient(45deg, rgba(var(--primary-color-rgb),0.7) 0%,rgba(var(--primary-color-2-rgb),0.7) 100%);
-background: linear-gradient(45deg, rgba(var(--primary-color-rgb),0.7) 0%,rgba(var(--primary-color-2-rgb),0.7) 100%); 
+background: linear-gradient(45deg, rgba(var(--primary-color-rgb),0.7) 0%,rgba(var(--primary-color-2-rgb),0.7) 100%);
 }
 
 .overlay-gradient.t60{
 background: -moz-linear-gradient(45deg, rgba(var(--primary-color-rgb),0.6) 0%, rgba(var(--primary-color-2-rgb),0.6) 100%);
 background: -webkit-linear-gradient(45deg, rgba(var(--primary-color-rgb),0.6) 0%,rgba(var(--primary-color-2-rgb),0.6) 100%);
-background: linear-gradient(45deg, rgba(var(--primary-color-rgb),0.6) 0%,rgba(var(--primary-color-2-rgb),0.6) 100%); 
+background: linear-gradient(45deg, rgba(var(--primary-color-rgb),0.6) 0%,rgba(var(--primary-color-2-rgb),0.6) 100%);
 }
 
 .overlay-gradient.t50{
 background: -moz-linear-gradient(45deg, rgba(var(--primary-color-rgb),0.5) 0%, rgba(var(--primary-color-2-rgb),0.5) 100%);
 background: -webkit-linear-gradient(45deg, rgba(var(--primary-color-rgb),0.5) 0%,rgba(var(--primary-color-2-rgb),0.5) 100%);
-background: linear-gradient(45deg, rgba(var(--primary-color-rgb),0.5) 0%,rgba(var(--primary-color-2-rgb),0.5) 100%); 
+background: linear-gradient(45deg, rgba(var(--primary-color-rgb),0.5) 0%,rgba(var(--primary-color-2-rgb),0.5) 100%);
 }
 
 a.btn-border.btn-invert,
@@ -280,7 +284,7 @@ header.scroll-light #mainmenu a span,
 	border-bottom-color:var(--primary-color);
 }
 
-@media only screen and (max-width: 992px) {	
+@media only screen and (max-width: 992px) {
 .table-pricing tbody tr th
 {
 background-image:linear-gradient(to right, var(--primary-color), var(--primary-color-2));

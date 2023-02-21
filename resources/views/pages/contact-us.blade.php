@@ -1,17 +1,30 @@
-
-
 @extends('layout.master')
 
 @section('page-content')
     <!-- content begin -->
     <div class="no-bottom no-top" id="content">
         <div id="top"></div>
-        <!-- section begin -->
 
+        <!-- section begin -->
+        {{-- <section id="subheader" class="jarallax text-white" style="background-color: rgb(17, 17, 17);">
+            <img src="images/background/subheader4.jpg" class="jarallax-img" alt="">
+            <div class="center-y relative text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col text-center">
+                            <div class="spacer-single"></div>
+                            <h1>Nous Contacter</h1>
+                            <p>Réputation. Respect. Resultat.</p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </section> --}}
         <!-- section close -->
 
         <section aria-label="section" class="text-light" data-bgcolor="#111111">
-            <div class="container">
+            <div class="container" style="margin-top: 80px;">
                 <div class="row">
                     <div class="col-lg-4">
                         <!-- <img src="images/misc/p3.jpg" alt="" class="img-fluid mb30"> -->

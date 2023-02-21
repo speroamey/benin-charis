@@ -10,23 +10,24 @@
     <!-- content begin -->
     <div class="no-bottom no-top" id="content">
         <div id="top"></div>
-        <section aria-label="section" class="jarallax">
-            <img src="images/background/4.png" class="jarallax-img" alt="">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-5 offset-md-7 wow fadeInRight" data-wow-delay=".5s">
-                        <div class="spacer-double"></div>
-                        <div class="spacer-double"></div>
-                        <h3 class="id-color wow fadeInUp" data-wow-delay=".4s">À Notre Découverte</h3>
-                        <h1 class="wow fadeInUp" data-wow-delay=".6s">Conseils & Restructuration d'entreprises en toute finesse
-                        </h1>
-                        <p class="lead wow fadeInUp" data-wow-delay=".8s">Notre expertise dans divers secteurs, font
-                            de nous les meilleurs pour restructurer, accompagner et apporter du financement à votre
-                            entreprise.</p>
-                        <div class="spacer-20"></div>
-                        <a class="btn-custom wow fadeInUp" data-wow-delay="1s" href="features.html">Nous
-                            Découvrir</a>
-                        <div class="spacer-double"></div>
+
+
+        <section aria-label="section" class="jarallax vh-100 no-padding text-light">
+            <img src="images/background/5-1.png" class="jarallax-img" alt="">
+
+            <div class="v-center">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <h3 class="id-color wow fadeInUp text-white" data-wow-delay=".4s">À Notre Découverte</h3>
+                            <h1 class="wow fadeInUp" data-wow-delay=".6s">Conseils & Restructuration</h1>
+                            <p class="lead wow fadeInUp" data-wow-delay=".8s">Notre expertise dans divers secteurs, font
+                                de nous les meilleurs pour restructurer, accompagner et apporter du financement à votre
+                                entreprise.</p>
+                            <div class="spacer-20"></div>
+                            <a class="btn-custom btn-black light wow fadeInUp" data-wow-delay="1s" href="features.html">Nous
+                                Découvrir</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -85,7 +86,7 @@
                                     <a href="{{route('blog',['marketing-par-les-donnees'])}}" class="btn-custom capsule">Lire plus</a>
                                 </div>
                             </div>
-                            <img src="images/services/1.jpg" alt="" class="img-responsive" />
+                            <img src="images/services/marketing.jpeg" alt="" class="img-responsive" />
                         </div>
                     </div>
                     <div class="col-md-4 wow fadeInRight" data-wow-delay=".4s">
@@ -100,7 +101,7 @@
                                     <a href="{{route('blog',['le-marketing-de-donnees'])}}" class="btn-custom capsule">Lire plus</a>
                                 </div>
                             </div>
-                            <img src="images/services/2.jpg" alt="" class="img-responsive" />
+                            <img src="images/services/marketing-2.jpeg" alt="" class="img-responsive" />
                         </div>
                     </div>
                     <div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
@@ -116,7 +117,7 @@
                                     <a href="{{route('blog',['le-marketing-et-la-communication'])}}" class="btn-custom capsule">Lire plus</a>
                                 </div>
                             </div>
-                            <img src="images/services/3.jpg" alt="" class="img-responsive" />
+                            <img src="images/services/marketing-3.jpeg" alt="" class="img-responsive" />
                         </div>
                     </div>
                 </div>
@@ -131,7 +132,7 @@
                             Laissez Notre Expérience <br> être votre guide
                         </h2>
                         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                            <li class="nav-item">
+                            {{-- <li class="nav-item">
                                 <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home"
                                     role="tab" aria-controls="pills-home" aria-selected="true">Nos Clients</a>
                             </li>
@@ -144,7 +145,7 @@
                                 <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact"
                                     role="tab" aria-controls="pills-contact" aria-selected="false">Notre
                                     Entreprise</a>
-                            </li>
+                            </li> --}}
                         </ul>
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
@@ -237,7 +238,7 @@
             </div>
         </section>
         <section class="jarallax text-white">
-            <img src="images/background/2-bw.jp" class="jarallax-img" alt="" style="background-color: #00364A;">
+            <img src="images/background/2-bw.jp" class="jarallax-img" alt="" style="background-color: rgb(17, 17, 17);">
             <div class="container-fluid">
                 <div class="row">
 
@@ -281,11 +282,15 @@
                                     <div class="spacer-half"></div>
                                     <div class="field-set">
                                         <!-- <input type="text" name="name" id="name" class="form-control" placeholder="Votre Nom" /> -->
-                                        <select name="" class="form-control " id="" aria-placeholder="selectionner l'agence">
-                                            <option value="" class="text-dark">Selectionner une agence</option>
-                                            <option value="" class="text-dark">Cocody</option>
-                                            <option value="" class="text-dark">Cocody</option>
-                                            <option value="" class="text-dark">Cocody</option>
+                                        <select id="select-agency" name="select-menu"
+                                                    class="form-control selectHoverCol" aria-invalid="false">
+                                                    @foreach($agencies as $key => $agency)
+                                                        <option id="latlng" value="{{$agency['id']}}" class="text-dark"
+                                                            data-lat="{{$agency['latitude']}}"
+                                                            data-lng="{{$agency['longitude']}}">
+                                                            {{$agency['name']}}
+                                                        </option>
+                                                    @endforeach
                                         </select>
                                     </div>
 
@@ -545,7 +550,7 @@
                         <div class="bloglist item">
                             <div class="post-content">
                                 <div class="date-box">
-                                    <div class="m">20</div>
+                                    <div class="m">06</div>
                                     <div class="d">FEV</div>
                                 </div>
                                 <div class="post-image">

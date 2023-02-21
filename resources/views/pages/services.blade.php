@@ -457,7 +457,7 @@
                                 <span class="p-title">Organisation d'entreprise</span><br>
                                 <h2>{{$sujet}}</h2>
                                 <p>
-                                    L’excellence n’est plus optionnelle, elle est essentielle. Avec une clientèle de plus en plus exigeante, la monté en puissance de la transformation numérique, de la digitalisation et qui entraînent la création de plusieurs offres accessibles à un maximum de client, les entreprises ont besoin d’avoir en leur sein, des ressources humaines de qualité et qui arrivent à s’adapter en temps réel. 
+                                    L’excellence n’est plus optionnelle, elle est essentielle. Avec une clientèle de plus en plus exigeante, la monté en puissance de la transformation numérique, de la digitalisation et qui entraînent la création de plusieurs offres accessibles à un maximum de client, les entreprises ont besoin d’avoir en leur sein, des ressources humaines de qualité et qui arrivent à s’adapter en temps réel.
                                     LAJOY accompagne à définir une culture d’entreprise forte pour ses clients afin de partager une vision commune avec les employés et ainsi garantir leur succès. Les équipes de LAJOY ont bien conscience que la solidité d’une chaîne repose sur le maillon le plus faible. Ainsi, tout est mis en œuvre pour créer les conditions essentielles à la performance de chaque employé afin que l’organisation du travail se face d’une manière optimale au sein de l’entreprise.                                </p>
                             </div>
                             <div class="col-md-6 offset-md-1">
@@ -485,7 +485,7 @@
                         </div> --}}
                     </div>
                 @endif
-                
+
                 @if ( $slug == 'Conseil-sur-la-gestion-de-l-impact-des-transformations-organisationnelles-sur-les-rh')
                     <div class="row align-items-center">
                         <div class="row">
@@ -514,22 +514,22 @@
                                             Formation et développement des compétences : pour s'adapter aux changements technologiques en cours, il est important de former et de développer les compétences de ses employés. Cela peut être fait par le biais de programmes de formation internes ou externes, ainsi que par la mise en place de programmes de mentorat et de coopération entre collègues.
                                         </li>
                                         <li>
-                                            Gestion de la mobilité professionnelle : la transformation numérique peut entraîner des changements de rôles et de responsabilités au sein de l'entreprise. Il est donc important de mettre en place des programmes de mobilité professionnelle pour aider les employés à s'adapter à de nouvelles fonctions et à développer de nouvelles compétences. 
+                                            Gestion de la mobilité professionnelle : la transformation numérique peut entraîner des changements de rôles et de responsabilités au sein de l'entreprise. Il est donc important de mettre en place des programmes de mobilité professionnelle pour aider les employés à s'adapter à de nouvelles fonctions et à développer de nouvelles compétences.
                                         </li>
                                         <li>
                                             Gestion de la diversité et de l'inclusion : la transformation numérique peut également entraîner des changements dans la composition de l'effectif de l'entreprise. Il est donc important de veiller à ce que la politique RH favorise la diversité et l'inclusion afin de créer une culture de travail inclusive et respectueuse de tous les employés.
                                         </li>
                                         <li>
-                                            Communication et collaboration : la transformation numérique peut entraîner des changements dans les modes de travail et de communication. Il est donc important de veiller à ce que la politique RH favorise la communication et la collaboration entre les différents départements et employés de l'entreprise.   
+                                            Communication et collaboration : la transformation numérique peut entraîner des changements dans les modes de travail et de communication. Il est donc important de veiller à ce que la politique RH favorise la communication et la collaboration entre les différents départements et employés de l'entreprise.
                                         </li>
                                     </ul>
                                 </p>
-                               
+
                             </div>
                         </div>
                     </div>
                 @endif
-              
+
                 @if ( $slug == 'Conseil-pour-la-mise-en-place-de-programmes-de-reconnaissance-et-de-récompenses')
                     <div class="row align-items-center">
                         <div class="row">
@@ -537,10 +537,10 @@
                                 <span class="p-title">Organisation d'entreprise</span><br>
                                 <h2>{{$sujet}}</h2>
                                 <p>
-                                    Plusieurs leviers peuvent être utilisés pour accroître la productivité générale d’une entreprise. La ressource humaine est la ressource la plus importante. Une ressource humaine valorisée influence l’image de marque de l’entreprise et donc agit sur sa profitabilité.                                
+                                    Plusieurs leviers peuvent être utilisés pour accroître la productivité générale d’une entreprise. La ressource humaine est la ressource la plus importante. Une ressource humaine valorisée influence l’image de marque de l’entreprise et donc agit sur sa profitabilité.
                                 </p>
                                 <p>
-                                    Plusieurs programmes visent à valoriser et à récompenser les employés pour leur durabilité, leur productivité et leur contribution au succès de l’organisation. 
+                                    Plusieurs programmes visent à valoriser et à récompenser les employés pour leur durabilité, leur productivité et leur contribution au succès de l’organisation.
                                 </p>
                             </div>
                             <div class="col-md-6 offset-md-1">
@@ -559,7 +559,7 @@
                                     Comment LAJOY peut vous aider
                                 </blockquote>
                                 <p>
-                                    LAJOY aide ses clients à mettre en place et à gérer efficacement leur programme de reconnaissance et de récompenses des employés. Nous définissons les critères de reconnaissance et récompense équitables et justes, et nous mesurons leur efficacité tout le long de l’existence du programme. 
+                                    LAJOY aide ses clients à mettre en place et à gérer efficacement leur programme de reconnaissance et de récompenses des employés. Nous définissons les critères de reconnaissance et récompense équitables et justes, et nous mesurons leur efficacité tout le long de l’existence du programme.
                                 </p>
                                 <blockquote>
                                     La méthode LAJOY :
@@ -578,7 +578,7 @@
                         </div>
                     </div>
                 @endif
-            
+
             {{-- 4th section Financement d'entreprise --}}
 
                     @if ( $slug == 'Conseil-en-fusion-et-acquisitions')
@@ -632,7 +632,7 @@
                                             </li>
                                         </ul>
                                     </p>
-                                
+
                                 </div>
                             </div>
                         </div>
@@ -648,7 +648,7 @@
                                         Le financement d'une entreprise peut être un défi, surtout pour les entreprises en démarrage ou en croissance. Il existe plusieurs options de financement disponibles pour les entreprises, y compris les prêts bancaires, les investissements de capital de risque, les financements participatifs et les subventions.
                                     </p>
                                     <p>
-                                        LAJOY accompagne ses clients dans la valorisation de leur entreprise en apportant de l’ingénierie financière couplé à de la stratégie d’affaire. 
+                                        LAJOY accompagne ses clients dans la valorisation de leur entreprise en apportant de l’ingénierie financière couplé à de la stratégie d’affaire.
                                     </p>
                                 </div>
                                 <div class="col-md-6 offset-md-1">
@@ -682,7 +682,7 @@
                                             </li>
                                         </ul>
                                     </p>
-                                
+
                                 </div>
                             </div>
                         </div>
@@ -698,7 +698,7 @@
                         <h2>
                             Laissez Notre Expérience<br>être votre guide
                         </h2>
-                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        {{-- <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                             <li class="nav-item">
                                 <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Notre Identité</a>
                             </li>
@@ -708,7 +708,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Nos Partenaires</a>
                             </li>
-                        </ul>
+                        </ul> --}}
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                                 <p>
@@ -749,7 +749,7 @@
                                     <a href="{{route('blog',['marketing-par-les-donnees'])}}" class="btn-custom capsule">Lire plus</a>
                                 </div>
                             </div>
-                            <img src="{{asset('images/services/1.jpg')}}" alt="" class="img-responsive" />
+                            <img src="{{asset('images/services/marketing.jpeg')}}" alt="" class="img-responsive" />
                         </div>
                     </div>
                     <div class="col-md-4 wow fadeInRight" data-wow-delay=".4s">
@@ -764,7 +764,7 @@
                                     <a href="{{route('blog',['le-marketing-de-donnees'])}}" class="btn-custom capsule">Lire plus</a>
                                 </div>
                             </div>
-                            <img src="{{asset('images/services/2.jpg')}}" alt="" class="img-responsive" />
+                            <img src="{{asset('images/services/marketing-2.jpeg')}}" alt="" class="img-responsive" />
                         </div>
                     </div>
                     <div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
@@ -780,7 +780,7 @@
                                     <a href="{{route('blog',['le-marketing-et-la-communication'])}}" class="btn-custom capsule">Lire plus</a>
                                 </div>
                             </div>
-                            <img src="{{asset('images/services/3.jpg')}}" alt="" class="img-responsive" />
+                            <img src="{{asset('images/services/marketing-3.jpeg')}}" alt="" class="img-responsive" />
                         </div>
                     </div>
                 </div>

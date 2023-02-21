@@ -19,7 +19,7 @@
                         <div class="col text-center">
                             <div class="spacer-single"></div>
                             <h1>A Propos</h1>
-                            <p>Reputation. Respect. Resultat.</p>
+                            <p>Réputation. Respect. Resultat.</p>
                         </div>
                         <div class="clearfix"></div>
                     </div>
@@ -56,7 +56,7 @@
                         <h2>
                             Laissez Notre Expérience<br>être votre guide
                         </h2>
-                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        {{-- <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                             <li class="nav-item">
                                 <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Notre Identité</a>
                             </li>
@@ -66,7 +66,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Nos Partenaires</a>
                             </li>
-                        </ul>
+                        </ul> --}}
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                                 <p>
@@ -182,7 +182,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        {{-- <section>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
@@ -217,7 +217,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
     </div>
     <!-- content close -->
 
@@ -225,57 +225,5 @@
 
 @push('custom-scripts')
 
-    {{-- <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9QACWaLVsNlAgz4vJJmdSh5XB0Aap2xM&callback=initMap&v=weekly"
-      defer
-    ></script>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script>
-        function initMap() {
-            const default_cordinate = { lat: 5.364256, lng: -3.975483 };
-            const map = new google.maps.Map(document.getElementById("default_map"), {
-                zoom: 13,
-                center: default_cordinate,
-            });
-            const marker = new google.maps.Marker({
-                            position: default_cordinate,
-                            map: map, });
-            const geocoder = new google.maps.Geocoder();
-            const infowindow = new google.maps.InfoWindow();
-            document.getElementById("select-agency").addEventListener("change", () => {
-                geocodeLatLng(geocoder, map, infowindow);
-            });
-        }
 
-        function geocodeLatLng(geocoder, map, infowindow) {
-            const input = document.getElementById("latlng").value;
-            const latitude =  parseFloat($("select option:selected").data('lat').replace(",","."));
-            const longitude   =  parseFloat( $("select option:selected").data('lng').replace(",","."));
-            const latlngStr =[latitude, longitude];
-
-            const latlng = {
-                lat:latitude,
-                lng: longitude,
-            };
-            geocoder
-                .geocode({ location: latlng })
-                .then((response) => {
-                    if (response.results[0]) {
-                        map.setZoom(13);
-                        const marker = new google.maps.Marker({
-                            position: latlng,
-                            map: map,
-                        });
-
-                        infowindow.setContent(response.results[0].formatted_address);
-                        infowindow.open(map, marker);
-                    } else {
-                            window.alert("No results found");
-                    }
-                })
-                .catch((e) => window.alert("Geocoder failed due to: " + e));
-        }
-        window.initMap = initMap;
-        // $(document).ready(function(e) { alert("cool"); });
-    </script> --}}
 @endpush

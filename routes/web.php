@@ -14,7 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pages.welcome');
+    $agencies = array(
+        ['id'=>'1','name'=>'Cocody','latitude'=>'','longitude'=>''],
+        ['id'=>'1','name'=>'Cocody','latitude'=>'','longitude'=>''],
+        ['id'=>'1','name'=>'Cocody','latitude'=>'','longitude'=>''],
+        ['id'=>'1','name'=>'Cocody','latitude'=>'','longitude'=>''],
+);
+    return view('pages.welcome',compact('agencies'));
 });
 Route::get('/a-propos-de-nous', function () {
     return view('pages.about');
@@ -45,7 +51,7 @@ Route::get('/services/{slug}', function ($slug) {
         case 'Conseil-en-stratégie-de-restructuration':
             $sujet="Conseil en stratégie de restructuration";
             break;
-        
+
         //THIRD SECTION
         case 'conseil-en-gestion-et-expérience-du-changement':
             $sujet = "Conseil en gestion et expérience du changement";
