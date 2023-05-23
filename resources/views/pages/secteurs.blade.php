@@ -11,7 +11,7 @@
     <div class="no-bottom no-top" id="content">
         <div id="top"></div>
         <!-- section begin -->
-        <section id="subheader" class="jarallax text-white" style="background-color: rgb(17, 17, 17);">
+        <section id="subheader" class="jarallax text-white" style="background-color: rgb(0 54 74 / 90%);">
             <!-- <img src="images/background/subheader3.jpg" class="jarallax-img" alt=""> -->
             <div class="center-y relative text-center">
                 <div class="container">
@@ -378,7 +378,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-4 col-md-12 wow fadeInRight" data-wow-delay=".2s">
                         <div class="de_count ultra-big s2 text-center">
-                            <h3 class="timer" data-to="05" data-speed="1000">05</h3>
+                            <h3 class="timer" data-to="15" data-speed="1000">15</h3>
                             <span class="id-color">Années d'Expérience</span>
                         </div>
                     </div>

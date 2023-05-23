@@ -11,7 +11,7 @@
     <div class="no-bottom no-top" id="content">
         <div id="top"></div>
         <!-- section begin -->
-        <section id="subheader" class="jarallax text-white" style="background-color: rgb(17, 17, 17);">
+        <section id="subheader" class="jarallax text-white" data-bgcolor="#000000">
             <!-- <img src="images/background/subheader3.jpg" class="jarallax-img" alt=""> -->
             <div class="center-y relative text-center">
                 <div class="container">
@@ -32,17 +32,21 @@
                 <div class="row align-items-center">
                     <div class="col-md-5">
                         <span class="p-title">Qui sommes-nous?</span><br>
-                        <h2>Votre meilleur partenaire</h2>
+                        <h2>Maximiser votre temps</h2>
                         <p>
-                            LAJOY offre des services conseils pour les entreprises qui bénéficient de l'expertise et des connaissances d'une équipe de professionnels expérimentés dans leur domaine d’activité.  Les services de conseil de LAJOY peuvent couvrir une large gamme de sujets, tels que la stratégie d'entreprise, le développement de nouveaux produits ou services, l'optimisation des processus opérationnels, la gestion de la croissance de l'entreprise, la gestion des talents et bien d'autres encore.                            </p>
+                            Bienvenue chez DGA International, votre partenaire privilégié pour la réussite de votre projet de déplacement. Nous offrons une gamme complète de services aux entreprises et aux particuliers, allant de l’organisation de missions économiques à l’assistance à la création d’entreprise, en passant par l’installation, la conciergerie et le tourisme personnalisé.
+                        </p>
+                        <p>
+                            Chez DGA International, nous croyons en l’intégrité, le professionnalisme, l’empathie et l’adaptabilité. Nous travaillons avec nos clients pour comprendre leurs besoins et leurs défis afin de leur offrir des solutions sur mesure qui répondent à leurs attentes. Nous sommes fiers de notre réputation pour offrir des services de qualité supérieure et nous sommes engagés à maintenir notre position de leader dans l’industrie.
+                        </p>
                     </div>
                     <div class="col-md-6 offset-md-1">
                         <div class="de-images">
-                            <div class="di-text text-white bg-color">
-                                <h1>100</h1><span>Mandats exécuté</span>
-                            </div>
-                            <img class="di-small-2" src="images/misc/d2.jpg" alt="" />
-                            <img class="di-big img-fluid" src="images/misc/d1.jpg" alt="" />
+                            {{-- <div class="di-text text-white bg-color">
+                                <img class="di-small-2" src="images/background/52.png" alt="" />
+                            </div> --}}
+                            {{-- <img class="di-small-2" src="images/background/52.png" alt="" /> --}}
+                            <img class="di-big img-fluid" src="images/background/11.jpg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -54,125 +58,40 @@
                     <div class="col-lg-5 offset-lg-7">
                         <span class="p-title">Qui sommes-nous?</span><br>
                         <h2>
-                            Laissez Notre Expérience<br>être votre guide
+                            Notre Expérience<br>Notre Expertise
                         </h2>
-                        {{-- <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Notre Identité</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Notre Expertise</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Nos Partenaires</a>
-                            </li>
-                        </ul> --}}
+
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                                 <p>
-                                    LAJOY offre des services conseils pour les entreprises qui bénéficient de l'expertise et des connaissances d'une équipe de professionnels expérimentés dans leur domaine d’activité.  Les services de conseil de LAJOY peuvent couvrir une large gamme de sujets, tels que la stratégie d'entreprise, le développement de nouveaux produits ou services, l'optimisation des processus opérationnels, la gestion de la croissance de l'entreprise, la gestion des talents et bien d'autres encore.
+                                    Notre clientèle cible comprend des entreprises et des particuliers qui cherchent à s’installer au Canada et en Côte d’Ivoire. Nous comprenons que la navigation dans de nouveaux environnements peut être difficile et nous nous engageons à offrir un soutien émotionnel et pratique à nos clients. Nous offrons une approche personnalisée à chaque client, en nous adaptant à leurs besoins spécifiques et en leur offrant des solutions innovantes.
                                 </p>
-                            </div>
-                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                                 <p>
-                                    Ad pariatur nostrud pariatur exercitation ipsum ipsum culpa mollit commodo mollit ex. Aute sunt incididunt amet commodo est sint nisi deserunt pariatur do. Aliquip ex eiusmod voluptate exercitation cillum id incididunt elit sunt. Qui minim sit magna Lorem id et dolore velit Lorem amet exercitation duis deserunt. Anim id labore elit adipisicing ut in id occaecat pariatur ut ullamco ea tempor duis.
+                                    Notre méthode de travail est fondée sur une communication ouverte et transparente
                                 </p>
                             </div>
-                            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                                <p>
-                                    Est quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip dolor aliqua irure ex. Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit laborum veniam eu veniam. Eiusmod minim exercitation fugiat irure ex labore incididunt do fugiat commodo aliquip sit id deserunt reprehenderit aliquip nostrud. Amet ex cupidatat excepteur aute veniam incididunt mollit cupidatat esse irure officia elit do ipsum ullamco Lorem.
-                                </p>
-                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
             <div class="jarallax image-container col-md-6 pull-right">
-                <img src="images/background/5.jpeg" class="jarallax-img" alt="">
+                <img src="images/background/bel.JPEG" class="jarallax-img" alt="">
             </div>
         </section>
-        <section aria-label="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2>Notre Équipe Lead</h2>
-                        <div class="small-border"></div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 mb30 wow fadeInRight" data-wow-delay=".2s">
-                        <div class="f-profile text-center">
-                            <div class="fp-wrap f-invert">
-                                <div class="fpw-overlay">
-                                    <div class="fpwo-wrap">
-                                        <div class="fpwow-icons">
-                                            <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                            <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                                            <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
-                                            <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="fpw-overlay-btm"></div>
-                                <img src="images/team/gnolou.jpg" class="fp-image img-fluid" alt="">
-                            </div>
-                            <h4>Gnolou Guero</h4>
-                            Président Fondateur
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 mb30 wow fadeInRight" data-wow-delay=".4s">
-                        <div class="f-profile text-center">
-                            <div class="fp-wrap f-invert">
-                                <div class="fpw-overlay">
-                                    <div class="fpwo-wrap">
-                                        <div class="fpwow-icons">
-                                            <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                            <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                                            <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
-                                            <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="fpw-overlay-btm"></div>
-                                <img src="images/team/magali.jpg" class="fp-image img-fluid" alt="">
-                            </div>
-                            <h4>Magali Iovino</h4>
-                            Associée Co-Fondatrice
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 mb30 wow fadeInRight" data-wow-delay=".6s">
-                        <div class="f-profile text-center">
-                            <div class="fp-wrap f-invert">
-                                <div class="fpw-overlay">
-                                    <div class="fpwo-wrap">
-                                        <div class="fpwow-icons">
-                                            <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                            <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                                            <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
-                                            <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="fpw-overlay-btm"></div>
-                                <img src="images/team/gbeuli.jpg" class="fp-image img-fluid" alt="">
-                            </div>
-                            <h4>Gbeuli Guero</h4>
-                            Associé Co-Fondateur
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
         <section id="section-text" data-bgcolor="#111111" class="text-light">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-4 col-md-12 wow fadeInRight" data-wow-delay=".2s">
                         <div class="de_count ultra-big s2 text-center">
-                            <h3 class="timer" data-to="05" data-speed="1000">05</h3>
+                            <h3 class="timer" data-to="15" data-speed="1000">15</h3>
                             <span class="id-color">Années d'Expérience</span>
                         </div>
                     </div>
                     <div class="col-lg-4 p-lg-5  mb-sm-30 wow fadeInRight" data-wow-delay=".4s">
                         <span class="p-title">Effectivement</span><br>
-                        <h2>LaJoy est votre Meilleur Partenaire  Conseil</h2>
+                        <h2>DGA International est votre Meilleur Partenaire</h2>
                     </div>
                     <div class="col-lg-4 wow fadeInRight" data-wow-delay=".6s">
                         <p>

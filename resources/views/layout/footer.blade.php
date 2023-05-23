@@ -15,19 +15,19 @@
                             37</span>
                         <span><i class="id-color fa fa-phone fa-lg"></i>+1 514 348 8985</span>
                         <span><i class="id-color fa fa-envelope-o fa-lg"></i><a
-                                href="mailto:contact@example.com">info@lajoyconsulting.com</a></span>
+                                href="mailto:contact@example.com">info@dgainternational.ca</a></span>
                         <!-- <span><i class="id-color fa fa-file-pdf-o fa-lg"></i><a href="#">info@lajoyconsulting.com</a></span> -->
                     </address>
                 </div>
             </div>
             <div class="col-md-4">
-                <h5 class="id-color mb20">Secteurs d'Activité</h5>
+                <h5 class="id-color mb20">Liens utiles</h5>
                 <ul class="ul-style-2">
-                    <li>Agency Banking</li>
-                    <li>Télécommunications</li>
-                    <li>Immobilier</li>
-                    <li> Bâtiments et Travaux Publique (BTP)</li>
-                    <li> Énergie, ressource & produits industriels</li>
+                    <li>Conciergrie d'entreprise</li>
+                    <li>Conciergerie de particulier</li>
+                    <li>Destination Côte d'ivoire</li>
+                    <li>Destination Canada</li>
+                    <li>Qui sommes-nous?</li>
                 </ul>
             </div>
             <div class="col-lg-4">
@@ -56,15 +56,13 @@
                 <div class="col-md-12">
                     <div class="de-flex">
                         <div class="de-flex-col">
-                            &copy; Copyright 2023 - LaJoy par Spero AMEY
+                            &copy; Copyright 2023 - DGA International par Spero AMEY
                         </div>
                         <div class="de-flex-col">
                             <div class="social-icons">
-                                <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                                <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
-                                <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
-                                <a href="#"><i class="fa fa-rss fa-lg"></i></a>
+                                <a href="https://www.facebook.com/dgainternational"><i class="fa fa-facebook fa-lg"></i></a>
+                                <a href="https://www.twitter.com/dgainternational"><i class="fa fa-twitter fa-lg"></i></a>
+                                <a href="https://www.linkedin.com/company/dgainternational"><i class="fa fa-linkedin fa-lg"></i></a>
                             </div>
                         </div>
                     </div>

@@ -11,60 +11,108 @@
     <div class="no-bottom no-top" id="content">
         <div id="top"></div>
 
-
-        <section aria-label="section" class="jarallax vh-100 no-padding text-light">
-            <img src="images/background/5-1.png" class="jarallax-img" alt="">
-
-            <div class="v-center">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <h3 class="id-color wow fadeInUp text-white" data-wow-delay=".4s">À Notre Découverte</h3>
-                            <h1 class="wow fadeInUp" data-wow-delay=".6s">Conseils & Restructuration</h1>
-                            <p class="lead wow fadeInUp" data-wow-delay=".8s">Notre expertise dans divers secteurs, font
-                                de nous les meilleurs pour restructurer, accompagner et apporter du financement à votre
-                                entreprise.</p>
-                            <div class="spacer-20"></div>
-                            <a class="btn-custom btn-black light wow fadeInUp" data-wow-delay="1s" href="features.html">Nous
-                                Découvrir</a>
+        <section id="section-slider" class="fullwidthbanner-container text-white" aria-label="section-slider">
+            <div id="slider-revolution">
+                <ul>
+                    <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-thumb="">
+                        <!--  BACKGROUND IMAGE -->
+                        <img alt="" class="rev-slidebg" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" src="images/background/b10.png">
+                        <div class="tp-caption big-s1" data-x="0" data-y="230" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on">
+                            <h3 class="id-color">Service Offert</h3>
                         </div>
-                    </div>
-                </div>
+                        <div class="tp-caption very-big-white" data-x="0" data-y="280" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:400;e:Power2.easeInOut;" data-start="600" data-splitin="none" data-splitout="none" data-responsive_offset="on">
+                            <h1>Immigrer Au Canada</h1>
+                        </div>
+                        <div class="tp-caption" data-x="0" data-y="360" data-width="480" data-height="none" data-whitespace="wrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:600;e:Power2.easeInOut;" data-start="700">
+                            <p class="lead xs-hide">Devenez un résident permanent du Canada : laissez-nous vous guider dans tout ce processus.</p>
+                        </div>
+                        <div class="tp-caption" data-x="0" data-y="450" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:800;e:Power2.easeInOut;" data-start="800">
+                            <a class="btn-custom" href="features.html">Nous Contacter</a>
+                        </div>
+                    </li>
+
+                    <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-thumb="">
+                        <!--  BACKGROUND IMAGE -->
+                        <img alt="" class="rev-slidebg" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" src="images/background/4.jpg">
+                        <div class="tp-caption big-s1" data-x="0" data-y="230" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on">
+                            <h3 class="id-color">Besoin d'un Service?</h3>
+                        </div>
+                        <div class="tp-caption very-big-white" data-x="0" data-y="280" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:400;e:Power2.easeInOut;" data-start="600" data-splitin="none" data-splitout="none" data-responsive_offset="on">
+                            <h1>Investissement Immobilier</h1>
+                        </div>
+                        <div class="tp-caption" data-x="0" data-y="360" data-width="480" data-height="none" data-whitespace="wrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:600;e:Power2.easeInOut;" data-start="700">
+                            <p class="lead xs-hide">Investir dans l’immobilier en bénéficiant d’un financement. explorez nos solutions de financement dès maintenant.</p>
+                        </div>
+                        <div class="tp-caption" data-x="0" data-y="450" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:800;e:Power2.easeInOut;" data-start="800">
+                            <a class="btn-custom" href="features.html">Nous Contacter</a>
+                        </div>
+                    </li>
+
+                    <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-thumb="">
+                        <!--  BACKGROUND IMAGE -->
+                        <img alt="" class="rev-slidebg" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" src="images/background/3.jpg">
+                        <div class="tp-caption big-s1" data-x="0" data-y="230" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on">
+                            <h3 class="id-color">Service Offert</h3>
+                        </div>
+                        <div class="tp-caption very-big-white" data-x="0" data-y="280" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:400;e:Power2.easeInOut;" data-start="600" data-splitin="none" data-splitout="none" data-responsive_offset="on">
+                            <h1>Rencontre  Business</h1>
+                        </div>
+                        <div class="tp-caption" data-x="0" data-y="360" data-width="480" data-height="none" data-whitespace="wrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:600;e:Power2.easeInOut;" data-start="700">
+                            <p class="lead xs-hide">Gagnez du temps et boostez votre productivité : confiez-nous l'organisation de vos rendez-vous professionnels !</p>
+                        </div>
+                        <div class="tp-caption" data-x="0" data-y="450" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:800;e:Power2.easeInOut;" data-start="800">
+                            <a class="btn-custom" href="features.html">Nous Contacter</a>
+                        </div>
+                    </li>
+
+                    <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-thumb="">
+                        <!--  BACKGROUND IMAGE -->
+                        <img alt="" class="rev-slidebg" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" src="images/background/planifier.jpg">
+                        <div class="tp-caption big-s1" data-x="0" data-y="230" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on">
+                            <h3 class="id-color">Service Offert</h3>
+                        </div>
+                        <div class="tp-caption very-big-white" data-x="0" data-y="280" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:400;e:Power2.easeInOut;" data-start="600" data-splitin="none" data-splitout="none" data-responsive_offset="on">
+                            <h1>Planifier Votre Voyage</h1>
+                        </div>
+                        <div class="tp-caption" data-x="0" data-y="360" data-width="480" data-height="none" data-whitespace="wrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:600;e:Power2.easeInOut;" data-start="700">
+                            <p class="lead xs-hide">Voyagez l'esprit tranquille : confiez-nous la planification de votre prochaine aventure !</p>
+                        </div>
+                        <div class="tp-caption" data-x="0" data-y="450" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:800;e:Power2.easeInOut;" data-start="800">
+                            <a class="btn-custom" href="features.html">Nous Contacter</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </section>
         <section class="pt40 pb40 bg-color text-light">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
-                        <h3 class="no-bottom">Maintenant! Obtenez une consultation sur mesure..</h3>
+                        <h3 class="no-bottom">Optimiser votre temps et répondre à tous vos besoins!</h3>
                     </div>
                     <div class="col-md-4 text-lg-right rtl-lg-left text-sm-center">
-                        <a href="#" class="btn-custom btn-black light">Prendre rendez-vous</a>
+                        <a href="#" class="btn-custom btn-black light">Contactez-nous</a>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="section-highlight" class="relative" data-bgcolor="#f2f2f2">
+        <section id="section-highlight" class="relative text-light" data-bgcolor="#111111">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-4">
-                        <span class="p-title">Bienvenu</span><br>
+                        <span class="p-title">Nos Forces</span><br>
                         <h2>
-                            Réputation.<br>Respect. Résultat.
+                            Discipline, Rigueur,Efficacité
                         </h2>
                         <div class="small-border sm-left"></div>
                     </div>
                     <div class="col-md-8">
                         <p>
-                            LAJOY génère de la valeur à long terme pour toutes les entreprises. Fondés dans
-                            l’objectif de répondre aux différents challenges de transformation et de profitabilité
-                            des
-                            entreprises, nos services et nos solutions donnent confiance et ainsi aident les clients
-                            à
-                            atteindre des sommets. <br>
-                            Lajoy optimise les modèles d'affaire et agit sur les leviers stratégiques et
-                            opérationnels : audit, business plan, acquisition et fidélisation, réseaux de
-                            distribution, campagnes promotionnelles
+                            Chaque personne est unique et c’est la raison pour laquelle nous nous efforçons d’offrir un vaste éventail de services de conciergerie adaptés et sur mesure pour répondre aux besoins de notre clientèle.
+                            <br>
+                            Que ce soit pour de la conciergerie d’entreprise ou de particulier, l’équipe mène toute les démarches de la demande dans les règles de l’art.
+                            <br>
+                            Que vous ayez besoin d’aide pour trouver un logement temporaire ou permanent, que ce soit organiser vos prochaines vacances, une réservation au restaurant ou au théâtre, nous sommes là pour vous aider.
                         </p>
                     </div>
                 </div>
@@ -78,118 +126,140 @@
                         <div class="mask">
                             <div class="cover">
                                 <div class="c-inner">
-                                    <h3><i class="icofont-data"></i><span>Marketing par les données</span></h3>
-                                    <p>Le marketing par les données consiste à utiliser des données pour prendre des
-                                        décisions
-                                        marketing et pour cibler les clients de manière plus précise...</p>
+                                    <h3><i class="icofont-data"></i><span>Conciergerie d’entreprise</span></h3>
+                                    <p>La conciergerie d'entreprise offerte par DGA International est conçue pour faciliter l'installation, le partenariat, la recherche...</p>
                                     <div class="spacer20"></div>
-                                    <a href="{{route('blog',['marketing-par-les-donnees'])}}" class="btn-custom capsule">Lire plus</a>
+                                    <a href="{{route('blog',['marketing-par-les-donnees'])}}" class="btn-custom capsule">Voir plus</a>
                                 </div>
                             </div>
-                            <img src="images/services/marketing.jpeg" alt="" class="img-responsive" />
+                            <img src="images/services/1.jpg" alt="" class="img-responsive" />
                         </div>
                     </div>
                     <div class="col-md-4 wow fadeInRight" data-wow-delay=".4s">
                         <div class="mask">
                             <div class="cover">
                                 <div class="c-inner">
-                                    <h3><i class="icofont-database-add"></i><span>Marketing de données</span></h3>
-                                    <p>Le marketing de données, un outil de prise de décision puissant pour les
-                                        entreprises
-                                        Le marketing des données peut être un outil...</p>
+                                    <h3><i class="icofont-user-alt-1"></i><span>Conciergerie de particulier</span></h3>
+                                    <p>DGA International est une entreprise qui fournit des services de conciergerie professionnels et personnalisés pour les...</p>
                                     <div class="spacer20"></div>
                                     <a href="{{route('blog',['le-marketing-de-donnees'])}}" class="btn-custom capsule">Lire plus</a>
                                 </div>
                             </div>
-                            <img src="images/services/marketing-2.jpeg" alt="" class="img-responsive" />
+                            <img src="images/services/2.jpg" alt="" class="img-responsive" />
                         </div>
                     </div>
                     <div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
                         <div class="mask">
                             <div class="cover">
                                 <div class="c-inner">
-                                    <h3><i class="icofont-speech-comments"></i><span>Marketing &
-                                            Communication</span></h3>
-                                    <p>Le marketing et la communication, une belle complicité pour les entreprises
-                                        Le marketing et la communication sont deux domaines qui sont souvent
-                                        utilisés de...</p>
+                                    <h3><i class="icofont-location-arrow"></i><span>Quelle destination ?
+                                            </span></h3>
+                                    <p>Une fois le choix de votre destination fait: Côte d'ivoire ou Canada, DGA International vous accompagne tout...</p>
                                     <div class="spacer20"></div>
                                     <a href="{{route('blog',['le-marketing-et-la-communication'])}}" class="btn-custom capsule">Lire plus</a>
                                 </div>
                             </div>
-                            <img src="images/services/marketing-3.jpeg" alt="" class="img-responsive" />
+                            <img src="images/services/3.jpg" alt="" class="img-responsive" />
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section data-bgcolor="#f2f2f2">
+        {{-- <section data-bgcolor="#f2f2f2">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-5 offset-lg-7">
                         <span class="p-title">Qui sommes-nous?</span><br>
                         <h2>
-                            Laissez Notre Expérience <br> être votre guide
+                            Notre Expérience <br> Notre Expertise
                         </h2>
-                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                            {{-- <li class="nav-item">
-                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home"
-                                    role="tab" aria-controls="pills-home" aria-selected="true">Nos Clients</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"
-                                    role="tab" aria-controls="pills-profile" aria-selected="false">Notre
-                                    Expertise</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact"
-                                    role="tab" aria-controls="pills-contact" aria-selected="false">Notre
-                                    Entreprise</a>
-                            </li> --}}
-                        </ul>
+
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
                                 aria-labelledby="pills-home-tab">
                                 <p>
-                                    LAJOY, fondée en Côte d’Ivoire en 2018, accompagne ses clients depuis <span
-                                        style="font-weight: bold;">
-                                        PLUS DE 15 ANS AU
-                                        CANADA ET EN AFRIQUE
-                                    </span>
-                                    sur le déploiement de leurs projets. Le bureau en Côte d&#39;Ivoire dispose
-                                    d’un vaste champ <span style="font-weight: bold;">d&#39;expertise et d&#39;un
-                                        réseau de partenaires solide</span> pour accompagner
-                                    les entreprises à atteindre leurs objectifs et assurer leur profitabilité. <br>
-                                    L’équipe est composée d’experts en <span style="font-weight: bold;">
-                                        Financement, Gestion de projets, Marketing,
-                                        Digitalisation, Management, Audit, Service à la clientèle et Entreprenariat.
-                                    </span>
+                                    DGA International, une entreprise de conciergerie entre le Canada et la Côte d’Ivoire à votre porté.
+                                    <p>
+                                        <span style="font-weight: bold;">
+                                            Chez DGA International,
+                                        </span>
+                                        nous sommes fiers de notre capacité à fournir des services de conciergerie personnalisés pour les entreprises et les particuliers. Si vous êtes une entreprise qui recherche des partenaires ou des investisseurs au Canada ou en Côte d’Ivoire, nous pouvons vous aider en organisant des business tours sur mesure. Nous nous occupons de tout, de la planification des itinéraires à la coordination des rendez-vous.
+
+                                    </p>
+                                    Nous sommes fiers de notre engagement à fournir des services de conciergerie de qualité et personnalisés à chaque client.
                                 </p>
-                            </div>
-                            <div class="tab-pane fade" id="pills-profile" role="tabpanel"
-                                aria-labelledby="pills-profile-tab">
-                                <p>Ad pariatur nostrud pariatur exercitation ipsum ipsum culpa mollit commodo mollit
-                                    ex. Aute sunt incididunt amet commodo est sint nisi deserunt pariatur do.
-                                    Aliquip ex eiusmod voluptate exercitation cillum id incididunt elit sunt. Qui
-                                    minim sit magna Lorem id et dolore velit Lorem amet exercitation duis deserunt.
-                                    Anim id labore elit adipisicing ut in id occaecat pariatur ut ullamco ea tempor
-                                    duis.</p>
-                            </div>
-                            <div class="tab-pane fade" id="pills-contact" role="tabpanel"
-                                aria-labelledby="pills-contact-tab">
-                                <p>Est quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip
-                                    dolor aliqua irure ex. Nulla ut duis ipsum nisi elit fugiat commodo sunt
-                                    reprehenderit laborum veniam eu veniam. Eiusmod minim exercitation fugiat irure
-                                    ex labore incididunt do fugiat commodo aliquip sit id deserunt reprehenderit
-                                    aliquip nostrud. Amet ex cupidatat excepteur aute veniam incididunt mollit
-                                    cupidatat esse irure officia elit do ipsum ullamco Lorem.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="jarallax image-container col-md-6 pull-right">
-                <img src="images/background/5.jpeg" class="jarallax-img" alt="">
+                <img src="images/background/5.png" class="jarallax-img" alt="">
+            </div>
+        </section> --}}
+
+        <section data-bgcolor="#111111" class="text-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 offset-lg-7">
+                        <span class="p-title">Qui sommes-nous?</span><br>
+                        <h2>
+                            Notre Expérience<br>Notre Expertise
+                        </h2>
+
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                <p>
+                                    DGA International, votre partenaire privilégié pour tous vos projets et vos besoins en matière de conciergerie au Canada et en Côte d’Ivoire. Nous offrons une gamme complète de services personnalisés, de qualité supérieure, aux entreprises et aux particuliers.
+                                </p>
+                                <p>
+                                    Nos valeurs reposent sur l’intégrité, le professionnalisme, l’empathie et l’adaptabilité. En effet, nous travaillons main dans la main avec vous pour comprendre vos besoins et vos défis, afin de vous offrir des solutions sur mesure qui répondent à vos attentes.
+                                </p>
+                                <p>
+                                    Notre méthode de travail est fondée sur une communication ouverte et transparente.
+                                </p>
+                                <p>
+                                    Nos équipes sont présentes sur place tant au Canada qu’en Côte d’Ivoire, garantissant une bonne connaissance des différents marchés et un accès à un réseau hors pair.
+                                </p>
+                                <p>
+                                    Nous sommes fiers de notre réputation et nous sommes engagés à maintenir notre position de leader dans l’industrie.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="jarallax image-container col-md-6 pull-right">
+                <img src="{{asset("images/background/bel.JPEG")}}" class="jarallax-img" alt="">
+            </div>
+        </section>
+
+        <section class="pt40 pb40 bg-color text-light" data-bgcolor="#111111">
+            <div class="container">
+                <div class="row">
+                        <div class="col-md-4 text-center my-auto">
+                            <h2 class="no-bottom wow fadeInLeft" data-wow-delay=".4s" style="font-weight: 500">Notre Mission</h2>
+                        </div>
+                        {{-- <div class="col-lg-6 py-auto  text-lg-left text-sm-center">
+                            <div class="bg-border" style="font-weight: bolder; font-size:20px">Nos Valeurs</div>
+                            <p style="font-size: 18px" class="wow fadeInRight" data-wow-delay=".2s">
+                                DGA s'engage à traiter ses clients avec respect et honnêteté. DGA valorise le professionnalisme pour apporter son expertise à ses clients. DGA aide ses clients à se sentir à l'aise et en confiance lorsqu'ils font face à des défis. DGA peut fournir des solutions innovantes et efficaces à ses clients. En somme, dans cet ordre nos laeurd sont: <span style="font-weight:bold"> Intégrité - Professionnalisme - Empathie - Adaptabilité</span>
+                            </p>
+                        </div> --}}
+                        <div class="col-lg-7  py-auto text-center text-lg-left text-sm-center">
+                            {{-- <div class="big-border" style="font-weight: bold;font-size:20px">Notre Mission</div> --}}
+                            <p style="font-size: 18px" class="wow fadeInRight" data-wow-delay=".2s">
+                                Notre mission est d’être  votre partenaire de confiance, en vous offrant un service personnalisé, des solutions innovantes et adaptées à vos besoins spécifiques, tout en vous aidant à vous intégrer efficacement dans  un nouvel environnement. Nous comprenons que s’adapter à de nouveaux changements peut être un défi et nous nous engageons à vous donner un soutien à tous les niveaux.
+                                <br>
+                                Nous sommes déterminés à vous offrir un service de choix qui vous permettra de vous concentrer sur vos principales activités, sachant que votre projet est entre de bonnes mains.
+                                <br>
+                                DGA International est votre allié dans la réalisation vos projets. Nous vous offrons l’expertise, le soutien et la confiance dont vous aurez besoin pour réussir votre projet, la création de votre nouvelle entreprise ou votre nouvelle vie.
+                                <br>
+                                Nous sommes fiers d’être votre partenaire de confiance et nous nous engageons à continuer à vous offrir des services exceptionnels pour vous assurer une transition en toute tranquillité.
+                            </p>
+                        </div>
+                </div>
             </div>
         </section>
         <section id="section-practice-areas">
@@ -202,192 +272,53 @@
                         </div>
                     </div>
                     <div class="col-md-6 offset-md-3 text-center">
-                        <p>LAJOY aide ses clients à mettre en place et à gérer efficacement leur programme de
-                            reconnaissance et de récompenses des employés.Nous définissons les critères de
-                            reconnaissance et récompense équitables et justes, et nous mesurons leur efficacité tout le long
-                            de l’existence du programme.
+                        <p>DGA International, nous sommes indispensables dans le projet de déplacement de
+                            nos clients. Nous leur offrons l’expertise, le soutien et la confiance dont ils
+                            ont besoin pour réussir dans leur nouvelle entreprise ou dans leur nouvelle vie.
                         </p>
                     </div>
                     <div class="spacer-single"></div>
                     <div class="col-md-4">
                         <ul class="ul-style-2 wow fadeInRight" data-wow-delay=".2s">
-                            <li>
-                                Entreprises et fusions et acquisitions</li>
-                            <li>Financement Immobilier</li>
-                            <li>Restructuration d'entreprise</li>
-                            <li>Conseils d'entreprise</li>
+                            <li>Conciergerie d’entreprise </li>
+                            <li>Conciergerie de particulier</li>
+                            <li>Aide pour l’obtention du visa d’étude</li>
+                            <li>Aide pour l’obtention du visa de travail</li>
+                            <li>Aide pour l’obtention du visa touriste</li>
+                            <li>Immigration pour entreprise</li>
+                            <li>Service de Back Ground Check</li>
+
                         </ul>
                     </div>
                     <div class="col-md-4">
                         <ul class="ul-style-2 wow fadeInRight" data-wow-delay=".4s">
-                            <li>Finance Agency Banking</li>
-                            <li>Financement Participatif</li>
-                            <li>Environmental</li>
-                            <li>Intellectual Property Right</li>
+                            <li>Mission économique</li>
+                            <li>Assistance pour l'ouverture de comptes bancaires et la gestion financière lors de l'installation au Canada</li>
+                            <li>Accompagnement dans l’investissement immobilier au Canada</li>
+                            <li>Organisation de missions économiques pour les entreprises désireuses d’explorer les opportunités commerciales en Côte d’Ivoire</li>
+
+
                         </ul>
                     </div>
                     <div class="col-md-4">
                         <ul class="ul-style-2 wow fadeInRight" data-wow-delay=".6s">
-                            <li>Gouvernance & Management d'entreprise</li>
-                            <li>Intégration Technologie</li>
-                            <li>Intelligence d'entreprise</li>
-                            <li>Marketing</li>
+                           <li>Assistance pour la création d’entreprise en Côte d’Ivoire, y compris les formalités administratives et juridiques</li>
+                            <li>Service d’assistance à l’installation, y compris l’aide à la recherche d’un logement et à la mise en place des services de base</li>
+                            <li>Service de tourisme et de découverte du pays, y compris l’organisation de circuits touristiques personnalisés et l’assistance dans les réservations de voyages et d’hébergement.</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="jarallax text-white">
-            <img src="images/background/2-bw.jp" class="jarallax-img" alt="" style="background-color: rgb(17, 17, 17);">
-            <div class="container-fluid">
-                <div class="row">
-
-                        <!-- <div class="col-lg-4">
-                            <form method="post" novalidate="novalidate" action="#" id="submit-agency">
-                                @csrf
-                                <div class="row">
-                                    <div class="col-md-12"> <label>
-                                            Choisissez une
-                                            agence<br />
-                                            <span class="wpcf7-form-control-wrap select-menu">
-                                                <select id="select-agency" name="select-menu"
-                                                    class="wpcf7-form-control wpcf7-select" aria-invalid="false">
-                                                    {{-- @foreach --}}
-                                                    ([{'id':'1','name':'Pa','latitude':'','longitude'},
-                                                    {'id':'1','name':'Pa','latitude':'','longitude'},
-                                                    {'id':'1','name':'Pa','latitude':'','longitude'},
-                                                    ] as
-                                                    $agency)
-                                                    {{-- <option id="latlng" value="{{$agency->id}}"
-                                                        data-lat="{{$agency->latitude}}"
-                                                        data-lng="{{$agency->longitude}}">
-                                                        {{$agency->name}}
-                                                    </option> --}}
-                                                    {{-- @endforeach --}}
-                                                </select>
-                                            </span> </label></div>
-                                </div>
-                            </form>
-                        </div> -->
-                        <div class="col-lg-4 pl-1">
-                            <div class="col-lg-8  mb-sm-30 text-center mx-auto">
-                                <h3 class="text-white">Localisation</h3>
-                                <form name="contactForm" id="contact_form" class="form-border" method="post" action="email.php">
-                                    <div class="field-set">
-                                        <span class="text-white" >
-                                            Retrouver et rejoigner-nous plus facilement via
-                                            la liste de nos diverses agences qui vous est fourni
-                                        </span>
-                                    </div>
-                                    <div class="spacer-half"></div>
-                                    <div class="field-set">
-                                        <!-- <input type="text" name="name" id="name" class="form-control" placeholder="Votre Nom" /> -->
-                                        <select id="select-agency" name="select-menu"
-                                                    class="form-control selectHoverCol" aria-invalid="false">
-                                                    @foreach($agencies as $key => $agency)
-                                                        <option id="latlng" value="{{$agency['id']}}" class="text-dark"
-                                                            data-lat="{{$agency['latitude']}}"
-                                                            data-lng="{{$agency['longitude']}}">
-                                                            {{$agency['name']}}
-                                                        </option>
-                                                    @endforeach
-                                        </select>
-                                    </div>
 
 
-                                    <div class="spacer-half"></div>
-                                    <div id="submit">
-                                        <input type="submit" id="send_message" value="Valider" class="btn btn-custom" />
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-
-
-                        <div id="default_map" class="col-lg-8"  style="text-align:center; padding: 0px; margin:0px; height:50vh;">
-                        </div>
-
-
-                </div>
-            </div>
-        </section>
-        <section aria-label="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2>Notre Équipe Lead</h2>
-                        <div class="small-border"></div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 mb30 wow fadeInRight" data-wow-delay=".2s">
-                        <div class="f-profile text-center">
-                            <div class="fp-wrap f-invert">
-                                <div class="fpw-overlay">
-                                    <div class="fpwo-wrap">
-                                        <div class="fpwow-icons">
-                                            <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                            <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                                            <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
-                                            <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="fpw-overlay-btm"></div>
-                                <img src="images/team/gnolou.jpg" class="fp-image img-fluid" alt="">
-                            </div>
-                            <h4>Gnolou Guero</h4>
-                            Président Fondateur
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 mb30 wow fadeInRight" data-wow-delay=".4s">
-                        <div class="f-profile text-center">
-                            <div class="fp-wrap f-invert">
-                                <div class="fpw-overlay">
-                                    <div class="fpwo-wrap">
-                                        <div class="fpwow-icons">
-                                            <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                            <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                                            <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
-                                            <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="fpw-overlay-btm"></div>
-                                <img src="images/team/magali.jpg" class="fp-image img-fluid" alt="">
-                            </div>
-                            <h4>Magali Iovino</h4>
-                            Associée Co-Fondatrice
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 mb30 wow fadeInRight" data-wow-delay=".6s">
-                        <div class="f-profile text-center">
-                            <div class="fp-wrap f-invert">
-                                <div class="fpw-overlay">
-                                    <div class="fpwo-wrap">
-                                        <div class="fpwow-icons">
-                                            <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                            <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                                            <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
-                                            <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="fpw-overlay-btm"></div>
-                                <img src="images/team/gbeuli.jpg" class="fp-image img-fluid" alt="">
-                            </div>
-                            <h4>Gbeuli Guero</h4>
-                            Associé Co-Fondateur
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <section aria-label="section" class="jarallax text-light" id="temoignage">
             <img src="images/background/3-bw.jpg" class="jarallax-img" alt="">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="text-center text-light">
-                            <h2>Témoignages</h2>
+                            <h2>Nos valeurs</h2>
                             <div class="small-border"></div>
                         </div>
                         <div class="owl-carousel owl-theme" id="testimonial-carousel">
@@ -395,11 +326,11 @@
                                 <div class="de_testi opt-2 review">
                                     <blockquote>
                                         <i class="fa fa-quote-left id-color"></i>
-                                        <h3>Digne de Confiance</h3>
-                                        <p>Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa
-                                            excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt
-                                            nostrud.</p>
-                                        <div class="de_testi_by"><span>John, Pixar Studio</span></div>
+                                        <h3>Intégrité</h3>
+                                        <p>
+                                            Nous croyons que l’intégrité est essentielle pour établir une relation de confiance sur du long terme avec nos clients. Nous nous engageons à servir nos clients dans le respect et  avec honnêteté, en faisant preuve de transparence dans toutes nos démarches.
+                                        </p>
+
                                     </blockquote>
                                 </div>
                             </div>
@@ -407,11 +338,11 @@
                                 <div class="de_testi opt-2 review">
                                     <blockquote>
                                         <i class="fa fa-quote-left id-color"></i>
-                                        <h3>Qualité de service</h3>
-                                        <p>Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa
-                                            excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt
-                                            nostrud.</p>
-                                        <div class="de_testi_by"><span>Sarah, Midokpodistribution</span></div>
+                                        <h3>Professionalisme</h3>
+                                        <p>
+                                            Nous valorisons également le professionnalisme en restant à l’affût des dernières tendances et des meilleures pratiques de notre secteur pour offrir des services de qualité à nos clients. En fournissant une expertise de pointe, nous aidons nos clients à atteindre leurs objectifs commerciaux.
+                                        </p>
+                                        {{-- <div class="de_testi_by"><span>Sarah, Midokpodistribution</span></div> --}}
                                     </blockquote>
                                 </div>
                             </div>
@@ -419,33 +350,9 @@
                                 <div class="de_testi opt-2 review">
                                     <blockquote>
                                         <i class="fa fa-quote-left id-color"></i>
-                                        <h3>Excellent Soutien</h3>
-                                        <p>Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa
-                                            excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt
-                                            nostrud.</p>
-                                        <div class="de_testi_by"><span>Michael, Mindeba</span></div>
-                                    </blockquote>
-                                </div>
-                            </div>
-                            <!-- <div class="item">
-                                <div class="de_testi opt-2 review">
-                                    <blockquote>
-                                        <i class="fa fa-quote-left id-color"></i>
-                                        <h3>Great services</h3>
-                                        <p>Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt nostrud.</p>
-                                        <div class="de_testi_by"><span>Thomas, Samsung</span></div>
-                                    </blockquote>
-                                </div>
-                            </div> -->
-                            <div class="item">
-                                <div class="de_testi opt-2 review">
-                                    <blockquote>
-                                        <i class="fa fa-quote-left id-color"></i>
-                                        <h3>L'excellence du travail</h3>
-                                        <p>Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa
-                                            excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt
-                                            nostrud.</p>
-                                        <div class="de_testi_by"><span>John, Mow</span></div>
+                                        <h3>Empathie</h3>
+                                        <p>Chez DGA, nous sommes conscients que naviguer dans de nouveaux environnements peut être difficile pour nos clients. Nous sommes donc là pour les soutenir émotionnellement et pratiquement, en faisant preuve d’empathie et de compréhension de leurs défis.</p>
+                                        {{-- <div class="de_testi_by"><span>Michael, Mindeba</span></div> --}}
                                     </blockquote>
                                 </div>
                             </div>
@@ -453,44 +360,19 @@
                                 <div class="de_testi opt-2 review">
                                     <blockquote>
                                         <i class="fa fa-quote-left id-color"></i>
-                                        <h3>Facile à Apprécier</h3>
-                                        <p>Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa
-                                            excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt
-                                            nostrud.</p>
-                                        <div class="de_testi_by"><span>Sarah, Midokpo</span></div>
+                                        <h3>Adaptabilité</h3>
+                                        <p> Nous sommes constamment à la recherche de nouvelles façons d’améliorer nos services pour répondre aux besoins changeants de nos clients et des marchés. Nous sommes fiers de fournir des solutions innovantes et efficaces pour aider nos clients à réussir.</p>
+                                        {{-- <div class="de_testi_by"><span>Michael, Mindeba</span></div> --}}
                                     </blockquote>
                                 </div>
                             </div>
-                            <div class="item">
-                                <div class="de_testi opt-2 review">
-                                    <blockquote>
-                                        <i class="fa fa-quote-left id-color"></i>
-                                        <h3>Fiable</h3>
-                                        <p>Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa
-                                            excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt
-                                            nostrud.</p>
-                                        <div class="de_testi_by"><span>Michael, Anyxtech</span></div>
-                                    </blockquote>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="de_testi opt-2 review">
-                                    <blockquote>
-                                        <i class="fa fa-quote-left id-color"></i>
-                                        <h3>Des services cinq étoiles</h3>
-                                        <p>Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa
-                                            excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt
-                                            nostrud.</p>
-                                        <div class="de_testi_by"><span>Thomas, AWAKS</span></div>
-                                    </blockquote>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section aria-label="section">
+        {{-- <section aria-label="section">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -506,7 +388,6 @@
                             <div class="post-content">
                                 <div class="date-box">
                                     <div class="m">04</div>
-                                    {{-- <div class="d">ART</div> --}}
                                 </div>
                                 <div class="post-image">
                                     <img alt="" src="images/news/1.jpg">
@@ -519,7 +400,7 @@
                                         La transformation digitale est un processus qui implique un changement
                                         profond dans
                                         les processus de travail, les technologies utilisées... </p>
-                                    <span class="p-author">Lire la suite</span>
+                                    <span class="p-author"><a href="{{route('blog',['la-transformation-digitale-gestion-du-changement'])}}">Lire la suite</a></span>
                                 </div>
                             </div>
                         </div>
@@ -529,7 +410,6 @@
                             <div class="post-content">
                                 <div class="date-box">
                                     <div class="m">05</div>
-                                    {{-- <div class="d">FEV</div> --}}
                                 </div>
                                 <div class="post-image">
                                     <img alt="" src="images/news/2.jpg">
@@ -541,7 +421,7 @@
                                     <p>
                                         Il y a de nombreuses femmes leaders dans l&#39;économie ivoirienne qui ont
                                         joué un rôle important dans le développement du pays. </p>
-                                    <span class="p-author">Lire la suite</span>
+                                    <span class="p-author"><a href="{{route('blog',['femmes-leaders-dans-l-economie-ivoirienne'])}}">Lire la suite</a></span>
                                 </div>
                             </div>
                         </div>
@@ -564,14 +444,14 @@
                                         L&#39;importance du développement durable dans l&#39;économie ivoirienne
                                         Le développement durable est un concept qui vise à assurer la croissance
                                         économique </p>
-                                    <span class="p-author">Fynley Wilkinson</span>
+                                    <span class="p-author"><a href="{{route('blog',['l-innovation-disruptive'])}}">Lire la suitee </span></span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
     </div>
     <!-- content close -->
 

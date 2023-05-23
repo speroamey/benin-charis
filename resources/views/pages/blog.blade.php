@@ -9,7 +9,7 @@
     <div class="no-bottom no-top" id="content">
         <div id="top"></div>
         <!-- section begin -->
-        <section id="subheader" class="jarallax text-white" style="background-color: rgb(17, 17, 17);">
+        <section id="subheader" class="jarallax text-white" style="background-color: rgb(0 54 74 / 90%);">
             <!-- <img src="images/background/subheader3.jpg" class="jarallax-img" alt=""> -->
             <div class="center-y relative text-center">
                 <div class="container">

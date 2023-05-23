@@ -6,15 +6,14 @@ Author: Spero AMEY / WAKPARE-AMEY M'pouamon
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}>
     <head>
         <meta charset="utf-8" />
-        <title>LaJoy - Consultation et restructuration d'entreprises</title>
+        <title>DGA International - Conciergerie et Accompagnement pour immigration</title>
         <link rel="icon" href="images/icon.png" type="image/gif" sizes="16x16">
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <meta
-            content="LaJoy -
-        Nos services sont complémentaires et permettent de répondre aux besoins de plusieurs types d'industrie selon une stratégie d'affaire adaptée, un réseau d'affaire établi et des outils digitaux à la fine pointe de la technologie."
+            content="DGA International - Nous offrons, proposons aux Ivoiriens ou Africains l’achat de biens immobiliers au Canada avec un financement à hauteur de 65 % du prix de la propriété. "
             name="description" />
-        <meta content="" name="keywords" />
-        <meta content="" name="author" />
+        <meta content="DGA International, conciergerie, Imigration au canada, Financement Immobilier, accompagnement et organisation des réunion d'ffaires / Business, planification de voyage " name="keywords" />
+        <meta content="Spero AMEY WAKPARE-AMEY M'POUAMON" name="author" />
         <!--[if lt IE 9]>
                 <script src="js/html5shiv.js"></script>
             <![endif]-->
@@ -36,6 +35,10 @@ Author: Spero AMEY / WAKPARE-AMEY M'pouamon
         <link id="colors" href="{{asset('css/colors/scheme-01.css')}}" rel="stylesheet" type="text/css" />
         <link href="{{asset('css/coloring.css')}}" rel="stylesheet" type="text/css" />
 
+        <link rel="stylesheet" href="revolution/css/settings.css" type="text/css">
+        <link rel="stylesheet" href="revolution/css/layers.css" type="text/css">
+        <link rel="stylesheet" href="revolution/css/navigation.css" type="text/css">
+
         <style type="text/css">
             .navbar {
                 position: absolute;
@@ -45,7 +48,7 @@ Author: Spero AMEY / WAKPARE-AMEY M'pouamon
                 color: #fff !important;
             }
             .dropdown-menu{
-                background-color: #212529;
+                background-color: rgb(0 54 74 / 80%);
                 color: #fff;
             }
             .navbar .megamenu {
@@ -130,8 +133,61 @@ Author: Spero AMEY / WAKPARE-AMEY M'pouamon
     <script src="{{asset('js/typed.js')}}"></script>
     <script src="{{asset('js/jarallax.js')}}"></script>
     <script src="{{asset('js/designesia.js')}}"></script>
-    <!-- end base js -->
 
+
+
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
+    <!-- RS5.0 Extensions Files -->
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+
+    <!-- end base js -->
+    <script>
+        jQuery(document).ready(function() {
+            // revolution slider
+            jQuery("#slider-revolution").revolution({
+                sliderType: "standard",
+                sliderLayout: "fullwidth",
+                delay: 5000,
+                navigation: {
+                    arrows: {
+                        enable: true
+                    },
+                    bullets: {
+                        enable: true,
+                        hide_onmobile: false,
+                        style: "hermes",
+                        hide_onleave: false,
+                        direction: "horizontal",
+                        h_align: "center",
+                        v_align: "bottom",
+                        h_offset: 20,
+                        v_offset: 30,
+                        space: 5,
+                    },
+
+                },
+                parallax: {
+                    type: "mouse",
+                    origo: "slidercenter",
+                    speed: 2000,
+                    levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50],
+                },
+                responsiveLevels: [1920, 1380, 1240],
+                gridwidth: [1200, 1200, 940],
+                spinner: "off",
+                gridheight: 700,
+                disableProgressBar: "on"
+            });
+        });
+        </script>
     <!-- plugin js -->
     @stack('plugin-scripts')
     <!-- end plugin js -->

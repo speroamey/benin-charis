@@ -603,7 +603,7 @@ header .header-col.mid .social-icons {
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     overflow: hidden;
-    background: #ffffff;
+    background: #111111;
     -webkit-box-shadow: 2px 2px 30px 0px rgba(20, 20, 20, 0.1);
     -moz-box-shadow: 2px 2px 30px 0px rgba(20, 20, 20, 0.1);
     box-shadow: 2px 2px 30px 0px rgba(20, 20, 20, 0.1);
@@ -698,7 +698,7 @@ header.smaller.scroll-light #mainmenu>li.menu-item-has-children>a:after {
 #mainmenu li li a {
     padding: 5px 15px;
     border-top: none;
-    color: #111111;
+    color: #FFFFFF;
     width: 100%;
     border-left: none;
     text-align: left;
@@ -730,7 +730,7 @@ header.smaller.scroll-light #mainmenu>li.menu-item-has-children>a:after {
 }
 
 #mainmenu li ul {
-    width: 210px;
+    width: 255px;
     height: auto;
     position: absolute;
     left: 0px;
@@ -11228,11 +11228,17 @@ a.read_more i {
     color: #777777;
 }
 
-.mask:hover .cover {
+.mask .cover {
     height: 100%;
     top: 0;
     margin-top: -0px;
-    background: rgba(0, 0, 0, .8);
+    background: rgba(0, 0, 0, .8) !important;
+}
+.mask:hover .cover {
+    /* height: 100%;
+    top: 0;
+    margin-top: -0px; */
+    background: rgba(0, 0, 0, .9) !important;
 }
 
 .mask:hover .cover p {

@@ -25,53 +25,64 @@ Route::get('/', function () {
 Route::get('/a-propos-de-nous', function () {
     return view('pages.about');
 });
+Route::get('/faq', function () {
+    return view('pages.faq');
+});
+Route::get('/conciergerie-d-entreprise', function () {
+    return view('pages.conciergerie-d-entreprise');
+});
+Route::get('/conciergerie-de-particulier', function () {
+    return view('pages.conciergerie-de-particulier');
+});
 Route::get('/services/{slug}', function ($slug) {
     $sujet="";
     switch ($slug) {
-        case 'Conseil-sur-l-analyse-marketing':
-            $sujet="Conseil sur l'analyse marketing";
+        case 'visa-d-etude':
+            $sujet="Aide pour l’obtention du visa d’étude";
             break;
-        case 'Conseil-pour-optimiser-l-experience':
-            $sujet="Conseil pour-optimiser l'expérience client";
+        case 'visa-de-travail':
+            $sujet="Aide pour l’obtention du visa de travail";
             break;
-        case 'Conseil-en-analyses-des-donnees':
-            $sujet="Conseil en analyses des donnees";
-            break;
-        case 'Conseil-pour-la-transformation-numérique-d-une-entreprise':
-            $sujet="Conseil pour la transformation numérique-d'une entreprise";
-            break;
-        case 'Conseil-pour-la-mise-en-place-de-la-stratégie-de-déploiement-commercial':
-            $sujet ="Conseil pour la mise en place de la stratégie de déploiement commercial";
+        case 'visa-tourisme':
+            $sujet="Aide pour l’obtention du visa touriste";
             break;
 
-        // second section
-        case 'Conseil-en-stratégie-d-entreprise-et-de-croissance':
-            $sujet = "Conseil en stratégie d’entreprise et de croissance";
-            break;
-        case 'Conseil-en-stratégie-de-restructuration':
-            $sujet="Conseil en stratégie de restructuration";
+        case 'immigration-pour-entreprise':
+            $sujet="Immigration pour entreprise";
             break;
 
-        //THIRD SECTION
-        case 'conseil-en-gestion-et-expérience-du-changement':
-            $sujet = "Conseil en gestion et expérience du changement";
-            break;
-        case 'Conseil-sur-la-gestion-de-l-impact-des-transformations-organisationnelles-sur-les-rh':
-            $sujet = "Conseil sur la gestion de l’impact des
-            transformations organisationnelles sur les RH";
-            break;
-        case 'Conseil-pour-la-mise-en-place-de-programmes-de-reconnaissance-et-de-récompenses':
-            $sujet= "Conseil pour la mise en place de programmes
-            de reconnaissance et de récompenses";
+        case 'service-de-Background-check':
+            $sujet ="Service de Back Ground Check";
             break;
 
-        // 4th section
-        case 'Conseil-en-fusion-et-acquisitions':
-            $sujet ="Conseil en fusion et acquisitions";
+        case 'mission-economique':
+            $sujet ="Mission économique";
             break;
-        case 'Conseil-en-financement':
-            $sujet = "Conseil en financement";
+
+        case 'assistance':
+            $sujet ="Assistance pour l'ouverture de comptes bancaires et la gestion financière lors de l'installation au Canada";
             break;
+
+        case 'investissement-immobilier':
+            $sujet ="Accompagnement dans l’investissement immobilier au Canada";
+            break;
+
+        case 'organisation-de-mission-economique':
+            $sujet ="Organisation de missions économiques pour les entreprises désireuses d’explorer les opportunités commerciales en Côte d’Ivoire";
+            break;
+
+        case 'assistance-création-d-entreprise':
+            $sujet ="Assistance pour la création d’entreprise en Côte d’Ivoire, y compris les formalités administratives et juridiques.";
+            break;
+
+        case 'service-assistance-installation':
+            $sujet ="Service d’assistance à l’installation, y compris l’aide à la recherche d’un logement et à la mise en place des services de base.";
+            break;
+
+        case 'service-tourisme-decouverte':
+            $sujet ="Service de tourisme et de découverte du pays, y compris l’organisation de circuits touristiques personnalisés et l’assistance dans les réservations de voyages et d’hébergement";
+            break;
+
         default:
             # code...
             break;
@@ -79,32 +90,32 @@ Route::get('/services/{slug}', function ($slug) {
     return view('pages.services')->with('slug',$slug)->with('sujet',$sujet);
 })->name('services');
 
-Route::get('/secteurs/{slug}', function ($slug) {
-    $sujet="";
-    switch ($slug) {
-        case 'agency-banking-solution-pour-une-inclusion-financière':
-            $sujet="Agency Banking solution pour une inclusion  financière";
-            break;
-        case 'Telecommunication':
-            $sujet="Télécommunication";
-            break;
-        case 'energie-ressource-produits-industriels':
-            $sujet="Énergie, ressources & produits industriels ";
-            break;
+// Route::get('/secteurs/{slug}', function ($slug) {
+//     $sujet="";
+//     switch ($slug) {
+//         case 'agency-banking-solution-pour-une-inclusion-financière':
+//             $sujet="Agency Banking solution pour une inclusion  financière";
+//             break;
+//         case 'Telecommunication':
+//             $sujet="Télécommunication";
+//             break;
+//         case 'energie-ressource-produits-industriels':
+//             $sujet="Énergie, ressources & produits industriels ";
+//             break;
 
-        case 'Batiments-et-travaux-publique':
-            $sujet="Bâtiments et Travaux Publique BTP";
-            break;
-        case 'immobilier':
-            $sujet ="Immobilier";
-            break;
+//         case 'Batiments-et-travaux-publique':
+//             $sujet="Bâtiments et Travaux Publique BTP";
+//             break;
+//         case 'immobilier':
+//             $sujet ="Immobilier";
+//             break;
 
-        default:
-            # code...
-            break;
-    }
-    return view('pages.secteurs')->with('slug',$slug)->with('sujet',$sujet);
-})->name('secteurs');
+//         default:
+//             # code...
+//             break;
+//     }
+//     return view('pages.secteurs')->with('slug',$slug)->with('sujet',$sujet);
+// })->name('secteurs');
 
 Route::get('/nous-contacter', function () {
     return view('pages.contact-us');
