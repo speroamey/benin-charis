@@ -6,7 +6,7 @@
         <div id="top"></div>
 
         <!-- section begin -->
-        <section id="subheader" class="jarallax text-white" style="background-color: rgb(0 54 74 / 90%)">
+        <section id="subheader" class="jarallax text-white" data-bgcolor="#000000">
             <img src="images/background/subheader4.jpg" class="jarallax-img" alt="">
             <div class="center-y relative text-center">
                 <div class="container">
@@ -16,48 +16,72 @@
                             <h1>Nous Contacter</h1>
                             <p>Réputation. Respect. Resultat.</p>
                         </div>
-                        <div class="clearfix"></div>
+                        {{-- <div class="clearfix"></div> --}}
                     </div>
                 </div>
             </div>
         </section>
         <!-- section close -->
         {{-- style="background-color: rgb(0 54 74 / 90%);" --}}
-        <section aria-label="section" class="text-light" data-bgcolor="#FFB000">
+        <section aria-label="section" class="text-dark" data-bgcolor="#FFFFFF">
             <div class="container" style="margin-top: 80px;">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-3 justify-content-between">
                         <!-- <img src="images/misc/p3.jpg" alt="" class="img-fluid mb30"> -->
-                        <h3>Nos Cordonnées</h3>
-                        <address class="s1">
-                            <h3>LaJoy SARL UNIPERSONNEL</h3>
-                            <span><i class="id-color fa fa-map-marker fa-lg"></i>Riviéra 4, Abidjan, Côte d'Ivoire</span>
+                        {{-- <h3>Nos Cordonnées</h3> --}}
+                        <address class="s1 my-auto text-center">
+                            <h3>LaJoy Consulting</h3>
+                            <span cla><i class="id-color fa fa-map-marker fa-lg"></i>
+                                <span class="fb-text">
+                                    Riviéra 4,  Boulevard François Mitterrand, Abidjan, Côte d'Ivoire
+                                </span>
+
+                            </span>
+                            <span> <a href="tel:+225 07 79 60 24 37"><i class="id-color fa fa-phone fa-lg"></i>+225 07 79 60 24 37</a> </span>
                             <span> <a href="tel:+225 07 89 71 64 24"><i class="id-color fa fa-phone fa-lg"></i>+225 07 89 71 64 24</a> </span>
+                            <span> <a href="tel:+1 514 348 8985 "><i class="id-color fa fa-phone fa-lg"></i>+1 514 348 8985 </a> </span>
+
                             <span><i class="id-color fa fa-envelope-o fa-lg"></i><a href="mailto:info@lajoyconsulting.com">info@lajoyconsulting.com</a></span>
                             <!-- <span><i class="id-color fa fa-file-pdf-o fa-lg"></i><a href="#">Download Brochure</a></span> -->
                         </address>
                     </div>
                     <div class="col-lg-8  mb-sm-30 text-center">
-                        <h3>Avez vous des Questions?</h3>
-                        <form name="contactForm" id="contact_form" class="form-border" method="post" action="email.php">
+                        <h3>Nous écrire</h3>
+                        <form name="contactForm" id="contact_form" class="form-border"
+
+                        action="#"
+                        data-action="{{route('contact')}}">
+                           @csrf
                             <div class="field-set">
-                                <input type="text" name="name" id="name" class="form-control" placeholder="Votre Nom" />
+                                <input type="text" name="fullname" id="fullname" class="form-control border-gray" placeholder="Votre Nom et prénoms" required/>
                             </div>
                             <div class="field-set">
-                                <input type="text" name="email" id="email" class="form-control" placeholder="Votre adresse email" />
+                                <input type="email" name="email" id="email" class="form-control border-gray" placeholder="Votre adresse email" required/>
                             </div>
                             <div class="field-set">
-                                <input type="text" name="phone" id="phone" class="form-control" placeholder="Votre numéro de téléphone" />
+                                <input type="number" name="phone" id="phone" class="form-control border-gray" placeholder="Votre numéro de téléphone" required />
                             </div>
                             <div class="field-set">
-                                <textarea name="message" id="message" class="form-control" placeholder="Votre Message"></textarea>
+                                <input type="text" name="object" id="object" class="form-control border-gray" placeholder="Objet du message" required/>
                             </div>
+                            <div class="field-set">
+                                <textarea name="message" min="30" id="message" class="form-control border-gray" placeholder="Votre Message" required></textarea>
+                            </div>
+                            <input type="hidden" name="id" id="contact" value="contact">
+
                             <div class="spacer-half"></div>
                             <div id="submit">
-                                <input type="submit" id="send_message" value="Valider" class="btn btn-primary" />
+                                <input type="submit" value="Soumettre le message" class="btn btn-primary" />
+
+                                <div  class="ajax-loader spinner-border text-warning" role="status">
+                                    <span class="sr-only">Loading...</span>
+                                </div>
+
                             </div>
-                            <div id="mail_success" class="success">Votre message a été envoyé avec succès.</div>
-                            <div id="mail_fail" class="error">Désolé, une erreur s'est produite lors de l'envoie du message.</div>
+                            <div id="ajax-response" class="alert " role="alert">
+                            </div>
+                            {{-- <div id="mail_success" class="success"></div>
+                            <div id="mail_fail" class="error"></div> --}}
                         </form>
                     </div>
 
@@ -69,17 +93,17 @@
                 <div class="row align-items-center">
                     <div class="col-lg-4 col-md-12 wow fadeInRight" data-wow-delay=".2s">
                         <div class="de_count ultra-big s2 text-center">
-                            <h3 class="timer" data-to="15" data-speed="1000">15</h3>
+                            <h3 class="timer" data-to="22" data-speed="1000">22</h3>
                             <span class="id-color">Années d'Expérience</span>
                         </div>
                     </div>
                     <div class="col-lg-4 p-lg-5  mb-sm-30 wow fadeInRight" data-wow-delay=".4s">
                         <span class="p-title">Bienvenu</span><br>
-                        <h2>LaJoy est votre Meilleur Partenaire  Solutions</h2>
+                        <h2>LaJoy votre Meilleur Partenaire  Conseil</h2>
                     </div>
                     <div class="col-lg-4 wow fadeInRight" data-wow-delay=".6s">
                         <p>
-                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                            Notre portefeuille de clients est composé d'entreprises de différents secteurs : immobilier, fintech, institutions financières, microfinances,  assurances, télécommunications, restauration, éducation, énergie, secteur public, commerce de détails, luxe, spiritueux et santé.
                         </p>
                     </div>
                 </div>

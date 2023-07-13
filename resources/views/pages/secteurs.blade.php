@@ -384,11 +384,11 @@
                     </div>
                     <div class="col-lg-4 p-lg-5  mb-sm-30 wow fadeInRight" data-wow-delay=".4s">
                         <span class="p-title">Effectivement</span><br>
-                        <h2>LaJoy est votre Meilleur Partenaire  Conseil</h2>
+                        <h2>DGA International est votre Meilleur Partenaire  Conseil</h2>
                     </div>
                     <div class="col-lg-4 wow fadeInRight" data-wow-delay=".6s">
                         <p>
-                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                            DGA International est votre partenaire de confiance pour tous vos besoins en matière de conciergerie.
                         </p>
                     </div>
                 </div>

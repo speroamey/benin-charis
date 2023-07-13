@@ -14,8 +14,11 @@
                     <div class="row">
                         <div class="col text-center">
                             <div class="spacer-single"></div>
-                            <h1>Services</h1>
-                            <p>{{$sujet}}</p>
+
+                            <div class="col-md-5 mb-sm-30 text-lg-center text-sm-center mx-auto my-aut"  data-bgcolor="#ffb000">
+                                <h2 class="no-bottom">{{$sujet}}</h2>
+                            </div>
+
                         </div>
                         <div class="clearfix"></div>
                     </div>
@@ -36,7 +39,7 @@
                             <p>
                                 Avec une expérience de 20 ans dans le domaine, notre équipe de professionnels est là pour vous guider à travers les formalités administratives liées à l'obtention du permis d'étude, afin que vous puissiez vous concentrer sur votre parcours d'études et profiter de votre expérience canadienne.
                             </p>
-                            <ul>
+                            <ul class="ul-style-2">
                                 <li>Demande d’équivalence
                                 </li>
                                 <li>
@@ -58,26 +61,30 @@
                         </div>
                         <div class="col-md-6 offset-md-1">
                             <div class="de-images">
-                               <img class="di-big img-fluid" src="{{asset('images/background/visa.jpg')}}" alt="" />
+                               <img class="di-big img-fluid" src="{{asset('images/services/DGA9.jpg')}}" alt="" />
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <blockquote>
-                            Selon le palmarès universitaire mondial, le Canada compte aussi 4 des 100 meilleures villes universitaires au monde.
+                            <h5>
+                                Selon le palmarès universitaire mondial, le Canada compte aussi 4 des 100 meilleures villes universitaires au monde.
+                            </h5>
                         </blockquote>
                         <blockquote>
-                            Les étudiants canadiens comme les étudiants internationaux jouissent d’un niveau de vie élevé  et ont les mêmes droits et libertés que tous les canadiens.
+                            <h5>
+                                Les étudiants canadiens comme les étudiants internationaux jouissent d’un niveau de vie élevé  et ont les mêmes droits et libertés que tous les canadiens.
+                            </h5>
                         </blockquote>
                     </div>
                     <section class="pt40 pb40 bg-color text-light">
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
-                                    <h3 class="no-bottom">Inscription en ligne | Remplissez le formulaire!</h3>
+                                    <h4 class="no-bottom">Inscription en ligne, veuillez remplir le formulaire !</h4>
                                 </div>
                                 <div class="col-md-4 text-lg-right rtl-lg-left text-sm-center">
-                                    <a href="#" class="btn-custom btn-black light">Suivre le lien</a>
+                                    <a href="{{url('formulaire-preliminaire')}}" class="btn-custom btn-black light">Suivre le lien</a>
                                 </div>
                             </div>
                         </div>
@@ -88,29 +95,51 @@
                             <span class="p-title">Services</span><br>
                             <h2>{{$sujet}}</h2>
                             <p>
-                                Le service de DGA pour l'aide à l'obtention du permis de travail consiste à fournir une assistance professionnelle aux travailleurs étrangers qui souhaitent travailler légalement au Canada. Cette assistance comprend l'accompagnement dans les démarches administratives et juridiques pour l'obtention du permis de travail auprès des autorités canadiennes compétentes.
+                                L’équipe de DGA International offre un service d’assistance professionnel et personnalisé aux travailleurs étrangers qui souhaitent obtenir permis de travail et un emploi au Canada.  En partenariat avec une équipe d’avocats accrédités en immigration au Canada, DGA offre un accompagnement complet pour toutes démarches administratives et juridiques permettant l'obtention du permis de travail auprès des autorités canadiennes compétentes.
                             </p>
                             <p>
-                                DGA travaille avec des avocats accrédités en immigration au Canada pour offrir un service complet et de qualité à ses clients. Les avocats de DGA peuvent aider les travailleurs étrangers à déterminer le type de permis de travail approprié pour eux en fonction de leur situation personnelle et professionnelle.
+                                Avec une expérience de 20 ans dans le domaine, notre offre de service est complète, de qualité et adaptée à votre situation personnelle et professionnelle. Non seulement nous vous assistons pour l’obtention du permis de travail, mais grâce à notre équipe spécialisée en ressources humaines et en recrutement, nous vous guidons et vous conseillons sur toutes les conditions et opportunités d’emploi au Canada.
                             </p>
                             <p>
-                                Ensuite, DGA assiste les travailleurs étrangers dans la préparation de leur demande de permis de travail, en s'assurant que toutes les informations et documents requis sont complets et en ordre. DGA peut également fournir des conseils sur les options d'emploi disponibles au Canada et sur les conditions de travail dans ce pays.
+                                <ul class="ul-style-2">
+                                    <li>
+                                        Service conseil
+                                    </li>
+                                    <li>
+                                        Assistance juridique et administrative
+                                    </li>
+                                    <li>
+                                        Assistance pour la recherche d’emploi
+                                    </li>
+                                    <li>
+                                        Et plus encore
+                                    </li>
+                                </ul>
+
                             </p>
                         </div>
                         <div class="col-md-6 offset-md-1">
                             <div class="de-images">
-                            <img class="di-big img-fluid" src="{{asset('images/background/visa.jpg')}}" alt="" />
+                            <img class="di-big img-fluid" src="{{asset('images/services/DGA2.jpg')}}" alt="" />
                             </div>
                         </div>
+                    </div>
+                    <div class="row">
+                        <blockquote>
+                            <h4>
+                                Les résidents temporaires et permanents sont en mesure de répondre aux besoins particuliers du marché du travail au Canada et représentent des proportions relativement élevées de la main-d’œuvre dans certains secteurs industriels
+                                <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/organisation/publications-guides/rapport-annuel-parlement-immigration-2022.html#fn3">Note de bas de page</a>. À l’avenir, il faudra plus de résidents temporaires et permanents pour combler les pénuries de main-d’œuvre et contribuer à la prospérité économique du Canada.
+                            </h4>
+                        </blockquote>
                     </div>
                     <section class="pt40 pb40 bg-color text-light">
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
-                                    <h3 class="no-bottom">Inscription en ligne | SOS Hub Canada!</h3>
+                                    <h3 class="no-bottom">Inscription en ligne, veuillez remplir le formulaire!</h3>
                                 </div>
                                 <div class="col-md-4 text-lg-right rtl-lg-left text-sm-center">
-                                    <a href="#" class="btn-custom btn-black light">Suivre le lien</a>
+                                    <a href="{{url('formulaire-preliminaire')}}" class="btn-custom btn-black light">Suivre le lien</a>
                                 </div>
                             </div>
                         </div>
@@ -121,28 +150,51 @@
                             <span class="p-title">Services</span><br>
                             <h2>{{$sujet}}</h2>
                             <p>
-                                Chez DGA International, nous comprenons que le processus de demande de visa peut être complexe et fastidieux, c'est pourquoi nous offrons un service d'aide pour l'obtention du visa touristique. En collaboration avec des avocats accrédités, nous sommes en mesure de fournir une assistance personnalisée à nos clients pour les aider à obtenir leur visa de manière efficace et rapide.                            </p>
-                            <p>
-                                Notre équipe de professionnels expérimentés est à votre disposition pour vous aider à rassembler la documentation nécessaire, à remplir les formulaires de demande de visa et à suivre l'avancement de votre dossier. Nous sommes là pour répondre à toutes vos questions et vous guider tout au long du processus.
+                                Chez DGA International, nous comprenons que le processus pour déposer une demande de visa de visiteur peut être complexe et fastidieux. C'est pourquoi, grâce à nos nombreuses années d’expérience dans le domaine, nous vous procurons un service d'assistance complet pour faciliter vos démarches d'obtention du visa. En collaboration avec notre équipe d’avocats accrédités en immigration au Canada, nous vous offrons un accompagnement personnalisé pour vous aider à obtenir votre visa de manière efficace et dans les meilleurs délais.
                             </p>
                             <p>
-                                Que vous ayez besoin d'un visa pour un voyage d'affaires ou de loisirs, notre service d'aide pour l'obtention du visa touristique peut vous aider à obtenir votre visa dans les délais impartis. Contactez-nous dès aujourd'hui pour discuter de vos besoins et de la manière dont nous pouvons vous aider à obtenir votre visa touristique.
+                                Nous sommes là pour vous guider tout au long du processus et pour répondre à toutes vos questions.
                             </p>
+
                         </div>
                         <div class="col-md-6 offset-md-1">
                             <div class="de-images">
-                            <img class="di-big img-fluid" src="{{asset('images/background/visa.jpg')}}" alt="" />
+                            <img class="di-big img-fluid" src="{{asset('images/services/DGA11.jpg')}}" alt="" />
                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            Que vous ayez besoin d'un visa pour un voyage d'affaires ou de loisir, notre service d'aide pour l'obtention du visa de visiteur est un indispensable pour vous aider à obtenir votre visa dans les délais impartis.
+                        </div>
+                        <div class="col-lg-4">
+                            <ul class="ul-style-2">
+                                <li>
+                                    Séance de consultation
+                                </li>
+                                <li>
+                                    Service conseil
+                                </li>
+                                <li>
+                                    Service d’assistance pour compléter la demande
+                                </li>
+                                <li>
+                                    Assistance juridique et administrative
+                                </li>
+                                <li>
+                                    Et plus encore
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <section class="pt40 pb40 bg-color text-light">
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
-                                    <h3 class="no-bottom">Inscription en ligne | SOS Hub Canada!</h3>
+                                    <h3 class="no-bottom">Inscription en ligne, veuillez remplir le formulaire!</h3>
                                 </div>
                                 <div class="col-md-4 text-lg-right rtl-lg-left text-sm-center">
-                                    <a href="#" class="btn-custom btn-black light">Suivre le lien</a>
+                                    <a href="{{url('formulaire-sejour')}}" class="btn-custom btn-black light">Suivre le lien</a>
                                 </div>
                             </div>
                         </div>
@@ -153,12 +205,18 @@
                             <span class="p-title">Services</span><br>
                             <h2>{{$sujet}}</h2>
                             <p>
-                                DGA accompagne les entreprises africaines dans ces programmes de développement et d’implantation au Canada en offrant des services d’accompagnement personnalisés. Notre équipe, composée d’avocats accrédités en immigration et de conseillers d’affaires, travaille en étroite collaboration avec les entreprises pour les aider à naviguer dans les procédures administratives complexes associées aux programmes de démarrage d’entreprise et d’entrepreneurs au Québec et en Colombie-Britannique. Nous offrons un soutien complet dans toutes les étapes du processus d’immigration, y compris la préparation de la documentation, les entretiens avec les représentants gouvernementaux et les conseils sur les stratégies de financement et d’investissement. Avec notre expertise et notre connaissance approfondie du marché canadien, nous sommes en mesure de fournir un service d’accompagnement professionnel et efficace pour aider les entreprises africaines à réussir leur implantation au Canada.
+                                DGA International offre un service d’assistance personnalisé et ciblé aux entrepreneurs étrangers pour leur permettre d’obtenir la résidence permanente par l’entremise d’un projet d’investissement au Canada.   En collaboration avec une équipe d’avocats accrédités en immigration et de conseillers d’affaires au Canada, DGA vous offre un accompagnement complet pour toutes démarches administratives, légales et juridiques liées au dépôt d’une demande au programme d’immigration d’affaires, vous menant directement à la résidence permanente, et ce sans tracas.
+                            </p>
+                            <p>
+                                Ce programme d’immigration permet aux entrepreneurs et à leurs familles d’obtenir la résidence permanente au Canada, que ce soit par la création de leur propre entreprise (start-up) au Canada ou par l’investissement dans une jeune compagnie (start-up) au Canada.
+                            </p>
+                            <p>
+                                Avec notre expertise et notre connaissance approfondie du marché canadien, nous sommes en mesure de proposer un service professionnel et efficace pour aider les entreprises étrangères à réussir leur implantation au Canada.
                             </p>
                         </div>
                         <div class="col-md-6 offset-md-1">
                             <div class="de-images">
-                            <img class="di-big img-fluid" src="{{asset('images/background/immigration.jpg')}}" alt="" />
+                            <img class="di-big img-fluid" src="{{asset('images/services/DGA5.jpg')}}" alt="" />
                             </div>
                         </div>
                     </div>
@@ -166,10 +224,10 @@
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
-                                    <h3 class="no-bottom">Inscription en ligne | SOS Hub Canada!</h3>
+                                    <h3 class="no-bottom"> Contactez-nous dès aujourd'hui | nous sommes disponible pour vous aider.</h3>
                                 </div>
                                 <div class="col-md-4 text-lg-right rtl-lg-left text-sm-center">
-                                    <a href="#" class="btn-custom btn-black light">Suivre le lien</a>
+                                    <a href="{{url('nous-contacter')}}" class="btn-custom btn-black light">Suivre le lien</a>
                                 </div>
                             </div>
                         </div>
@@ -180,12 +238,15 @@
                             <span class="p-title">Services</span><br>
                             <h2>{{$sujet}}</h2>
                             <p>
-                                Chez DGA International, la sécurité de nos clients est notre priorité absolue. C'est pourquoi nous offrons un service de Back Ground Check pour tous nos clients particuliers ou d'affaires qui souhaitent entreprendre un voyage vers le Canada. Ce service de vérification approfondie des antécédents peut être également offert aux entreprises canadiennes de recrutement et aux cabinets en immigration canadiens qui nous mandatent, afin de valider les informations fournies par leurs clients et assurer la sécurité de tous les intervenants.
+                                Chez DGA International, la transparence, l’exactitude et la vérification des données et des antécédents de nos clients est notre priorité absolue. C’est pourquoi nous offrons un service de vérification des antécédents pour tous nos clients qui souhaitent entreprendre un voyage vers le Canada. Ce service est une valeur ajoutée permettant aux différentes autorités traitant les demandes d’immigration de valider l’exactitude des renseignements des candidats en matière de sécurité et d’application de la loi pour mener des vérifications rigoureuses.
+                            </p>
+                            <p>
+                                Ce service de vérification des antécédents est également offert aux entreprises canadiennes de recrutement et aux cabinets canadiens d’ immigration, afin de valider les informations fournies par leurs clients et assurer la vérification vigoureuse.
                             </p>
                         </div>
                         <div class="col-md-6 offset-md-1">
                             <div class="de-images">
-                            <img class="di-big img-fluid" src="{{asset('images/background/background-check.jpg')}}" alt="" />
+                            <img class="di-big img-fluid" src="{{asset('images/services/DGA3.jpg')}}" alt="" />
                             </div>
                         </div>
                     </div>
@@ -193,10 +254,10 @@
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
-                                    <h3 class="no-bottom">Inscription en ligne | SOS Hub Canada!</h3>
+                                    <h3 class="no-bottom"> Contactez-nous! veuillez remplir le docuùent et nous le soumettre.</h3>
                                 </div>
                                 <div class="col-md-4 text-lg-right rtl-lg-left text-sm-center">
-                                    <a href="#" class="btn-custom btn-black light">Suivre le lien</a>
+                                    <a href="{{url('formulaire-background-check')}}" class="btn-custom btn-black light">Suivre le lien</a>
                                 </div>
                             </div>
                         </div>
@@ -213,7 +274,7 @@
                         </div>
                         <div class="col-md-6 offset-md-1">
                             <div class="de-images">
-                            <img class="di-big img-fluid" src="{{asset('images/background/mission-eco.jpg')}}" alt="" />
+                            <img class="di-big img-fluid" src="{{asset('images/services/mission-eco.jpg')}}" alt="" />
                             </div>
                         </div>
                     </div>
@@ -221,65 +282,101 @@
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
-                                    <h3 class="no-bottom">Inscription en ligne | SOS Hub Canada!</h3>
+                                    <h3 class="no-bottom">Inscription en ligne | remplissez le formulaire pour une prochaine mission</h3>
                                 </div>
                                 <div class="col-md-4 text-lg-right rtl-lg-left text-sm-center">
-                                    <a href="#" class="btn-custom btn-black light">Suivre le lien</a>
+                                    <a href="{{url('formulaire-mission-economique')}}" class="btn-custom btn-black light">Suivre le lien</a>
                                 </div>
                             </div>
                         </div>
                     </section>
 
-                @elseif($slug=="assistance")
-                    <div class="row align-items-center">
-                        <div class="col-md-5">
-                            <span class="p-title">Services</span><br>
-                            <h2>{{$sujet}}</h2>
-                            <p>
-                                En tant qu’entreprise de conciergerie d’affaires de renommée mondiale, DGA International s’engage à offrir des services professionnels de haut calibre pour les entreprises africaines cherchant à développer leur réseau commercial au Canada. Nous mettons en place des missions économiques sur mesure pour nos clients, comprenant des conférences, des ateliers de discussion, des rencontres de réseautage et des séances privatives avec des partenaires potentiels de notre vaste réseau d’entreprises canadiennes de haut niveau. Nous sommes fiers de travailler avec des entreprises africaines pour favoriser le développement de relations commerciales mutuellement bénéfiques avec le Canada. Notre engagement envers l’excellence et la satisfaction de nos clients fait de nous le choix idéal pour toutes les entreprises africaines cherchant à étendre leur portée commerciale à l’échelle internationale.
-                            </p>
-                        </div>
-                        <div class="col-md-6 offset-md-1">
-                            <div class="de-images">
-                            <img class="di-big img-fluid" src="{{asset('images/background/assistance-et-gestion.jpg')}}" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                    <section class="pt40 pb40 bg-color text-light">
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
-                                    <h3 class="no-bottom">Inscription en ligne | SOS Hub Canada!</h3>
-                                </div>
-                                <div class="col-md-4 text-lg-right rtl-lg-left text-sm-center">
-                                    <a href="#" class="btn-custom btn-black light">Suivre le lien</a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+
                 @elseif($slug=="investissement-immobilier")
                     <div class="row align-items-center">
                         <div class="col-md-5">
                             <span class="p-title">Services</span><br>
                             <h2>{{$sujet}}</h2>
                             <p>
-                                La filiale de DGA Internationale, DGA Financement Commercial, est spécialisée dans l’accompagnement des entreprises et particuliers dans le processus de financement pour l’investissement immobilier au Canada. Nous avons une équipe d’experts en immobilier qui analyseront vos besoins pour vous proposer une offre personnalisée et adaptée. En signant un mandat de recherche encadré par les lois canadiennes, nos experts vous mettront en contact avec les banques canadiennes qui sont les seules au monde à financer les investisseurs étrangers pour l’achat d’un bien immobilier au Canada.
+                                Notre équipe d’experts immobilier accrédités est dédié à l’accompagnement d’investisseurs étrangers désirant faire l’acquisition de biens immobiliers au Canada.
                             </p>
                             <p>
-                                Une fois le financement obtenu, vous pourrez enfin réaliser votre projet en signant l’acte notarié. Nous continuerons à vous accompagner sur les aspects fiscaux et patrimoniaux. Faites confiance à DGA Financement Commercial pour vous guider à travers tout le processus de financement et d’investissement immobilier au Canada.
+                                Établi comme le partenaire de confiance par excellence des entrepreneurs et des investisseurs étrangers désirant diversifier leur portefeuille et acquérir un profil international; nos services permettent à nos clients de faire fructifier leurs avoirs de manière sûre et en toute tranquillité d’esprit.
+                            </p>
+                            <p>
+                                DGA International vous offre des services entièrement intégrés incluant l’acquisition d’un bien immobilier, le financement, la gestion locative, la gestion des risques, la planification fiscale et financière dans le cadre des lois canadiennes d’investissement immobilier.
+
                             </p>
                         </div>
                         <div class="col-md-6 offset-md-1">
                             <div class="de-images">
-                            <img class="di-big img-fluid" src="{{asset('images/background/immobilier.jpg')}}" alt="" />
+                            <img class="di-big img-fluid" src="{{asset('images/services/DGA12.jpg')}}" alt="" />
                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            Ainsi, nous offrons une prise en charge complète avec plusieurs approches novatrices et centrées sur les besoins spécifiques de notre clientèle.
+                            <br>
+                            Au cours des 10 dernières années, notre équipe à permis à une multitude d’investisseurs de bénéficier du programme de financement et d’investissement pour les investisseurs étrangers offrant une multitude d’avantage au même titre qu’un investisseur canadien.
+                            <ul class="ul-style-2">
+                                <li>
+                                    Représentation locale
+                                </li>
+                                <li>
+                                    Présentation d’opportunités d’investissements
+                                </li>
+                                <li>
+                                    Accompagnement au niveau transactionnel
+                                </li>
+                                <li>
+                                    Gestion administrative et financière de biens immobiliers
+                                </li>
+                                <li>
+                                    Fiscalité immobilière et internationale
+                                </li>
+                                <li>
+                                    Programme immigrant-investisseur (en partenariat)
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-5">
+                            <ul class="ul-style-2 mt-3">
+
+                                <li>
+                                    Solution de protection d’actifs Optimisation du crédit
+                                </li>
+                                <li>
+                                    Analyse de rentabilités d’immeubles et potentiel d’investissement Conseils en matière de structures corporatives de détention
+                                </li>
+                                <li>
+                                    Consultation en gestion de risques
+                                </li>
+                                <li>
+                                    Financement immobilier
+                                </li>
+                                <li>
+                                    Structure financière de partenariats entre investisseurs
+                                </li>
+
+                                <li>
+                                    Gestion immobilière courante
+                                </li>
+                                <li>
+                                    Gestion de projets dans le cadre d’optimisations et de travaux sur l’immeuble
+                                </li>
+                                <li>
+                                    Programme d’entretien et de gestion opérationnelle d’immeubles
+                                </li>
+
+                            </ul>
                         </div>
                     </div>
                     <section class="pt40 pb40 bg-color text-light">
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
-                                    <h3 class="no-bottom">Inscription en ligne | SOS Hub Canada!</h3>
+                                    <h3 class="no-bottom"> Contactez-nous dès aujourd'hui | nous sommes disponible pour vous aider.</h3>
                                 </div>
                                 <div class="col-md-4 text-lg-right rtl-lg-left text-sm-center">
                                     <a href="#" class="btn-custom btn-black light">Suivre le lien</a>
@@ -293,21 +390,64 @@
                             <span class="p-title">Services</span><br>
                             <h2>{{$sujet}}</h2>
                             <p>
-                                Le service d’organisation de missions économiques offert par DGA International est destiné aux entreprises qui souhaitent explorer les opportunités commerciales en Côte d’Ivoire. Notre équipe se charge de toute l’organisation de votre voyage d’affaires, y compris la réservation de vos billets d’avion, l’hébergement et la planification de vos rendez-vous d’affaires avec des partenaires locaux.
+                                Depuis plusieurs années, l’équipe de DGA International organise des missions économiques pour les entreprises désireuses d’explorer de nouvelles opportunités d’affaires en Côte d’Ivoire.
                             </p>
                             <p>
-                                Nous travaillons en étroite collaboration avec les entreprises pour comprendre leurs besoins et leurs objectifs commerciaux, et nous planifions ensuite la mission en conséquence. Nous nous occupons de tous les détails logistiques pour que vous puissiez vous concentrer sur l’essentiel, à savoir développer votre entreprise.
+                                Nous travaillons en étroite collaboration avec les entrepreneurs et chef d’entreprise pour comprendre leurs besoins et leurs d’affaires, pour ensuite planifier la mission en conséquence et sur mesure.
                             </p>
                             <p>
-                                Nos experts locaux sont là pour vous accompagner tout au long de votre mission économique en Côte d’Ivoire et vous donneront des conseils précieux sur le marché local. Nous pouvons également organiser des visites de sites industriels et commerciaux pour vous permettre de découvrir les différentes opportunités d’affaires offertes par le pays.
-                            </p>
-                            <p>
-                                En optant pour notre service d’organisation de missions économiques, vous bénéficierez d’une approche personnalisée et adaptée à vos besoins, ainsi que d’un réseau de contacts locaux bien établi pour vous aider à réussir sur le marché ivoirien.
+                                Notre équipe d’experts locaux est là pour vous accompagner tout au long de votre mission économique en Côte d’Ivoire et vous donnera de précieux conseils sur les différentes dynamiques du marché local.
                             </p>
                         </div>
                         <div class="col-md-6 offset-md-1">
                             <div class="de-images">
-                            <img class="di-big img-fluid" src="{{asset('images/background/mission-eco.jpg')}}" alt="" />
+                            <img class="di-big img-fluid" src="{{asset('images/services/mission-eco.jpg')}}" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            Nous nous occupons de tous les détails logistiques de votre pour que vous puissiez vous concentrer sur l’essentiel, à savoir concrétiser de nouvelles opportunités d’affaires.
+                            <br>
+                            Nos services de conciergerie d’affaires couvrent tous les aspects de l’organisation de votre voyage d’affaires :
+                            <ul class="ul-style-2">
+                                <li>
+                                    Demande de visa
+                                </li>
+                                <li>
+                                    Réservation de vol
+                                </li>
+                                <li>
+                                    Transfert et transport privé
+                                </li>
+                                <li>
+                                    Réservation d’hôtel
+                                </li>
+                                <li>
+                                    Gestion de votre agenda
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul class="ul-style-2 mt-4">
+                                <li>
+                                    Planification des rencontres d’affaires avec des partenaires locaux
+                                </li>
+                                <li>
+                                    Présentation d’opportunités d’affaires
+                                </li>
+                                <li>
+                                    Visite d’entreprises
+                                </li>
+                                <li>
+                                    Et plus encore
+                                </li>
+                            </ul>
+                            <div class="row">
+                                <div class="col-lg-12 mx-auto">
+                                    En optant pour notre service d’organisation de missions économiques, vous bénéficierez d’une approche personnalisée et adaptée à vos besoins, ainsi que d’un réseau de contacts locaux bien établi pour vous aider à réussir sur le marché ivoirien.
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -315,10 +455,10 @@
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
-                                    <h3 class="no-bottom">Inscription en ligne | SOS Hub Canada!</h3>
+                                    <h3 class="no-bottom">Inscrivez-vous pour la prochaine mission économique vers la Côte d’Ivoire</h3>
                                 </div>
                                 <div class="col-md-4 text-lg-right rtl-lg-left text-sm-center">
-                                    <a href="#" class="btn-custom btn-black light">Suivre le lien</a>
+                                    <a href="{{url('formulaire-mission-economique')}}" class="btn-custom btn-black light">Suivre le lien</a>
                                 </div>
                             </div>
                         </div>
@@ -329,23 +469,52 @@
                             <span class="p-title">Services</span><br>
                             <h2>{{$sujet}}</h2>
                             <p>
-                                Lorsque vous décidez de créer une entreprise en Côte d’Ivoire, vous êtes confronté à de nombreuses formalités administratives et juridiques. Cela peut s’avérer difficile et fastidieux pour les nouveaux entrepreneurs, surtout s’ils sont étrangers. C’est pourquoi DGA International offre une assistance pour la création d’entreprise en Côte d’Ivoire, y compris les formalités administratives et juridiques. Nous pouvons vous guider tout au long du processus, en veillant à ce que toutes les exigences légales soient respectées, afin que vous puissiez vous concentrer sur le développement de votre entreprise. Nous pouvons également vous aider à trouver des partenaires locaux et à établir des contacts utiles pour votre entreprise. Avec notre aide, votre entreprise sera prête à réussir sur le marché ivoirien.
+                                Vous désirez créer une entreprise en Côte d’Ivoire? Si c’est le cas, vous pourrez être confronté à de nombreuses formalités administratives et juridiques. En effet établir une société dans un nouveau pays peut s’avérer complexe et fastidieux pour tout entrepreneur étranger qui n’est pas familier aux normes et législations locales.
+                            </p>
+                            <p>
+                                C’est pourquoi DGA International vous offre un service d’assistance pour la création d’une entreprise en Côte d’Ivoire, y compris les formalités administratives et juridiques. Grâce à notre équipe d’experts, nous pouvons vous guider tout au long du processus en veillant à ce que toutes les exigences légales soient respectées.
                             </p>
                         </div>
                         <div class="col-md-6 offset-md-1">
                             <div class="de-images">
-                            <img class="di-big img-fluid" src="{{asset('images/background/assistance-creation-entreprise.jpg')}}" alt="" />
+                            <img class="di-big img-fluid" src="{{asset('images/services/DGA15.jpg')}}" alt="" />
                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            Pendant que vous vous concentrez sur le développement de votre entreprise et nous nous occupons de toutes les autres formalités.
+                            <br>
+                            Avec notre aide, votre entreprise aura du succès sur le marché ivoirien.
+                        </div>
+                        <div class="col-lg-6">
+                            <ul class="ul-style-2">
+                                <li>
+                                    Service conseil
+                                </li>
+                                <li>
+                                    Assistance juridique et administrative
+                                </li>
+                                <li>
+                                    Assistance pour l’enregistrement d’une entreprise
+                                </li>
+                                <li>
+                                    Mise en relation avec des partenaires locaux
+                                </li>
+                                <li>
+                                    Et plus encore
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <section class="pt40 pb40 bg-color text-light">
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
-                                    <h3 class="no-bottom">Inscription en ligne | SOS Hub Canada!</h3>
+                                    <h3 class="no-bottom"> Contactez-nous dès aujourd'hui | nous sommes disponible pour vous aider</h3>
                                 </div>
                                 <div class="col-md-4 text-lg-right rtl-lg-left text-sm-center">
-                                    <a href="#" class="btn-custom btn-black light">Suivre le lien</a>
+                                    <a href="{{url('nous-contacter')}}" class="btn-custom btn-black light">Suivre le lien</a>
                                 </div>
                             </div>
                         </div>
@@ -356,12 +525,21 @@
                             <span class="p-title">Services</span><br>
                             <h2>{{$sujet}}</h2>
                             <p>
-                                Le service d’assistance à l’installation proposé par DGA International permet d’accompagner les particuliers dans leur processus d’installation en Côte d’Ivoire. Cette prestation inclut une aide à la recherche d’un logement correspondant aux besoins et aux attentes de chaque individu, ainsi que la mise en place des services de base tels que l’électricité, l’eau, internet et la téléphonie. L’objectif est de faciliter au maximum la transition des personnes qui s’installent en Côte d’Ivoire en leur permettant d’avoir accès rapidement aux services essentiels à leur vie quotidienne. Les experts de DGA International sont à l’écoute des besoins et des contraintes de chacun pour proposer une solution adaptée et sur mesure.
+                                DGA International vous permet d’avoir l’esprit tranquille dans votre processus d’installation en Côte d’Ivoire en vous offrant un service d’accompagnement complet et sur mesure.
+                            </p>
+                            <p>
+                                Nous facilitons votre installation et votre transition vers un nouveau pays en vous donnant tout le support nécessaire pour cette nouvelle étape importante de votre vie.
+                            </p>
+                            <p>
+                                Notre équipe d'experts vous accompagne de A à Z, en passant par la recherche d’un logement, les visites, la négociation des différents contrats, ainsi que la mise en place des services de base tels que l’électricité, l’eau, l’internet et le service de téléphonie.
+                            </p>
+                            <p>
+                                Notre objectif ultime est de faciliter au maximum votre transition en Côte d’Ivoire en vous permettant d’avoir accès rapidement aux services essentiels à votre vie quotidienne. Que ce soit la recherche d’une école pour vos enfants, le recrutement de personnel de maison, nous sommes là pour vous!
                             </p>
                         </div>
                         <div class="col-md-6 offset-md-1">
                             <div class="de-images">
-                            <img class="di-big img-fluid" src="{{asset('images/background/service-assistance.jpg')}}" alt="" />
+                            <img class="di-big img-fluid" src="{{asset('images/services/DGA1.jpg')}}" alt="" />
                             </div>
                         </div>
                     </div>
@@ -369,10 +547,10 @@
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
-                                    <h3 class="no-bottom">Inscription en ligne | SOS Hub Canada!</h3>
+                                    <h3 class="no-bottom"> Contactez-nous dès aujourd'hui | nous sommes disponible pour vous aider.</h3>
                                 </div>
                                 <div class="col-md-4 text-lg-right rtl-lg-left text-sm-center">
-                                    <a href="#" class="btn-custom btn-black light">Suivre le lien</a>
+                                    <a href="{{url('nous-contacter')}}" class="btn-custom btn-black light">Suivre le lien</a>
                                 </div>
                             </div>
                         </div>
@@ -388,7 +566,7 @@
                         </div>
                         <div class="col-md-6 offset-md-1">
                             <div class="de-images">
-                            <img class="di-big img-fluid" src="{{asset('images/background/tourisme-decouverte.jpg')}}" alt="" />
+                            <img class="di-big img-fluid" src="{{asset('images/services/DGA4.jpg')}}" alt="" />
                             </div>
                         </div>
                     </div>
@@ -399,7 +577,7 @@
                                     <h3 class="no-bottom">Inscription en ligne | SOS Hub Canada!</h3>
                                 </div>
                                 <div class="col-md-4 text-lg-right rtl-lg-left text-sm-center">
-                                    <a href="#" class="btn-custom btn-black light">Suivre le lien</a>
+                                    <a href="{{url('nous-contacter')}}" class="btn-custom btn-black light">Suivre le lien</a>
                                 </div>
                             </div>
                         </div>
@@ -443,58 +621,22 @@
                 <div class="row align-items-center">
                     <div class="col-lg-4 col-md-12 wow fadeInRight" data-wow-delay=".2s">
                         <div class="de_count ultra-big s2 text-center">
-                            <h3 class="timer" data-to="15" data-speed="1000">15</h3>
+                            <h3 class="timer id-color" data-to="15" data-speed="1000">15</h3>
                             <span class="id-color">Années d'Expérience</span>
                         </div>
                     </div>
                     <div class="col-lg-4 p-lg-5  mb-sm-30 wow fadeInRight" data-wow-delay=".4s">
-                        <span class="p-title">Effectivement</span><br>
                         <h2>DGA International est votre Meilleur Partenaire</h2>
                     </div>
                     <div class="col-lg-4 wow fadeInRight" data-wow-delay=".6s">
                         <p>
-                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                            DGA International est votre partenaire de confiance pour tous vos besoins en matière de conciergerie.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        {{-- <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature-box f-boxed style-3 text-center">
-                            <i class="id-color icofont-letter"></i>
-                            <div class="text">
-                                <h4>Request Quote</h4>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
-                            </div>
-                            <i class="wm icofont-letter"></i>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature-box f-boxed style-3 text-center">
-                            <i class="id-color icofont-investigation"></i>
-                            <div class="text">
-                                <h4>Investigation</h4>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
-                            </div>
-                            <i class="wm icofont-investigation"></i>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature-box f-boxed style-3 text-center">
-                            <i class="id-color icofont-hand-power"></i>
-                            <div class="text">
-                                <h4>Case Fight</h4>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
-                            </div>
-                            <i class="wm icofont-hand-power"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
+
     </div>
     <!-- content close -->
 

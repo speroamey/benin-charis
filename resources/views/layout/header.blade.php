@@ -3,7 +3,7 @@
         <div class="topbar-left sm-hide">
             <span class="topbar-widget tb-social">
                 <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
                 <a href="#"><i class="fa fa-instagram"></i></a>
             </span>
         </div>
@@ -17,25 +17,30 @@
         <div class="clearfix"></div>
     </div>
 </div>
-<header class="transparent  navbar navbar-expand-lg">
+<header class="transparent ">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="de-flex sm-pt1">
                     <div class="de-flex-col">
                         <!-- logo begin -->
-                        <div id="logo">
-                            <a href="index.html">
-                                <a href="{{url('/')}}"> <img alt="" class="logo" src="{{asset('images/logo-light.png')}}" width="150" /></a>
-                                <a href="{{url('/')}}"> <img alt="" class="logo-2" src="{{asset('images/logo.png')}}" width="150" /></a>
-                            </a>
-                        </div>
+                                <a href="{{url('/')}}"> <img alt="" class="logo" src="{{asset('images/logo.png')}}" width="150" /></a>
+                                <a href="{{url('/')}}"> <img alt="" class="logo-2" src="{{asset('images/logo-light.png')}}" width="150" /></a>
                         <!-- logo close -->
                     </div>
                     <div class="de-flex-col header-col-mid">
                         <!-- mainmenu begin -->
                         <ul id="mainmenu">
-                            <li><a href="{{url('/')}}">Accueil</a></li>
+                            <li><a href="{{url('/')}}">Accueil</a>
+                                <ul>
+                                    <li><a href="{{url('/#qui-sommes-nous')}}">Qui sommes-nous?</a></li>
+                                    <li><a href="{{url('/#notre-mission')}}">Notre mission</a></li>
+                                    <li><a href="{{url('/#nos-valeurs')}}">Nos valeurs</a></li>
+                                    <li><a href="{{url('/#nos-forces')}}">Nos forces</a></li>
+                                    <li><a href="{{url('/#nos-services')}}">Nos services</a></li>
+
+                                </ul>
+                            </li>
                             <li><a href="">Conciergerie</a>
                                 <ul>
                                     <li><a href="{{url('/conciergerie-d-entreprise')}}">Conciergerie d'entreprise</a></li>
@@ -50,7 +55,7 @@
                                     <li><a href="{{route('services','immigration-pour-entreprise')}}">Immigration d’affaires</a></li>
                                     <li><a href="{{route('services','service-de-Background-check')}}">Service de vérification des antécédents</a></li>
                                     <li><a href="{{route('services','mission-economique')}}">Organisation de missions économiques</a></li>
-                                    <li><a href="{{route('services','assistance')}}" >Service d’assistance & installation</a></li>
+                                    {{-- <li><a href="{{route('services','assistance')}}" >Service d’assistance & installation</a></li> --}}
                                     <li><a href="{{route('services','investissement-immobilier')}}" >Investissement Immobilier</a></li>
                                 </ul>
                             </li>
@@ -62,21 +67,14 @@
                                     <li><a href="{{route('services','service-tourisme-decouverte')}}" >Service de tourisme</a></li>
                                 </ul>
                             </li>
-
-
-
-                            {{-- <li> <a href="#">À Propos</a>
-
-                            </li> --}}
-
                         </ul>
                         <!-- mainmenu close -->
                     </div>
 
                     <div class="de-flex-col">
-                        <div class="h-phone md-hide"><span>Prenez rendez-vous</span><i
-                                class="fa fa-phonee"></i><a href="tel: +225 07 89 71 64 24" class="text-white"> +225 07 89 71 64
-                                24</a> </div>
+                        <div class="h-phone md-hide"><span>Prendre rendez-vous</span><i
+                                class="fa fa-phonee"></i><a href="tel: +225 07 79 60 24 37" class="text-white"> +225 07 79 60 24 37
+                                </a> </div>
                         <span id="menu-btn"></span>
                     </div>
                 </div>

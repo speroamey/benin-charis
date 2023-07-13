@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\FormController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\NotificationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,7 +23,7 @@ Route::get('/', function () {
         ['id'=>'1','name'=>'Cocody','latitude'=>'','longitude'=>''],
 );
     return view('pages.welcome',compact('agencies'));
-});
+})->name('home');
 Route::get('/a-propos-de-nous', function () {
     return view('pages.about');
 });
@@ -30,57 +32,57 @@ Route::get('/faq', function () {
 });
 Route::get('/conciergerie-d-entreprise', function () {
     return view('pages.conciergerie-d-entreprise');
-});
+})->name('conciergerie-d-entreprise');
 Route::get('/conciergerie-de-particulier', function () {
     return view('pages.conciergerie-de-particulier');
-});
+})->name('conciergerie-de-particulier');
 Route::get('/services/{slug}', function ($slug) {
     $sujet="";
     switch ($slug) {
         case 'visa-d-etude':
-            $sujet="Aide pour l’obtention du visa d’étude";
+            $sujet="Étudier au Canada";
             break;
         case 'visa-de-travail':
-            $sujet="Aide pour l’obtention du visa de travail";
+            $sujet="Travailler au Canada";
             break;
         case 'visa-tourisme':
-            $sujet="Aide pour l’obtention du visa touriste";
+            $sujet="Visiter le Canada";
             break;
 
         case 'immigration-pour-entreprise':
-            $sujet="Immigration pour entreprise";
+            $sujet="Immigration d'affaire";
             break;
 
         case 'service-de-Background-check':
-            $sujet ="Service de Back Ground Check";
+            $sujet ="Service de vérification d'antécédants";
             break;
 
         case 'mission-economique':
-            $sujet ="Mission économique";
+            $sujet ="Organisation de mission économique";
             break;
 
-        case 'assistance':
-            $sujet ="Assistance pour l'ouverture de comptes bancaires et la gestion financière lors de l'installation au Canada";
-            break;
+        // case 'assistance':
+        //     $sujet ="Assistance pour l'ouverture de comptes bancaires et la gestion financière lors de l'installation au Canada";
+        //     break;
 
         case 'investissement-immobilier':
-            $sujet ="Accompagnement dans l’investissement immobilier au Canada";
+            $sujet ="Investissement immobilier";
             break;
 
         case 'organisation-de-mission-economique':
-            $sujet ="Organisation de missions économiques pour les entreprises désireuses d’explorer les opportunités commerciales en Côte d’Ivoire";
+            $sujet ="Organisation de missions économiques";
             break;
 
         case 'assistance-création-d-entreprise':
-            $sujet ="Assistance pour la création d’entreprise en Côte d’Ivoire, y compris les formalités administratives et juridiques.";
+            $sujet ="Assistance pour création d’entreprise";
             break;
 
         case 'service-assistance-installation':
-            $sujet ="Service d’assistance à l’installation, y compris l’aide à la recherche d’un logement et à la mise en place des services de base.";
+            $sujet ="Service d’assistance & Installation";
             break;
 
         case 'service-tourisme-decouverte':
-            $sujet ="Service de tourisme et de découverte du pays, y compris l’organisation de circuits touristiques personnalisés et l’assistance dans les réservations de voyages et d’hébergement";
+            $sujet ="Service de tourisme";
             break;
 
         default:
@@ -90,36 +92,27 @@ Route::get('/services/{slug}', function ($slug) {
     return view('pages.services')->with('slug',$slug)->with('sujet',$sujet);
 })->name('services');
 
-// Route::get('/secteurs/{slug}', function ($slug) {
-//     $sujet="";
-//     switch ($slug) {
-//         case 'agency-banking-solution-pour-une-inclusion-financière':
-//             $sujet="Agency Banking solution pour une inclusion  financière";
-//             break;
-//         case 'Telecommunication':
-//             $sujet="Télécommunication";
-//             break;
-//         case 'energie-ressource-produits-industriels':
-//             $sujet="Énergie, ressources & produits industriels ";
-//             break;
 
-//         case 'Batiments-et-travaux-publique':
-//             $sujet="Bâtiments et Travaux Publique BTP";
-//             break;
-//         case 'immobilier':
-//             $sujet ="Immobilier";
-//             break;
-
-//         default:
-//             # code...
-//             break;
-//     }
-//     return view('pages.secteurs')->with('slug',$slug)->with('sujet',$sujet);
-// })->name('secteurs');
 
 Route::get('/nous-contacter', function () {
     return view('pages.contact-us');
 });
+
+// Route::get('/mail', function () {
+//     $details=array(
+//         'fullname'=>'test',
+//         'phone'=>'61 72 51 34'
+
+// );
+//     return view('email.sejour', compact('details'));
+// });
+
+Route::post('/contact',  [NotificationController::class, 'contact'])->name('contact');
+
+Route::get('/formulaire-preliminaire',  [FormController::class, 'formPreliminaire']);
+Route::get('/formulaire-sejour',  [FormController::class, 'formSejour']);
+Route::get('/formulaire-mission-economique',  [FormController::class, 'formMissionEconomique']);
+Route::get('/formulaire-background-check',  [FormController::class, 'formBackgroundCheck']);
 
 Route::get('/blog/{title}', function ($title) {
     $sujet="";

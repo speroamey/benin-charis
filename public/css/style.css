@@ -88,7 +88,7 @@ body {
     font-family: "Jost", Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: #606060;
+    color:  #1f1c1c /* #606060; */
     line-height: 1.8em;
     padding: 0;
     display: none;
@@ -3097,7 +3097,7 @@ hr {
     box-shadow: none;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
-    color: #fff;
+    color: #000;
 }
 
 .form-border input[type=text]:focus,
@@ -3105,7 +3105,7 @@ hr {
 .form-underline input[type=email]:focus,
 .form-border select:focus {
     background: rgba(255, 255, 255, .3);
-    color: #fff;
+    color: #313030;
 }
 
 .form-subscribe {

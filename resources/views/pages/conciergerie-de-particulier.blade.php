@@ -15,11 +15,13 @@
             <!-- <img src="images/background/subheader3.jpg" class="jarallax-img" alt=""> -->
             <div class="center-y relative text-center">
                 <div class="container">
-                    <div class="row">
+                    <div class="row align-items-center">
                         <div class="col text-center">
                             <div class="spacer-single"></div>
-                            <h1>Conciergerie de particulier</h1>
-                            {{-- <p>Réputation. Respect. Resultat.</p> --}}
+                            {{-- <h1>Conciergerie de particulier</h1> --}}
+                            <div class="col-md-5 mb-sm-30 text-lg-center text-sm-center mx-auto my-aut"  data-bgcolor="#ffb000">
+                                <h2 class="no-bottom">Conciergerie de particulier</h2>
+                            </div>
                         </div>
                         <div class="clearfix"></div>
                     </div>
@@ -41,7 +43,7 @@
                         </p>
                         <div class="row">
                             <div class="col-lg-6">
-                                <ul>
+                                <ul class="ul-style-2">
                                     <li>Réservation de vol</li>
                                     <li>Réservation d’hôtel</li>
                                     <li>Locations de voiture</li>
@@ -61,7 +63,7 @@
                                 </ul>
                             </div>
                             <div class="col-lg-6">
-                                <ul>
+                                <ul class="ul-style-2">
                                     <li>
                                         Assistance à l’obtention de visa de tourisme, permis de travail, permis d’études
                                     </li>
@@ -89,7 +91,7 @@
                                 <img class="di-small-2" src="images/background/52.png" alt="" />
                             </div> --}}
                             {{-- <img class="di-small-2" src="images/background/52.png" alt="" /> --}}
-                            <img class="di-big img-fluid" src="images/background/conciergerie2.jpg" alt="" />
+                            <img class="di-big img-fluid" src="images/services/DGA1.jpg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -156,17 +158,16 @@
                 <div class="row align-items-center">
                     <div class="col-lg-4 col-md-12 wow fadeInRight" data-wow-delay=".2s">
                         <div class="de_count ultra-big s2 text-center">
-                            <h3 class="timer" data-to="15" data-speed="1000">15</h3>
+                            <h3 class="timer id-color" data-to="15" data-speed="1000">15</h3>
                             <span class="id-color">Années d'Expérience</span>
                         </div>
                     </div>
                     <div class="col-lg-4 p-lg-5  mb-sm-30 wow fadeInRight" data-wow-delay=".4s">
-                        <span class="p-title">Effectivement</span><br>
                         <h2>DGA International est votre Meilleur Partenaire</h2>
                     </div>
                     <div class="col-lg-4 wow fadeInRight" data-wow-delay=".6s">
                         <p>
-                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                            DGA International est votre partenaire de confiance pour tous vos besoins en matière de conciergerie.
                         </p>
                     </div>
                 </div>

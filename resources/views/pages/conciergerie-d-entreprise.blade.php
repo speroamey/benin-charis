@@ -18,7 +18,10 @@
                     <div class="row">
                         <div class="col text-center">
                             <div class="spacer-single"></div>
-                            <h1>Conciergerie d'entreprise</h1>
+                            {{-- <h1>Conciergerie d'entreprise</h1> --}}
+                            <div class="col-md-5 mb-sm-30 text-lg-center text-sm-center mx-auto my-aut"  data-bgcolor="#ffb000">
+                                <h2 class="no-bottom">Conciergerie d'entreprise</h2>
+                            </div>
                             {{-- <p>Réputation. Respect. Resultat.</p> --}}
                         </div>
                         <div class="clearfix"></div>
@@ -53,7 +56,7 @@
                                 <img class="di-small-2" src="images/background/52.png" alt="" />
                             </div> --}}
                             {{-- <img class="di-small-2" src="images/background/52.png" alt="" /> --}}
-                            <img class="di-big img-fluid" src="images/background/conciergerie.jpg" alt="" />
+                            <img class="di-big img-fluid" src="images/services/DGA13.jpg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -68,13 +71,16 @@
                         <p>
                             Dans le cadre de vos voyages d’affaires, nous coordonnons et organisons tous vos déplacements professionnels en mettant à votre disposition un service d’assistance personnalisé.
                         </p>
+                        <p>
+                            L’objectif ultime de l’équipe de DGA est d’offrir à votre entreprise un soutien complet pour vous aider à prospérer, tout en vous permettant de vous concentrer sur votre cœur de métier.
+                        </p>
 
 
                     </div>
                     <div class="col-lg-6">
                         <p>
                             En effet, nous prenons soin de toutes vos réservations et de votre agenda :
-                            <ul>
+                            <ul class="ul-style-2">
                                 <li>
                                     Réservation d’hôtel
                                 </li>
@@ -94,7 +100,6 @@
                                     Et bien plus encore
                                 </li>
                             </ul>
-                            L’objectif ultime de l’équipe de DGA est d’offrir à votre entreprise un soutien complet pour vous aider à prospérer, tout en vous permettant de vous concentrer sur votre cœur de métier.
 
 
                         </p>
@@ -135,17 +140,16 @@
                 <div class="row align-items-center">
                     <div class="col-lg-4 col-md-12 wow fadeInRight" data-wow-delay=".2s">
                         <div class="de_count ultra-big s2 text-center">
-                            <h3 class="timer" data-to="15" data-speed="1000">15</h3>
+                            <h3 class="timer id-color" data-to="15" data-speed="1000">15</h3>
                             <span class="id-color">Années d'Expérience</span>
                         </div>
                     </div>
                     <div class="col-lg-4 p-lg-5  mb-sm-30 wow fadeInRight" data-wow-delay=".4s">
-                        <span class="p-title">Effectivement</span><br>
                         <h2>DGA International est votre Meilleur Partenaire</h2>
                     </div>
                     <div class="col-lg-4 wow fadeInRight" data-wow-delay=".6s">
                         <p>
-                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                            DGA International est votre partenaire de confiance pour tous vos besoins en matière de conciergerie.
                         </p>
                     </div>
                 </div>
