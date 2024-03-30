@@ -11,8 +11,15 @@
                     <address class="s1">
                         <span><i class="id-color fa fa-map-marker fa-lg"></i>Riviéra 3, Abidjan, Côte
                             d'Ivoire</span>
-                        <span><i class="id-color fa fa-phone fa-lg"></i>(+225) 07 79 60 24 37</span>
-                        <span><i class="id-color fa fa-phone fa-lg"></i>+1 514 348 8985</span>
+                        <span><i class="id-color fa fa-phone fa-lg"></i> <a href="tel:(+225) 07 79 60 24 37">(+225) 07 79 60 24 37</a> </span>
+                        {{-- <span><i class="id-color fa fa-phone fa-lg"></i>+1 514 348 8985</span> --}}
+
+                        <span><i class="id-color fa fa-map-marker fa-lg"></i>
+                                3700 rue Griffith, suite 351
+                            Saint-Laurent, Québec, H4T 2B3
+                        </span>
+                        <span><i class="id-color fa fa-phone fa-lg"></i> <a href="tel:(+1) 438-800-4399">(+1) 438-800-4399</a> </span>
+
                         <span><i class="id-color fa fa-envelope-o fa-lg"></i><a
                                 href="mailto:contact@example.com">info@dgainternational.ca</a></span>
                         <!-- <span><i class="id-color fa fa-file-pdf-o fa-lg"></i><a href="#">info@lajoyconsulting.com</a></span> -->
@@ -23,7 +30,7 @@
                 <h5 class="id-color mb20">Liens utiles</h5>
                 <ul class="ul-style-2">
                     <li>Qui sommes-nous?</li>
-                    <li>Conciergrie d'entreprise</li>
+                    <li>Conciergrie d'affaires</li>
                     <li>Conciergerie de particulier</li>
                     <li>Destination Côte d'ivoire</li>
                     <li>Destination Canada</li>
@@ -32,7 +39,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="widget">
-                    <h5 class="id-color">Newsletter</h5>
+                    <h5 class="id-color">Infolettre</h5>
                     <p>Inscrivez-vous à notre infolettre pour recevoir les dernières nouvelles et offres par courriel
                     </p>
                     <form action="blank.php" class="row" id="form_subscribe" method="post"
@@ -45,6 +52,8 @@
                             <div class="clearfix"></div>
                         </div>
                     </form>
+                    <p>Vous consentez à ce que nous ajoutons votre courriel à notre liste d’envoi.</p>
+
                     <div class="spacer-10"></div>
                     {{-- <small>Votre e-mail est en sécurité avec nous. Nous ne spammons pas.</small> --}}
                 </div>
@@ -61,9 +70,9 @@
                         </div>
                         <div class="de-flex-col">
                             <div class="social-icons">
-                                <a href="https://www.facebook.com/dgainternational"><i class="fa fa-facebook fa-lg"></i></a>
-                                <a href="https://www.linkedin.com/dgainternational"><i class="fa fa-linkedin fa-lg"></i></a>
-                                <a href="https://www.linkedin.com/company/dgainternational"><i class="fa fa-linkedin fa-lg"></i></a>
+                                <a href="https://www.facebook.com/dgainternaionalltee?mibextid=ZbWKwL"><i class="fa fa-facebook fa-lg"></i></a>
+                                <a href="https://www.linkedin.com/company/dga-international/"><i class="fa fa-linkedin fa-lg"></i></a>
+                                <a href="https://instagram.com/dgainternational?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa fa-instagram fa-lg"></i></a>
                             </div>
                         </div>
                     </div>

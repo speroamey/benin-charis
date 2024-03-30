@@ -2,9 +2,6 @@
 
 @extends('layout.master')
 
-{{-- @section('header-banner')
-    @include('layout.landing.header-banner')
-@endsection --}}
 
 @section('page-content')
     <!-- content begin -->
@@ -16,7 +13,7 @@
                 <ul>
                     <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-thumb="">
                         <!--  BACKGROUND IMAGE -->
-                        <img alt="" class="rev-slidebg" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" src="images/background/RX3.jpg">
+                        <img alt="" class="rev-slidebg" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" src="images/background/Banner-web.jpg">
                         {{-- <div class="tp-caption big-s1" data-x="0" data-y="230" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on">
                             <h3 class="id-color"></h3>
                         </div> --}}
@@ -33,46 +30,24 @@
 
                     <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-thumb="">
                         <!--  BACKGROUND IMAGE -->
-                        <img alt="" class="rev-slidebg" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" src="images/background/RX1.jpg">
+                        <img alt="" class="rev-slidebg" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" src="images/background/Banner-web-2.jpg">
                         {{-- <div class="tp-caption big-s1" data-x="0" data-y="230" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on">
                             <h3 class="id-color"></h3>
                         </div> --}}
                         <div class="tp-caption very-big-white" data-x="0" data-y="280" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:400;e:Power2.easeInOut;" data-start="600" data-splitin="none" data-splitout="none" data-responsive_offset="on">
-                            <h1>Immigrer Au Canada</h1>
+                            <h1>Assistance Intégration</h1>
                         </div>
                         <div class="tp-caption" data-x="0" data-y="360" data-width="480" data-height="none" data-whitespace="wrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:600;e:Power2.easeInOut;" data-start="700">
-                            <p class="lead xs-hide">Devenez un résident permanent canadien : laissez-nous vous accompagner dans tout le processus grâce
-                                à notre équipe d’avocats en immigration certifiée.</p>
+                            <p class="lead xs-hide">Laissez-nous vous accompagner dans votre intégration au Canada.</p>
                         </div>
                         <div class="tp-caption" data-x="0" data-y="450" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:800;e:Power2.easeInOut;" data-start="800">
                             <a class="btn-custom" href="{{url('nous-contacter')}}">Contactez-nous</a>
                         </div>
                     </li>
 
-
-
                     <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-thumb="">
                         <!--  BACKGROUND IMAGE -->
-                        <img alt="" class="rev-slidebg" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" src="images/background/RX22.jpg">
-                        {{-- <div class="tp-caption big-s1" data-x="0" data-y="230" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on">
-                            <h3 class="id-color"></h3>
-                        </div> --}}
-                        <div class="tp-caption very-big-white" data-x="0" data-y="300" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:400;e:Power2.easeInOut;" data-start="600" data-splitin="none" data-splitout="none" data-responsive_offset="on">
-                            <h1>Organisation de Missions <br>
-                                 Économiques</h1>
-                        </div>
-                        <div class="tp-caption" data-x="0" data-y="410" data-width="480" data-height="none" data-whitespace="wrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:600;e:Power2.easeInOut;" data-start="700">
-                            <p class="lead xs-hide">Gagnez du temps et augmentez votre productivité en nous confiant
-                                l’organisation de vos rendez-vous d’affaires.</p>
-                        </div>
-                        <div class="tp-caption xs-hide" data-x="0" data-y="485" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:800;e:Power2.easeInOut;" data-start="800">
-                            <a class="btn-custom" href="{{url('nous-contacter')}}">Contactez-nous</a>
-                        </div>
-                    </li>
-
-                    <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-thumb="">
-                        <!--  BACKGROUND IMAGE -->
-                        <img alt="" class="rev-slidebg" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" src="images/background/b10.png">
+                        <img alt="" class="rev-slidebg" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" src="images/background/Banner-web-3.jpg">
                         {{-- <div class="tp-caption big-s1" data-x="0" data-y="230" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on">
                             <h3 class="id-color"></h3>
                         </div> --}}
@@ -103,13 +78,13 @@
             </div>
         </section>
         <div id="nos-forces"></div>
-        <section id="section-highlight" class="relative text-light" data-bgcolor="#111111">
+        <section id="section-highlight" class="relative" >
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-4">
                         <span class="p-title">Nos Forces</span><br>
                         <h2>
-                            Discipline, Rigueur,Efficacité
+                            Discipline, Rigueur, Efficacité
                         </h2>
                         <div class="small-border sm-left"></div>
                     </div>
@@ -117,7 +92,7 @@
                         <p>
                             Chaque personne est unique et c’est la raison pour laquelle nous nous efforçons d’offrir un vaste éventail de services de conciergerie adaptés et sur mesure pour répondre aux besoins de notre clientèle.
                             <br>
-                            Que ce soit pour de la conciergerie d’entreprise ou de particulier, l’équipe mène toute les démarches de la demande dans les règles de l’art.
+                            Que ce soit pour de la conciergerie d'affaires ou de particulier, l’équipe mène toute les démarches de la demande dans les règles de l’art.
                         </p>
                     </div>
                 </div>
@@ -132,7 +107,7 @@
                         <div class="mask">
                             <div class="cover">
                                 <div class="c-inner">
-                                    <h3><i class="icofont-data"></i><span>Conciergerie d’entreprise</span></h3>
+                                    <h3><i class="icofont-data"></i><span>Conciergerie d'affaires</span></h3>
                                     <p class="xs-hide md-hide">Spécialement conçus pour répondre aux différents besoins de votre
                                         entreprise.</p>
                                     <div class="spacer20"></div>
@@ -147,7 +122,7 @@
                             <div class="cover">
                                 <div class="c-inner">
                                     <h3><i class="icofont-user-alt-1"></i><span>Conciergerie de particulier</span></h3>
-                                    <p class="xs-hide md-hide">Fourniture de services de conciergerie professionnels et personnalisés.</p>
+                                    <p class="xs-hide md-hide">Service de conciergerie personnalisé pour tous vos besoins d’assistance.</p>
                                     <div class="spacer20"></div>
                                     <a href="{{route('conciergerie-de-particulier')}}" class="btn-custom capsule">Lire plus</a>
                                 </div>
@@ -161,7 +136,7 @@
                                 <div class="c-inner">
                                     <h3><i class="icofont-location-arrow"></i><span>Quelle destination?
                                             </span></h3>
-                                    <p class="xs-hide md-hide">DGA International vous accompagne au Canada et en Côte d’Ivoire</p>
+                                    <p class="xs-hide md-hide">DGA International offre ses services de conciergerie au Canada et en Côte d’Ivoire</p>
                                     <div class="spacer20"></div>
                                     <a href="{{route('services','mission-economique')}}" class="btn-custom capsule">Lire plus</a>
                                 </div>
@@ -174,13 +149,13 @@
         </section>
 
 
-        <section data-bgcolor="#111111" class="text-light" id="qui-sommes-nous">
+        <section data-bgcolor="#f2f2f2" class="text-dark" id="qui-sommes-nous">
             <div class="container">
                 <div class="row align-items-center" >
-                    <div class="col-lg-5 offset-lg-7">
+                    <div class="col-lg-7 offset-lg-5">
                         <span class="p-title">Qui sommes-nous?</span><br>
                         <h2>
-                            Notre Expérience<br>Notre Expertise
+                            Notre Expérience<br>Notre Dévouement
                         </h2>
 
                         <div class="tab-content" id="pills-tabContent">
@@ -206,8 +181,8 @@
                     </div>
                 </div>
             </div>
-            <div class="jarallax image-container col-md-6 pull-right xs-hide">
-                <img src="{{asset("images/background/bel.JPEG")}}" class="jarallax-img" alt="">
+            <div class="jarallax image-container col-md-4 pull-right xs-hide">
+                <img src="{{asset("images/background/bel.png")}}" class="jarallax-img" alt="">
             </div>
         </section>
 
@@ -257,35 +232,35 @@
                         </p>
                     </div>
                     <div class="spacer-single"></div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
+                        <div class="col-12">
+                            <h5 class="p-title text-bold ">Conciergerie d’affaires</h5>  </div>
                         <ul class="ul-style-2 wow fadeInRight" data-wow-delay=".2s">
-                            <li>Conciergerie d’entreprise </li>
-                            <li>Conciergerie de particulier</li>
-                            <li>Aide pour l’obtention du visa d’étude</li>
-                            <li>Aide pour l’obtention du visa de travail</li>
-                            <li>Aide pour l’obtention du visa touriste</li>
-                            <li>Immigration pour entreprise</li>
-                            <li>Service de Back Ground Check</li>
-
+                            <li>Organisation de missions économiques </li>
+                            <li>Organisation d’événements (conférences, lancement de produit, cocktail)</li>
+                            <li>Organisation de voyage d’affaires (transport, hébergement, etc)</li>
+                            <li>Création d’entreprise, y compris les formalités administratives et juridiques</li>
+                            <li>Recherches de partenaires commerciaux</li>
+                            <li>Rechercher d’opportunités d’affaires et d’investissement</li>
+                            <li>Service d’assistance administrative et juridique</li>
+                            <li>Service de formation</li>
+                            <li>Service de vérification des antécédents</li>
                         </ul>
                     </div>
-                    <div class="col-md-4">
+                    <div class=" offset-md-1 col-md-5">
+                        <h5 class="p-title text-bold ">Conciergerie de particulier</h5>
                         <ul class="ul-style-2 wow fadeInRight" data-wow-delay=".4s">
-                            {{-- <li>Mission économique</li> --}}
-                            <li>Assistance pour l'ouverture de comptes bancaires et la gestion financière lors de l'installation au Canada</li>
-                            <li>Accompagnement dans l’investissement immobilier au Canada</li>
-                            <li>Organisation de missions économiques pour les entreprises désireuses d’explorer les opportunités commerciales en Côte d’Ivoire</li>
-
-
+                            <li>Assistance à obtention du visa d’études</li>
+                            <li>Assistance à l’obtention du visa de travail</li>
+                            <li>Assistance à l’obtention du visa de touriste</li>
+                            <li>Assistance pour l’immigration d’affaires</li>
+                            <li>Organisation de circuits de voyage personnalisés</li>
+                            <li>Service de tourisme et de découverte</li>
+                            <li>Assistance à l’installation y compris la recherche d’un logement et la mise en place des services de bas</li>
+                            <li>Accompagnement pour l’investissement immobilier</li>
                         </ul>
                     </div>
-                    <div class="col-md-4">
-                        <ul class="ul-style-2 wow fadeInRight" data-wow-delay=".6s">
-                           <li>Assistance pour la création d’entreprise en Côte d’Ivoire, y compris les formalités administratives et juridiques</li>
-                            <li>Service d’assistance à l’installation, y compris l’aide à la recherche d’un logement et à la mise en place des services de base</li>
-                            <li>Service de tourisme et de découverte du pays, y compris l’organisation de circuits touristiques personnalisés et l’assistance dans les réservations de voyages et d’hébergement.</li>
-                        </ul>
-                    </div>
+
                 </div>
             </div>
         </section>
@@ -329,7 +304,7 @@
                                 <div class="de_testi opt-2 review">
                                     <blockquote>
                                         <i class="fa fa-quote-left id-color"></i>
-                                        <h3 class="id-color">Empathie</h3>
+                                        <h3 class="id-color">Adaptabilité</h3>
                                         <p>Chez DGA, nous sommes conscients que naviguer dans de nouveaux environnements peut être difficile pour nos clients. Nous sommes donc là pour les soutenir émotionnellement et pratiquement, en faisant preuve d’empathie et de compréhension de leurs défis.</p>
                                         {{-- <div class="de_testi_by"><span>Michael, Mindeba</span></div> --}}
                                     </blockquote>
@@ -339,8 +314,10 @@
                                 <div class="de_testi opt-2 review">
                                     <blockquote>
                                         <i class="fa fa-quote-left id-color"></i>
-                                        <h3 class="id-color">Adaptabilité</h3>
-                                        <p> Nous sommes constamment à la recherche de nouvelles façons d’améliorer nos services pour répondre aux besoins changeants de nos clients et des marchés. Nous sommes fiers de fournir des solutions innovantes et efficaces pour aider nos clients à réussir.</p>
+                                        <h3 class="id-color">Empathie</h3>
+                                    <p>
+                                        Nous sommes conscients que naviguer dans un nouvel environnement peut être difficile. Nous sommes donc là pour soutenir nos clients émotionnellement et concrètement, en faisant preuve d’empathie et de compréhension.
+                                    </p>
                                         {{-- <div class="de_testi_by"><span>Michael, Mindeba</span></div> --}}
                                     </blockquote>
                                 </div>
@@ -352,7 +329,7 @@
             </div>
         </section>
 
-        <section>
+        {{-- <section>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -397,50 +374,17 @@
                             </div>
                         </div>
                     </div>
-                    {{-- <div class="col-lg-4 col-md-6 mb30">
-                        <div class="f-box f-icon-left f-icon-rounded">
-                            <i class="icofont-group-students bg-color text-light"></i>
-                            <div class="fb-text">
-                                <h4>La responsabilité</h4>
-                                <p>
-                                    Nous prenons la responsabilité de nos actions et nous nous engageons à fournir des solutions durables qui ont un impact positif à long terme sur nos clients, les communautés locales et l'environnement.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb30">
-                        <div class="f-box f-icon-left f-icon-rounded">
-                            <i class="icofont-chart-radar-graph bg-color text-light"></i>
-                            <div class="fb-text">
-                                <h4>L'adaptabilité</h4>
-                                <p>
-                                    Nous sommes conscients que chaque client est unique, avec ses propres défis et besoins. Nous sommes donc flexibles et adaptables, en proposant des solutions sur mesure pour répondre aux besoins spécifiques de chaque client.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-lg-4 col-md-6 mb30">
-                        <div class="f-box f-icon-left f-icon-rounded">
-                            <i class="icofont-building bg-color text-light"></i>
-                            <div class="fb-text">
-                                <h4>L'intégrité </h4>
-                                <p>
-                                    Nous sommes honnêtes et transparents dans toutes nos actions, en respectant les normes éthiques les plus élevées dans nos pratiques commerciales.
-                                </p>
-                            </div>
-                        </div>
-                    </div> --}}
                 </div>
             </div>
-        </section>
+        </section> --}}
 
         <section aria-label="section">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="text-center">
-                            <h2>Nos Vidéos</h2>
+                            <h2>Nos Articles</h2>
                             <div class="small-border"></div>
                         </div>
                     </div>
@@ -459,10 +403,6 @@
                                     <span class="p-tagline">------</span>
                                     <h4><a href="{{route('blog',['la-transformation-digitale-gestion-du-changement'])}}">Titre de la vidéo
                                             <span></span></a></h4>
-                                    {{-- <p>
-                                        La transformation digitale est un processus qui implique un changement
-                                        profond dans
-                                        les processus de travail, les technologies utilisées... </p> --}}
                                     <span class="p-author"><a href="{{route('blog',['la-transformation-digitale-gestion-du-changement'])}}">Lire la vidéo</a></span>
                                 </div>
                             </div>
@@ -481,9 +421,6 @@
                                     <span class="p-tagline">----</span>
                                     <h4><a href="{{route('blog',['femmes-leaders-dans-l-economie-ivoirienne'])}}">Titre de la vidéo
                                             <span></span></a></h4>
-                                    {{-- <p>
-                                        Il y a de nombreuses femmes leaders dans l&#39;économie ivoirienne qui ont
-                                        joué un rôle important dans le développement du pays. </p> --}}
                                     <span class="p-author"><a href="{{route('blog',['femmes-leaders-dans-l-economie-ivoirienne'])}}">Lire la vidéo</a></span>
                                 </div>
                             </div>
@@ -494,7 +431,6 @@
                             <div class="post-content">
                                 <div class="date-box">
                                     <div class="m">03</div>
-                                    {{-- <div class="d">FEV</div> --}}
                                 </div>
                                 <div class="post-image">
                                     <img alt="" src="images/news/3.jpg">
@@ -503,10 +439,7 @@
                                     <span class="p-tagline">-----</span>
                                     <h4><a href="{{route('blog',['l-innovation-disruptive'])}}">Titre dela vidéo
                                             <span></span></a></h4>
-                                    {{-- <p>
-                                        L&#39;importance du développement durable dans l&#39;économie ivoirienne
-                                        Le développement durable est un concept qui vise à assurer la croissance
-                                        économique </p> --}}
+
                                     <span class="p-author"><a href="{{route('blog',['l-innovation-disruptive'])}}">Lire la vidéo </span></span>
                                 </div>
                             </div>
@@ -517,8 +450,6 @@
         </section>
 
     </div>
-    <!-- content close -->
-
 @endsection
 
 @push('custom-scripts')

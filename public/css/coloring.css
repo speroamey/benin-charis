@@ -170,17 +170,21 @@ a.btn-custom.btn-white,
 #topbar a i,
 .ul-style-2 li:before,.ul-style-2 li:after,
 .text-light h5,
-#mainmenu li a:hover,
 i.id-color
 {
 	color:var(--primary-color);
 	/* color: #fff; */
 }
 
+#topbar a i, #mainmenu li a:hover{
+	/* color:var(--primary-color); */
+	color: #fff;
+}
+
 
 .navbar li:hover{
     color: rgb(210, 206, 206);
-    background-color: black;
+    background-color: var(--primary-color);
 }
 .id-color-2,
 span.id-color-2{

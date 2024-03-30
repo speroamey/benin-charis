@@ -18,9 +18,8 @@
                     <div class="row">
                         <div class="col text-center">
                             <div class="spacer-single"></div>
-                            {{-- <h1>Conciergerie d'entreprise</h1> --}}
                             <div class="col-md-5 mb-sm-30 text-lg-center text-sm-center mx-auto my-aut"  data-bgcolor="#ffb000">
-                                <h2 class="no-bottom">Conciergerie d'entreprise</h2>
+                                <h2 class="no-bottom">Conciergerie d'affaires</h2>
                             </div>
                             {{-- <p>Réputation. Respect. Resultat.</p> --}}
                         </div>
@@ -33,11 +32,11 @@
         <section aria-label="section" data-bgcolor="#ffffff">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-5">
+                    <div class="col-md-5 text-justify">
                         <span class="p-title">Conciergerie</span><br>
-                        <h2>Conciergerie d'entreprise</h2>
+                        <h2>Conciergerie d'affaires</h2>
                         <p>
-                            La conciergerie d'entreprise offerte par DGA International met de l’avant un ensemble de prestations de services conçus pour répondre aux différents besoins de votre entreprise.
+                            La conciergerie d'affaires offerte par DGA International met de l’avant un ensemble de prestations de services conçus pour répondre aux différents besoins de votre entreprise.
                         </p>
                         <p>
                             Vous n’avez pas le temps d’organiser votre prochain voyage d’affaires? Vous êtes à la recherche de partenariat et d’opportunités d’affaires? Vous désirez installer votre entreprise dans un de nos pays de destination? DGA International est votre partenaire de confiance.
@@ -56,11 +55,11 @@
                                 <img class="di-small-2" src="images/background/52.png" alt="" />
                             </div> --}}
                             {{-- <img class="di-small-2" src="images/background/52.png" alt="" /> --}}
-                            <img class="di-big img-fluid" src="images/services/DGA13.jpg" alt="" />
+                            <img class="di-big img-fluid" src="images/background/RX3.jpg" alt="" />
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row  text-justify">
                     <div class="col-lg-6">
                         <p>
                             En collaboration avec des partenaires de confiance et spécialisés, nous sommes également en mesure d’offrir des conseils juridiques et fiscaux à votre entreprise, bien spécifiques à votre secteur d’activités.
@@ -87,18 +86,17 @@
                                 <li>
                                     Réservation de transport privé
                                 </li>
+                                <li>Réservation et restauration</li>
                                 <li>
-                                    Réservation de restaurant
+                                    Création et Organisation d'évènements
                                 </li>
                                 <li>
-                                    Séance de shopping
+                                    Organisation de Mission économique
                                 </li>
                                 <li>
-                                    Tourisme
+                                    Assistance à la création d'entreprise
                                 </li>
-                                <li>
-                                    Et bien plus encore
-                                </li>
+
                             </ul>
 
 
@@ -155,42 +153,7 @@
                 </div>
             </div>
         </section>
-        {{-- <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature-box f-boxed style-3 text-center">
-                            <i class="id-color icofont-letter"></i>
-                            <div class="text">
-                                <h4>Request Quote</h4>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
-                            </div>
-                            <i class="wm icofont-letter"></i>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature-box f-boxed style-3 text-center">
-                            <i class="id-color icofont-investigation"></i>
-                            <div class="text">
-                                <h4>Investigation</h4>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
-                            </div>
-                            <i class="wm icofont-investigation"></i>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="feature-box f-boxed style-3 text-center">
-                            <i class="id-color icofont-hand-power"></i>
-                            <div class="text">
-                                <h4>Case Fight</h4>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
-                            </div>
-                            <i class="wm icofont-hand-power"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
+
     </div>
     <!-- content close -->
 

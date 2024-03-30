@@ -32,7 +32,7 @@
         <section aria-label="section" data-bgcolor="#ffffff">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-5">
+                    <div class="col-md-5 text-justify">
                         <span class="p-title">Conciergerie</span><br>
                         <h2>Conciergerie de particulier</h2>
                         <p>
@@ -42,42 +42,34 @@
                             Que ce soit pour vos voyages d’affaires, vos vacances familiales, vos déplacements, ou vos besoins journaliers, nous sommes à votre service.  Nous mettons à votre disposition une gamme complète de solutions pour répondre à tous vos besoins :
                         </p>
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-12 text-left">
                                 <ul class="ul-style-2">
-                                    <li>Réservation de vol</li>
-                                    <li>Réservation d’hôtel</li>
-                                    <li>Locations de voiture</li>
                                     <li>
-                                        Transport privé
+                                        <strong>Organisation d’événements personnels : </strong>
+                                        Planification et coordination de fêtes d’anniversaire, de célébrations familiales et d’autres événements spéciaux. Réservation de lieux, de traiteurs, de décoration, etc.
                                     </li>
                                     <li>
-                                        Service de sécurité
+                                        <strong>
+                                            Gestion des rendez-vous et des activités :
+                                        </strong>
+                                        Planification d’agenda et rappels de rendez-vous.
                                     </li>
                                     <li>
-                                        Réservation de restaurant
+                                        <span class="font-weight-bold">
+                                            Services de bien-être :
+                                        </span>
+                                        Organisation de retraite thalassothérapie ou d’autres activités de relaxation.
                                     </li>
                                     <li>
-                                        Tourisme
+                                        <span class="font-weight-bold">Assistance aux voyages :</span>
+                                        Création d’itinéraires de voyage personnalisés.
                                     </li>
+                                    <li>
+                                        <span class="font-weight-bold">Services de garde d’enfants</span>
+                                    </li>
+                                </ul>
+                            </div>
 
-                                </ul>
-                            </div>
-                            <div class="col-lg-6">
-                                <ul class="ul-style-2">
-                                    <li>
-                                        Assistance à l’obtention de visa de tourisme, permis de travail, permis d’études
-                                    </li>
-                                    <li>
-                                        Recherche de logement
-                                    </li>
-                                    <li>
-                                        Achat d’une propriété
-                                    </li>
-                                    <li>
-                                        Et plus encore
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
 
 
@@ -91,7 +83,7 @@
                                 <img class="di-small-2" src="images/background/52.png" alt="" />
                             </div> --}}
                             {{-- <img class="di-small-2" src="images/background/52.png" alt="" /> --}}
-                            <img class="di-big img-fluid" src="images/services/DGA1.jpg" alt="" />
+                            <img class="di-big img-fluid" src="images/services/DGA13.jpg" alt="" />
                         </div>
                     </div>
                 </div>

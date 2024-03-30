@@ -14,16 +14,12 @@ use App\Http\Controllers\NotificationController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+use TCG\Voyager\Models\Post;
 Route::get('/', function () {
-    $agencies = array(
-        ['id'=>'1','name'=>'Cocody','latitude'=>'','longitude'=>''],
-        ['id'=>'1','name'=>'Cocody','latitude'=>'','longitude'=>''],
-        ['id'=>'1','name'=>'Cocody','latitude'=>'','longitude'=>''],
-        ['id'=>'1','name'=>'Cocody','latitude'=>'','longitude'=>''],
-);
-    return view('pages.welcome',compact('agencies'));
+    $posts = Post::get();
+    return view('pages.welcome',compact('posts'));
 })->name('home');
+
 Route::get('/a-propos-de-nous', function () {
     return view('pages.about');
 });
@@ -50,7 +46,7 @@ Route::get('/services/{slug}', function ($slug) {
             break;
 
         case 'immigration-pour-entreprise':
-            $sujet="Immigration d'affaire";
+            $sujet="Assistance à L'immigration d'affaire";
             break;
 
         case 'service-de-Background-check':
@@ -141,3 +137,8 @@ Route::get('/blog/{title}', function ($title) {
     }
     return view('pages.blog')->with('title',$title)->with('sujet',$sujet);
 })->name('blog');
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});

@@ -2,9 +2,10 @@
     <div class="container">
         <div class="topbar-left sm-hide">
             <span class="topbar-widget tb-social">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.facebook.com/dgainternaionalltee?mibextid=ZbWKwL"><i class="fa fa-facebook fa-lg"></i></a>
+                <a href="https://www.linkedin.com/company/dga-international/"><i class="fa fa-linkedin fa-lg"></i></a>
+                <a href="https://instagram.com/dgainternational?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa fa-instagram fa-lg"></i></a>
+
             </span>
         </div>
         <div class="topbar-right">
@@ -24,7 +25,7 @@
                 <div class="de-flex sm-pt1">
                     <div class="de-flex-col">
                         <!-- logo begin -->
-                                <a href="{{url('/')}}"> <img alt="" class="logo" src="{{asset('images/logo.png')}}" width="150" /></a>
+                                <a href="{{url('/')}}"> <img alt="" class="logo" src="{{asset('images/logo.png')}}" width="100" /></a>
                                 <a href="{{url('/')}}"> <img alt="" class="logo-2" src="{{asset('images/logo-light.png')}}" width="150" /></a>
                         <!-- logo close -->
                     </div>
@@ -43,20 +44,22 @@
                             </li>
                             <li><a href="">Conciergerie</a>
                                 <ul>
-                                    <li><a href="{{url('/conciergerie-d-entreprise')}}">Conciergerie d'entreprise</a></li>
+                                    <li><a href="{{url('/conciergerie-d-entreprise')}}">Conciergerie d'affaires</a></li>
                                     <li><a href="{{url('/conciergerie-de-particulier')}}">Conciergerie de particulier</a></li>
                                 </ul>
                             </li>
                             <li><a href="">Destination Canada</a>
                                 <ul>
-                                    <li><a href="{{route('services','visa-d-etude')}}">Obtention du visa d’étude</a></li>
-                                    <li><a href="{{route('services','visa-de-travail')}}">Obtention du visa de Travail</a></li>
-                                    <li><a href="{{route('services','visa-tourisme')}}">Obtention du visa tourisme</a></li>
+                                    <li><a href="{{route('services','mission-economique')}}">Organisation de missions économiques</a></li>
+                                    <li><a href="{{route('services','visa-d-etude')}}">Assistance permis d’étude</a></li>
+                                    <li><a href="{{route('services','visa-de-travail')}}">Assistance permis de Travail</a></li>
+                                    <li><a href="{{route('services','visa-tourisme')}}">Assistance visa de tourisme</a></li>
                                     <li><a href="{{route('services','immigration-pour-entreprise')}}">Immigration d’affaires</a></li>
                                     <li><a href="{{route('services','service-de-Background-check')}}">Service de vérification des antécédents</a></li>
-                                    <li><a href="{{route('services','mission-economique')}}">Organisation de missions économiques</a></li>
-                                    {{-- <li><a href="{{route('services','assistance')}}" >Service d’assistance & installation</a></li> --}}
+
                                     <li><a href="{{route('services','investissement-immobilier')}}" >Investissement Immobilier</a></li>
+
+                                    {{-- <li><a href="{{route('services','assistance')}}" >Service d’assistance & installation</a></li> --}}
                                 </ul>
                             </li>
                             <li><a href="">Destination Côte d'ivoire</a>

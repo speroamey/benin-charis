@@ -33,11 +33,11 @@
                         <div class="col-md-5">
                             <span class="p-title">Services</span><br>
                             <h2>{{$sujet}}</h2>
-                            <p>
+                            <p class="text-justify">
                                 DGA International propose un service d'assistance à l'obtention du permis d'étude pour les étudiants étrangers qui souhaitent étudier au Canada. En partenariat des avocats accrédités en immigration au Canada, DGA International vous accompagne dans le montage de la demande et vous donne accès à des conseils juridiques par l’entremise de son équipe d’avocats.
                             </p>
-                            <p>
-                                Avec une expérience de 20 ans dans le domaine, notre équipe de professionnels est là pour vous guider à travers les formalités administratives liées à l'obtention du permis d'étude, afin que vous puissiez vous concentrer sur votre parcours d'études et profiter de votre expérience canadienne.
+                            <p class="text-justify">
+                                Avec une expérience de 15 ans dans le domaine, nos partenaires sont là pour vous guider à travers les formalités administratives liées à l'obtention du permis d'étude, afin que vous puissiez vous concentrer sur votre parcours d'études et profiter de votre expérience canadienne.
                             </p>
                             <ul class="ul-style-2">
                                 <li>Demande d’équivalence
@@ -77,8 +77,10 @@
                             </h5>
                         </blockquote>
                     </div>
-                    <section class="pt40 pb40 bg-color text-light">
-                        <div class="container">
+                    <section class="pt40 pb40 bg-color text-light sectionCliquable"
+                        onclick="window.location.href='https://dgainternational.ca/formulaire-preliminaire';">
+
+                    <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
                                     <h4 class="no-bottom">Inscription en ligne, veuillez remplir le formulaire !</h4>
@@ -94,10 +96,10 @@
                         <div class="col-md-5">
                             <span class="p-title">Services</span><br>
                             <h2>{{$sujet}}</h2>
-                            <p>
+                            <p class="text-justify">
                                 L’équipe de DGA International offre un service d’assistance professionnel et personnalisé aux travailleurs étrangers qui souhaitent obtenir permis de travail et un emploi au Canada.  En partenariat avec une équipe d’avocats accrédités en immigration au Canada, DGA offre un accompagnement complet pour toutes démarches administratives et juridiques permettant l'obtention du permis de travail auprès des autorités canadiennes compétentes.
                             </p>
-                            <p>
+                            <p class="text-justify">
                                 Avec une expérience de 20 ans dans le domaine, notre offre de service est complète, de qualité et adaptée à votre situation personnelle et professionnelle. Non seulement nous vous assistons pour l’obtention du permis de travail, mais grâce à notre équipe spécialisée en ressources humaines et en recrutement, nous vous guidons et vous conseillons sur toutes les conditions et opportunités d’emploi au Canada.
                             </p>
                             <p>
@@ -127,8 +129,8 @@
                     <div class="row">
                         <blockquote>
                             <h4>
-                                Les résidents temporaires et permanents sont en mesure de répondre aux besoins particuliers du marché du travail au Canada et représentent des proportions relativement élevées de la main-d’œuvre dans certains secteurs industriels
-                                <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/organisation/publications-guides/rapport-annuel-parlement-immigration-2022.html#fn3">Note de bas de page</a>. À l’avenir, il faudra plus de résidents temporaires et permanents pour combler les pénuries de main-d’œuvre et contribuer à la prospérité économique du Canada.
+                                Les résidents temporaires et permanents sont en mesure de répondre aux besoins particuliers du marché du travail au Canada et représentent des proportions relativement élevées de la main-d’œuvre dans certains secteurs industriels.
+                                À l’avenir, il faudra plus de résidents temporaires et permanents pour combler les pénuries de main-d’œuvre et contribuer à la prospérité économique du Canada.
                             </h4>
                         </blockquote>
                     </div>
@@ -149,25 +151,23 @@
                         <div class="col-md-5">
                             <span class="p-title">Services</span><br>
                             <h2>{{$sujet}}</h2>
-                            <p>
+                            <p class="text-justify">
                                 Chez DGA International, nous comprenons que le processus pour déposer une demande de visa de visiteur peut être complexe et fastidieux. C'est pourquoi, grâce à nos nombreuses années d’expérience dans le domaine, nous vous procurons un service d'assistance complet pour faciliter vos démarches d'obtention du visa. En collaboration avec notre équipe d’avocats accrédités en immigration au Canada, nous vous offrons un accompagnement personnalisé pour vous aider à obtenir votre visa de manière efficace et dans les meilleurs délais.
                             </p>
-                            <p>
+                            <p class="text-justify">
                                 Nous sommes là pour vous guider tout au long du processus et pour répondre à toutes vos questions.
                             </p>
 
                         </div>
                         <div class="col-md-6 offset-md-1">
                             <div class="de-images">
-                            <img class="di-big img-fluid" src="{{asset('images/services/DGA11.jpg')}}" alt="" />
+                            <img class="di-big img-fluid" src="{{asset('images/services/flag.jpg')}}" alt="" />
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 text-justify">
                             Que vous ayez besoin d'un visa pour un voyage d'affaires ou de loisir, notre service d'aide pour l'obtention du visa de visiteur est un indispensable pour vous aider à obtenir votre visa dans les délais impartis.
-                        </div>
-                        <div class="col-lg-4">
                             <ul class="ul-style-2">
                                 <li>
                                     Séance de consultation
@@ -185,6 +185,9 @@
                                     Et plus encore
                                 </li>
                             </ul>
+                        </div>
+                        <div class="col-lg-4">
+
                         </div>
                     </div>
                     <section class="pt40 pb40 bg-color text-light">
@@ -204,15 +207,13 @@
                         <div class="col-md-5">
                             <span class="p-title">Services</span><br>
                             <h2>{{$sujet}}</h2>
-                            <p>
-                                DGA International offre un service d’assistance personnalisé et ciblé aux entrepreneurs étrangers pour leur permettre d’obtenir la résidence permanente par l’entremise d’un projet d’investissement au Canada.   En collaboration avec une équipe d’avocats accrédités en immigration et de conseillers d’affaires au Canada, DGA vous offre un accompagnement complet pour toutes démarches administratives, légales et juridiques liées au dépôt d’une demande au programme d’immigration d’affaires, vous menant directement à la résidence permanente, et ce sans tracas.
+                            <p class="text-justify">
+                                DGA International propose un service dédié à assister les entrepreneurs étrangers dans leurs démarches d'immigration en offrant un accompagnement complet et ciblé. Notre approche se concentre sur la facilitation du processus en guidant nos clients dans le remplissage des formulaires, la sélection d'un cabinet d'immigration qualifié et en assurant un suivi attentif auprès d’eux pour un traitement personnalisé.
                             </p>
-                            <p>
-                                Ce programme d’immigration permet aux entrepreneurs et à leurs familles d’obtenir la résidence permanente au Canada, que ce soit par la création de leur propre entreprise (start-up) au Canada ou par l’investissement dans une jeune compagnie (start-up) au Canada.
+                            <p class="text-justify">
+                                En collaboration avec une équipe expérimentée d'avocats spécialisés en immigration et de conseillers d'affaires au Canada, nous mettons à votre disposition une assistance complète pour toutes les étapes administratives, légales et juridiques nécessaires pour déposer une demande au programme d'immigration d'affaires.
                             </p>
-                            <p>
-                                Avec notre expertise et notre connaissance approfondie du marché canadien, nous sommes en mesure de proposer un service professionnel et efficace pour aider les entreprises étrangères à réussir leur implantation au Canada.
-                            </p>
+
                         </div>
                         <div class="col-md-6 offset-md-1">
                             <div class="de-images">
@@ -220,7 +221,8 @@
                             </div>
                         </div>
                     </div>
-                    <section class="pt40 pb40 bg-color text-light">
+                    <section class="pt40 pb40 bg-color text-light sectionCliquable"
+                        onclick="window.location.href='https://dgainternational.ca/nous-contacter';">
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
@@ -237,11 +239,11 @@
                         <div class="col-md-5">
                             <span class="p-title">Services</span><br>
                             <h2>{{$sujet}}</h2>
-                            <p>
+                            <p class="text-justify">
                                 Chez DGA International, la transparence, l’exactitude et la vérification des données et des antécédents de nos clients est notre priorité absolue. C’est pourquoi nous offrons un service de vérification des antécédents pour tous nos clients qui souhaitent entreprendre un voyage vers le Canada. Ce service est une valeur ajoutée permettant aux différentes autorités traitant les demandes d’immigration de valider l’exactitude des renseignements des candidats en matière de sécurité et d’application de la loi pour mener des vérifications rigoureuses.
                             </p>
-                            <p>
-                                Ce service de vérification des antécédents est également offert aux entreprises canadiennes de recrutement et aux cabinets canadiens d’ immigration, afin de valider les informations fournies par leurs clients et assurer la vérification vigoureuse.
+                            <p class="text-justify">
+                                Ce service s’adresse aussi aux entreprises canadiennes comme des cabinets de recrutement, des cabinets d’immigration qui cherchent à confirmer les informations de leurs clients ou partenaires. DGA International propose une solution de vérification de documents et d’informations en mettant en œuvre un processus de validation auprès d’organismes administratifs, institutionnels et privés. Notre objectif est de garantir la fiabilité des données transmises et de vous fournir des informations fiables pour une prise de décision.
                             </p>
                         </div>
                         <div class="col-md-6 offset-md-1">
@@ -250,11 +252,12 @@
                             </div>
                         </div>
                     </div>
-                    <section class="pt40 pb40 bg-color text-light">
+                    <section class="pt40 pb40 bg-color text-light sectionCliquable"
+                        onclick="window.location.href='https://dgainternational.ca/nous-contacter';">
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
-                                    <h3 class="no-bottom"> Contactez-nous! veuillez remplir le docuùent et nous le soumettre.</h3>
+                                    <h3 class="no-bottom"> Contactez-nous dès aujourd'hui | nous sommes disponible pour vous aider.</h3>
                                 </div>
                                 <div class="col-md-4 text-lg-right rtl-lg-left text-sm-center">
                                     <a href="{{url('formulaire-background-check')}}" class="btn-custom btn-black light">Suivre le lien</a>
@@ -267,7 +270,7 @@
                         <div class="col-md-5">
                             <span class="p-title">Services</span><br>
                             <h2>{{$sujet}}</h2>
-                            <p>
+                            <p class="text-justify">
                                 En tant qu’entreprise de conciergerie d’affaires de renommée mondiale, DGA International s’engage à offrir des services professionnels de haut calibre pour les entreprises africaines cherchant à développer leur réseau commercial au Canada. Nous mettons en place des missions économiques sur mesure pour nos clients, comprenant des conférences, des ateliers de discussion, des rencontres de réseautage et des séances privatives avec des partenaires potentiels de notre vaste réseau d’entreprises canadiennes de haut niveau. Nous sommes fiers de travailler avec des entreprises africaines pour favoriser le développement de relations commerciales mutuellement bénéfiques avec le Canada. Notre engagement envers l’excellence et la satisfaction de nos clients fait de nous le choix idéal pour toutes les entreprises africaines cherchant à étendre leur portée commerciale à l’échelle internationale.
                             </p>
 
@@ -280,14 +283,17 @@
                     </div>
                     <section class="pt40 pb40 bg-color text-light">
                         <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
-                                    <h3 class="no-bottom">Inscription en ligne | remplissez le formulaire pour une prochaine mission</h3>
+                            <a href="{{url('formulaire-mission-economique')}}">
+                                <div class="row align-items-center">
+                                    <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
+                                        <h3 class="no-bottom">Inscription en ligne | remplissez le formulaire pour une prochaine mission</h3>
+                                    </div>
+                                    <div class="col-md-4 text-lg-right rtl-lg-left text-sm-center">
+                                        <a href="{{url('formulaire-mission-economique')}}" class="btn-custom btn-black light">Suivre le lien</a>
+                                    </div>
                                 </div>
-                                <div class="col-md-4 text-lg-right rtl-lg-left text-sm-center">
-                                    <a href="{{url('formulaire-mission-economique')}}" class="btn-custom btn-black light">Suivre le lien</a>
-                                </div>
-                            </div>
+                            </a>
+
                         </div>
                     </section>
 
@@ -310,8 +316,9 @@
                         </div>
                         <div class="col-md-6 offset-md-1">
                             <div class="de-images">
-                            <img class="di-big img-fluid" src="{{asset('images/services/DGA12.jpg')}}" alt="" />
-                            </div>
+                            <img class="di-big img-fluid" src="{{asset('images/background/RX3.jpg')}}" alt="" />
+
+                        </div>
                         </div>
                     </div>
                     <div class="row">
@@ -372,14 +379,15 @@
                             </ul>
                         </div>
                     </div>
-                    <section class="pt40 pb40 bg-color text-light">
+                    <section class="pt40 pb40 bg-color text-light sectionCliquable"
+                        onclick="window.location.href='https://dgainternational.ca/nous-contacter';">
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
                                     <h3 class="no-bottom"> Contactez-nous dès aujourd'hui | nous sommes disponible pour vous aider.</h3>
                                 </div>
                                 <div class="col-md-4 text-lg-right rtl-lg-left text-sm-center">
-                                    <a href="#" class="btn-custom btn-black light">Suivre le lien</a>
+                                    <a href="{{url('nous-contacter')}}" class="btn-custom btn-black light">Suivre le lien</a>
                                 </div>
                             </div>
                         </div>
@@ -507,18 +515,19 @@
                             </ul>
                         </div>
                     </div>
-                    <section class="pt40 pb40 bg-color text-light">
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
-                                    <h3 class="no-bottom"> Contactez-nous dès aujourd'hui | nous sommes disponible pour vous aider</h3>
-                                </div>
-                                <div class="col-md-4 text-lg-right rtl-lg-left text-sm-center">
-                                    <a href="{{url('nous-contacter')}}" class="btn-custom btn-black light">Suivre le lien</a>
-                                </div>
+                    <section class="pt40 pb40 bg-color text-light sectionCliquable"
+                    onclick="window.location.href='https://dgainternational.ca/nous-contacter';">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
+                                <h3 class="no-bottom"> Contactez-nous dès aujourd'hui | nous sommes disponible pour vous aider.</h3>
+                            </div>
+                            <div class="col-md-4 text-lg-right rtl-lg-left text-sm-center">
+                                <a href="{{url('nous-contacter')}}" class="btn-custom btn-black light">Suivre le lien</a>
                             </div>
                         </div>
-                    </section>
+                    </div>
+                </section>
                 @elseif($slug=="service-assistance-installation")
                     <div class="row align-items-center">
                         <div class="col-md-5">
@@ -543,7 +552,9 @@
                             </div>
                         </div>
                     </div>
-                    <section class="pt40 pb40 bg-color text-light">
+
+                    <section class="pt40 pb40 bg-color text-light sectionCliquable"
+                        onclick="window.location.href='https://dgainternational.ca/nous-contacter';">
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
@@ -560,21 +571,22 @@
                         <div class="col-md-5">
                             <span class="p-title">Services</span><br>
                             <h2>{{$sujet}}</h2>
-                            <p>
+                            <p class="text-justify">
                                 Ce service offre des opportunités de tourisme et de découverte dans le pays, y compris l’organisation de circuits de visites personnalisées et l’aide aux réservations de voyages et d’hébergements. Il permet aux individus de découvrir le riche patrimoine culturel et la beauté naturelle de la Côte d’Ivoire, tout en assurant leur sécurité et leur confort pendant leur séjour. Notre équipe peut fournir des recommandations d’activités et d’attractions en fonction des préférences individuelles, assurant une expérience unique et mémorable.
                             </p>
                         </div>
                         <div class="col-md-6 offset-md-1">
                             <div class="de-images">
-                            <img class="di-big img-fluid" src="{{asset('images/services/DGA4.jpg')}}" alt="" />
+                            <img class="di-big img-fluid" src="{{asset('images/services/plage-transformed.jpeg')}}" alt="" />
                             </div>
                         </div>
                     </div>
-                    <section class="pt40 pb40 bg-color text-light">
-                        <div class="container">
+                    <section class="pt40 pb40 bg-color text-light sectionCliquable"
+                    onclick="window.location.href='https://dgainternational.ca/nous-contacter';">
+                    <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
-                                    <h3 class="no-bottom">Inscription en ligne | SOS Hub Canada!</h3>
+                                    <h3 class="no-bottom">Contactez-nous dès aujourd'hui | nous sommes disponible pour vous aider.</h3>
                                 </div>
                                 <div class="col-md-4 text-lg-right rtl-lg-left text-sm-center">
                                     <a href="{{url('nous-contacter')}}" class="btn-custom btn-black light">Suivre le lien</a>
