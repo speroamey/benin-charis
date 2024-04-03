@@ -23,15 +23,19 @@ Route::get('/', function () {
 Route::get('/a-propos-de-nous', function () {
     return view('pages.about');
 });
-Route::get('/faq', function () {
+
+Route::get('/foire-aux-questions', function () {
     return view('pages.faq');
-});
-Route::get('/conciergerie-d-entreprise', function () {
-    return view('pages.conciergerie-d-entreprise');
-})->name('conciergerie-d-entreprise');
+})->name('faq');
+
+Route::get('/ce-que-nous-faisons', function () {
+    return view('pages.ce-que-nous-faisons');
+})->name('ce-que-nous-faisons');
+
 Route::get('/conciergerie-de-particulier', function () {
     return view('pages.conciergerie-de-particulier');
 })->name('conciergerie-de-particulier');
+
 Route::get('/services/{slug}', function ($slug) {
     $sujet="";
     switch ($slug) {
@@ -109,6 +113,12 @@ Route::get('/formulaire-preliminaire',  [FormController::class, 'formPreliminair
 Route::get('/formulaire-sejour',  [FormController::class, 'formSejour']);
 Route::get('/formulaire-mission-economique',  [FormController::class, 'formMissionEconomique']);
 Route::get('/formulaire-background-check',  [FormController::class, 'formBackgroundCheck']);
+
+Route::get('/articles', function () {
+    $posts = Post::get();
+    return view('pages.article')->with('posts',$posts);
+})->name('articles');
+
 
 Route::get('/blog/{title}', function ($title) {
     $sujet="";

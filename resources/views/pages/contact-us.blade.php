@@ -6,15 +6,15 @@
         <div id="top"></div>
 
         <!-- section begin -->
-        <section id="subheader" class="jarallax text-white" data-bgcolor="#000000">
-            <img src="images/background/subheader4.jpg" class="jarallax-img" alt="">
+        <section id="subheader" class="jarallax text-white" data-bgcolor="#073B84">
+            {{-- <img src="images/background/subheader4.jpg" class="jarallax-img" alt=""> --}}
             <div class="center-y relative text-center">
                 <div class="container">
                     <div class="row">
                         <div class="col text-center">
                             <div class="spacer-single"></div>
-                            <h1>Nous Contacter</h1>
-                            <p>Réputation. Respect. Resultat.</p>
+                            <h1 style="border-bottom-color:white">Nous Contacter</h1>
+                            <p>Expérience, Vision, Détermination, Investissement</p>
                         </div>
                         {{-- <div class="clearfix"></div> --}}
                     </div>
@@ -30,18 +30,18 @@
                         <!-- <img src="images/misc/p3.jpg" alt="" class="img-fluid mb30"> -->
                         {{-- <h3>Nos Cordonnées</h3> --}}
                         <address class="s1 my-auto text-center">
-                            <h3>LaJoy Consulting</h3>
+                            <h3>BÉNIN CHARIS ONG</h3>
                             <span cla><i class="id-color fa fa-map-marker fa-lg"></i>
                                 <span class="fb-text">
-                                    Riviéra 4,  Boulevard François Mitterrand, Abidjan, Côte d'Ivoire
+                                    Littoral, Cotonou, 9eme Arrondissement, Kindonou C/2147
                                 </span>
 
                             </span>
-                            <span> <a href="tel:+225 07 79 60 24 37"><i class="id-color fa fa-phone fa-lg"></i>+225 07 79 60 24 37</a> </span>
-                            <span> <a href="tel:+225 07 89 71 64 24"><i class="id-color fa fa-phone fa-lg"></i>+225 07 89 71 64 24</a> </span>
-                            <span> <a href="tel:+1 514 348 8985 "><i class="id-color fa fa-phone fa-lg"></i>+1 514 348 8985 </a> </span>
+                            <span> <a href="tel:+229 96 14 32 13"><i class="id-color fa fa-phone fa-lg"></i>+229 96 14 32 13</a> </span>
+                            <span> <a href="tel:+229 96 80 75 70"><i class="id-color fa fa-phone fa-lg"></i>+229 96 80 75 70</a> </span>
+                            <span> <a href="tel:+229 57 07 29 48"><i class="id-color fa fa-phone fa-lg"></i>+229 57 07 29 48</a> </span>
 
-                            <span><i class="id-color fa fa-envelope-o fa-lg"></i><a href="mailto:info@lajoyconsulting.com">info@lajoyconsulting.com</a></span>
+                            <span><i class="id-color fa fa-envelope-o fa-lg"></i><a href="mailto:info@lajoyconsulting.com">info@benin-charis.com</a></span>
                             <!-- <span><i class="id-color fa fa-file-pdf-o fa-lg"></i><a href="#">Download Brochure</a></span> -->
                         </address>
                     </div>
@@ -88,25 +88,38 @@
                 </div>
             </div>
         </section>
-        <section id="section-text" data-bgcolor="#111111" class="text-light">
+        <section data-bgcolor="#f2f2f2" class="text-dark" id="qui-sommes-nous">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 col-md-12 wow fadeInRight" data-wow-delay=".2s">
-                        <div class="de_count ultra-big s2 text-center">
-                            <h3 class="timer" data-to="22" data-speed="1000">22</h3>
-                            <span class="id-color">Années d'Expérience</span>
+                    <div class="col-lg-7 offset-lg-5">
+                        <span class="p-title">Qui sommes-nous?</span><br>
+                        <h2>
+                            Notre Expérience<br>Notre Dévouement
+                        </h2>
+
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                aria-labelledby="pills-home-tab">
+                                <p>
+                                    Bénin CHARIS ONG est une Organisation Non Gouvernementale à but non lucratif et est apolitique. Elle a été créée en 2023 en République du Bénin conformément aux dispositions de la loi du 1er Juillet 1901 et le décret du 16 Août portant création des associations, soutenant les actions du développement durable en général sans distinction de sexe, de race et de religion. Le siège de Bénin CHARIS est situé à Cotonou dans le 9ème arrondissement au quartier Kindonou. Est membre de cette organisation toute personne physique qui manifeste un intérêt pour l’organisation. Elle est composée des membres fondateurs, des membres actifs, de sympathisants et de membres d’honneur. L’objectif général est de contribuer durablement à la réduction de la pauvreté au Bénin. De cet objectif général découle quatre objectifs spécifiques que sont :
+                                    <ol>
+                                        <li>contribuer à la sécurité alimentaire et nutritionnelle;</li>
+                                        <li>promouvoir la transition agroécologique et l’économie circulaire;</li>
+                                        <li>accompagner l’autonomisation des jeunes et des femmes et</li>
+                                        <li>promouvoir l’accès à l’eau potable, l’hygiène et l’assainissement</li>
+                                    </ol>
+                                    .
+                                </p>
+
+
+                            </div>
+
                         </div>
                     </div>
-                    <div class="col-lg-4 p-lg-5  mb-sm-30 wow fadeInRight" data-wow-delay=".4s">
-                        <span class="p-title">Bienvenu</span><br>
-                        <h2>LaJoy votre Meilleur Partenaire  Conseil</h2>
-                    </div>
-                    <div class="col-lg-4 wow fadeInRight" data-wow-delay=".6s">
-                        <p>
-                            Notre portefeuille de clients est composé d'entreprises de différents secteurs : immobilier, fintech, institutions financières, microfinances,  assurances, télécommunications, restauration, éducation, énergie, secteur public, commerce de détails, luxe, spiritueux et santé.
-                        </p>
-                    </div>
                 </div>
+            </div>
+            <div class="jarallax image-container col-md-4 pull-right xs-hide">
+                <img src="{{ asset('images/background/bel.png') }}" class="jarallax-img" alt="">
             </div>
         </section>
     </div>

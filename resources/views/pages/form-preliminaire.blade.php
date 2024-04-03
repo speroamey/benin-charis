@@ -6,15 +6,15 @@
         <div id="top"></div>
 
         <!-- section begin -->
-        <section id="subheader" class="jarallax text-white" data-bgcolor="#000000">
+        <section id="subheader" class="jarallax text-white" data-bgcolor="#073B84">
             <img src="images/background/subheader4.jpg" class="jarallax-img" alt="">
             <div class="center-y relative text-center">
                 <div class="container">
                     <div class="row">
                         <div class="col text-center">
                             <div class="spacer-single"></div>
-                            <h1>Formulaire d'évaluation</h1>
-                            <p>Formulaire d'évaluation préliminaire <br> pour votre prochain séjour</p>
+                            <h1 style="border-bottom-color:white">Nous rejoindre / Nous soutenir</h1>
+                            <p>Formulaire préliminaire</p>
                         </div>
                         {{-- <div class="clearfix"></div> --}}
                     </div>

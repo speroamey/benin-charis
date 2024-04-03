@@ -7,14 +7,13 @@
     <div class="no-bottom no-top" id="content">
         <div id="top"></div>
         <!-- section begin -->
-        <section id="subheader" class="jarallax text-white" style="background-color: rgb(0 54 74 / 90%);">
-            <!-- <img src="images/background/subheader3.jpg" class="jarallax-img" alt=""> -->
+        <section id="subheader" class="jarallax text-white" style="background-color: #073B84">
             <div class="center-y relative text-center">
                 <div class="container">
                     <div class="row">
                         <div class="col text-center">
                             <div class="spacer-single"></div>
-                            <h1>FAQ</h1>
+                            <h1 style="border-bottom-color:white">FAQ</h1>
                             <p>Foire Aux Questions</p>
                         </div>
                         <div class="clearfix"></div>
