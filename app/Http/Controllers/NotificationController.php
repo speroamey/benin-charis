@@ -78,10 +78,12 @@ class NotificationController extends Controller
         foreach ($unserializeData as $key => $value) {
             $details[$key] = $value;
         }
+
         $filesPath = $this->uploadFile($request, $details);
         $details['filesPath'] = $filesPath;
         $template = $this->suitTemplate($details['id']);
         $details['template'] = $template;
+
         try {
             $mail =  $this->SendEmail($details);
             $msg = "le message a été bien envoyé";
@@ -103,7 +105,7 @@ class NotificationController extends Controller
     private  function  SendEmail(array $details)
     {
         try {
-            $result = Mail::to('info@dgainternational.ca')
+            $result = Mail::to('spero.amey@mowondoo.com')
                 ->send(new Contact($details));
             return $result;
         } catch (\Throwable $th) {

@@ -1,7 +1,7 @@
 <!-- content close -->
 <a href="#" id="back-to-top"></a>
 <!-- footer begin -->
-<footer>
+<footer class="footer-light">
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
@@ -10,12 +10,10 @@
                     </a>
                     <address class="s1">
                         <span><i class="id-color fa fa-map-marker fa-lg"></i>Littoral, Cotonou, 9eme Arrondissement, Kindonou</span>
-                        <span><i class="id-color fa fa-phone fa-lg"></i> <a href="tel:(+229) 96 14 32 13">(+229) 96 14 32 13</a> </span>
-                        <span><i class="id-color fa fa-phone fa-lg"></i><a href="tel:(+229) 96 80 75 70">(+229) 96 80 75 70 </a></span>
-                        <span><i class="id-color fa fa-phone fa-lg"></i> <a href="tel:(+229) 57 07 29 48">(+229) 57 07 29 48</a> </span>
-
+                        <span><i class="id-color fa fa-phone fa-lg"></i> <a href="tel:(+229) 90 09 06  09">(+229) 90 09 06  09</a> </span>
+                        <span><i class="id-color fa fa-phone fa-lg"></i><a href="tel:(+229) 96 80 75 70">(+229) 64 54 66 66 </a></span>
                         <span><i class="id-color fa fa-envelope-o fa-lg"></i><a
-                                href="mailto:contact@example.com">info@benin-charis.com</a></span>
+                                href="mailto:contact@example.com">info@benin-charis.org</a></span>
                         <!-- <span><i class="id-color fa fa-file-pdf-o fa-lg"></i><a href="#">info@lajoyconsulting.com</a></span> -->
                     </address>
                 </div>
@@ -23,11 +21,11 @@
             <div class="col-md-4">
                 <h5 class="id-color mb20">Liens utiles</h5>
                 <ul class="ul-style-2">
-                    <li>Qui sommes-nous?</li>
-                    <li>Nos Forces</li>
-                    <li>Nos axes stratégiques</li>
-                    <li>Nous contacter</li>
-                    <li>Dernières nouvelles</li>
+                    <li><a href="#qui-sommes-nous">Qui sommes-nous?</a></li>
+                    <li> <a href="#nos-forces">Nos Forces</a></li>
+                    <li> <a href="{{url('/ce-que-nous-faisons')}}">Nos objectifs stratégiques</a> </li>
+                    <li><a href="{{url('nous-contacter')}}">Nous contacter</a></li>
+                    <li><a href="{{url('articles')}}">Dernières nouvelles</a></li>
 
                 </ul>
             </div>

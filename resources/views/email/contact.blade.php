@@ -86,10 +86,10 @@
                                                         <th class="column-top" width="145" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top;">
                                                             <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                                 <tr style="background-color:#FFF;">
-                                                                    <td class="img m-center" style="font-size:0pt; line-height:0pt; text-align:left;">
-                                                                        <img src="{{ asset('https://dgainternational.ca/images/logo.png') }}"
-                                                                        width="100" style="max-width:167px;"
-                                                                        border="0" alt="" />                                                                </tr>
+                                                                    <td class="img m-center" style="font-size:0pt; line-height:0pt; text-align:center;">
+                                                                        <img src="{{ asset('http://localhost:8000/images/logo-light.png') }}"
+                                                                        width="250" style="max-width:300px; text-alihn=center"
+                                                                        border="0" alt="" />                                                              </tr>
                                                             </table>
                                                         </th>
                                                         <th class="column-empty" width="1" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top;"></th>

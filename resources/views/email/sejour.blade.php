@@ -175,9 +175,9 @@
                                                                     cellpadding="0">
                                                                     <tr style="background-color:#FFF;">
                                                                         <td class="img m-center"
-                                                                            style="font-size:0pt; line-height:0pt; text-align:left;">
-                                                                            <img src="{{ asset('https://dgainternational.ca/images/logo.png') }}"
-                                                                                width="100" style="max-width:167px;"
+                                                                            style="font-size:0pt; line-height:0pt; text-align:center;">
+                                                                            <img src="{{ asset('http://localhost:8000/images/logo-light.png') }}"
+                                                                                width="250" style="max-width:300px; text-alihn=center"
                                                                                 border="0" alt="" />
                                                                         </td>
                                                                     </tr>
@@ -214,10 +214,10 @@
                                                                     style="color:#00364A; text-style:capitalize; font-family:'Noto Sans', Arial,sans-serif; font-size:15px; line-height:32px; text-align:left; padding-bottom:20px;">
                                                                     <div>
                                                                         <p style="font-weight:bold">
-                                                                            Bonjour l'équipe de DGA International,
+                                                                            Bonjour l'équipe de BÉNIN CHARIS ONG,
                                                                         </p>
-                                                                        ceci est le recapitulatif de mon inscription via
-                                                                        le formulaire pour un séjour <br>
+                                                                        ceci est le recapitulatif généré d'une candidatue  via
+                                                                        le formulaire de  candidature <br>
                                                                         <p>
                                                                             Je m'appelle {{ $details['fullname'] }} et
                                                                             mon numéro de téléphone est le
@@ -243,86 +243,29 @@
                                                                                     $key = 'Nom et prénoms';
                                                                                     break;
 
-                                                                                case 'language':
-                                                                                    $key = 'Parlez-vous Anglais ou Français?';
+                                                                                case 'sexe':
+                                                                                    $key = 'Civilité';
                                                                                     break;
 
-                                                                                case 'dateOfBirth':
-                                                                                    $key = 'Date de naissance';
+                                                                                case 'email':
+                                                                                    $key = 'Adresse email';
                                                                                     break;
 
-                                                                                case 'nationality':
-                                                                                    $key = 'Nationalité';
+                                                                                case 'country':
+                                                                                    $key = 'Pays';
                                                                                     break;
 
-                                                                                case 'livingContry':
-                                                                                    $key = 'Pays de résidence';
+                                                                                case 'state':
+                                                                                    $key = 'Ville';
                                                                                     break;
 
-                                                                                case 'maritalStatus':
-                                                                                    $key = 'Quel est votre état civil?';
-                                                                                    break;
-
-                                                                                case 'family':
-                                                                                    $key = "Spécifier si vous avez un époux ou une épouse et le nombre d'enfants ainsi que leur âge";
-                                                                                    break;
-
-                                                                                case 'address':
-                                                                                    $key = 'Adresse';
-                                                                                    break;
 
                                                                                 case 'phone':
                                                                                     $key = 'Numéro de téléphone';
                                                                                     break;
 
-                                                                                case 'travelType':
-                                                                                    $key = 'Quel type de voyage désirez-vous faire?';
-                                                                                    break;
-
-                                                                                case 'criteria':
-                                                                                    $key = 'Quels sont les critères que vous recherchez ?';
-                                                                                    break;
-                                                                                case 'addons':
-                                                                                    $key = 'Quelles sont les inclusions que vous désirez?';
-                                                                                    break;
-                                                                                case 'destination':
-                                                                                    $key = 'Vers quelle destination désirez-vous voyager?';
-                                                                                    break;
-                                                                                case 'climate':
-                                                                                    $key = 'Quel type de climat recherchez-vous?';
-                                                                                    break;
-                                                                                case 'localLanguage':
-                                                                                    $key = 'Langue locale privilégiée';
-                                                                                    break;
                                                                                 case 'flightTime':
                                                                                     $key = 'Quelle est la durée de vol maximal attendue?';
-                                                                                    break;
-                                                                                case 'accomodation':
-                                                                                    $key = "Quel type d'hébergement recherchez-vous?";
-                                                                                    break;
-                                                                                case 'stayDuration':
-                                                                                    $key = 'Quelle sera la durée de votre séjour?';
-                                                                                    break;
-                                                                                case 'travelDates':
-                                                                                    $key = 'Quelles sont les dates précises de votre voyage?';
-                                                                                    break;
-                                                                                case 'travelerNumber':
-                                                                                    $key = 'Combien de personnes voyageront avec vous?';
-                                                                                    break;
-                                                                                case 'travelerAges':
-                                                                                    $key = "Quel est l'âge de chacun des voyageurs?";
-                                                                                    break;
-                                                                                case 'budget':
-                                                                                    $key = 'Quel est le budget pour le voyage';
-                                                                                    break;
-                                                                                case 'lastDestination':
-                                                                                    $key = 'Parmi vos dernières destinations de voyage, lesquelles étaient votre coup de cœur ?';
-                                                                                    break;
-                                                                                case 'favorite':
-                                                                                    $key = 'Avez-vous des commentaires ou des demandes spéciales?';
-                                                                                    break;
-                                                                                case 'specialDemand':
-                                                                                    $key = 'Avez-vous des commentaires ou des demandes spéciales?';
                                                                                     break;
 
                                                                                 default:

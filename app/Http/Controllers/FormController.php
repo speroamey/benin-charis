@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Offer;
 use Illuminate\Http\Request;
 use stdClass;
 use Swift_Mailer;
@@ -61,9 +62,14 @@ class FormController extends Controller
         // }
     }
 
-    public function formPreliminaire()
+    public function nousRejoindre()
     {
-        return view('pages.form-preliminaire');
+        $offers = Offer::get()->last()->take(10)->get();
+        return view('pages.nous-rejoindre', compact('offers'));
+    }
+    public function nousRejoindreDetails($id){
+        $offer= Offer::find($id);
+        return view('pages.services', compact('offer'));
     }
 
     public function formMissionEconomique()
@@ -76,77 +82,14 @@ class FormController extends Controller
         return view('pages.form-background-check');
     }
 
-    public function formSejour()
+    public function formulaireDePoste($id)
     {
-        $criteria = [
-            "Tout-Inclus",
-            "Croisière",
-            "Luxe",
-            "Plage",
-            "Aventure",
-            "Activités culturelles et musées",
-            "Découvertes urbaines",
-            "Architectures locales",
-            "Folklore et tradition",
-            " Fiesta et vie nocturne",
-            "Activités humanitaires",
-            " Gastronomie et découverte culinaire",
-            "Activités sportives"
-        ];
-
-        $inclusions = [
-            "Tout-Inclus",
-            "Excursions",
-            "Wifi illimité",
-            "Restaurants à la carte",
-            "Sélection de vins et spiritueux",
-            "Sports nautiques et terrestres",
-            "Service de conciergerie",
-            "Service de majordome",
-            " Service aux chambres",
-            "Spa",
-            " Salle de sport",
-            "Croisière"
-        ];
-        $climate = [
-            "Tropical",
-            "Tempéré",
-            "Aride",
-            "Froid",
-        ];
-        $accomodation = [
-            "Hôtel de luxe",
-            "Hôtel standard",
-            "Appartement",
-            "Maison"
-        ];
-
-        $stayDuration = [
-            "5 jours",
-            "7 jours",
-            "14 jours",
-            "1 mois et plus",
-            "Autre"
-        ];
-
-        return view('pages.form-sejour', compact('criteria', 'inclusions', 'climate', "accomodation", "stayDuration"));
+        if($id =="candidature-spontanee"){
+            $offer = array('id'=>$id, 'title'=>'Candidature spontanée');
+            return view('pages.form-poste', compact('offer'));
+        }
+        $offer = Offer::find($id);
+        return view('pages.form-poste', compact('offer'));
     }
 
-    // private  function  SendEmail(array $details, $template)
-    // {
-    //     // dd(env('APP_EMAIL'));
-    //     $transport = (new Swift_SmtpTransport(env('MAIL_HOST'), env('MAIL_PORT'), 'tls'))
-    //         ->setUsername(env('MAIL_USERNAME'))
-    //         ->setPassword(env('MAIL_PASSWORD'));
-
-    //     $mailer = new Swift_Mailer($transport);
-    //     $message = (new Swift_Message("Mail LaJoy"))
-    //         ->setSubject($details['object'])
-    //         ->setFrom([$details['email'] => env("APP_EMAIL")])
-    //         ->setTo([env("APP_EMAIL") =>  $details['email']])
-    //         ->setBody(view($template, compact("details"))->render(), 'text/html');
-
-    //     $result = $mailer->send($message);
-    //     return $result;
-    // }
 }

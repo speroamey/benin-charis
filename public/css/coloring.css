@@ -92,7 +92,7 @@ a.btn-border:hover,
 .post-content .date-box,
 #mainmenu li a b
 {
-	background:	var(--primary-color);
+	background:	var(--secondary-color);
 	color: #fff;
 }
 

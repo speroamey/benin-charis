@@ -3,123 +3,121 @@
 Template Name:Customise by
 Author: Spero AMEY / WAKPARE-AMEY M'pouamon
 -->
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}>
-    <head>
-        <meta charset="utf-8" />
-<title>BENIN CHARIS ONG - Une ONG basé au Bénin</title>
-<link rel="icon" href="{{ asset('images/logo.ico') }}" type="image/ico" sizes="16x16">
-<meta content="width=device-width, initial-scale=1.0" name="viewport" />
-<meta name="csrf-token" content="{{ csrf_token() }}" />
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
-<meta
-    content="BENIN CHARIS ONG "
-    name="description" />
-<meta
-    content="BENIN CHARIS ONG"
-    name="keywords" />
-<meta content="Spero AMEY WAKPARE-AMEY M'POUAMON" name="author" />
-<!--[if lt IE 9]>
+<head>
+    <meta charset="utf-8" />
+    <title>BENIN CHARIS ONG - Une ONG basé au Bénin</title>
+    <link rel="icon" href="{{ asset('images/logo.ico') }}" type="image/ico" sizes="16x16">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+
+    <meta content="BENIN CHARIS ONG " name="description" />
+    <meta content="BENIN CHARIS ONG" name="keywords" />
+    <meta content="Spero AMEY WAKPARE-AMEY M'POUAMON" name="author" />
+    <!--[if lt IE 9]>
                 <script src="js/html5shiv.js"></script>
             <![endif]-->
-<!-- CSS Files
+    <!-- CSS Files
         ================================================== -->
-<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"> -->
-@if (App::environment('production'))
-{{dd('ok')}}
-    <link href="{{ asset('css/all.css') }}" rel="stylesheet" type="text/css" />
-@else
-    {{-- <link href="{{ asset('css/all.css') }}" rel="stylesheet" type="text/css" /> --}}
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"> -->
+    @if (App::environment('production'))
+        {{ dd('ok') }}
+        <link href="{{ asset('css/all.css') }}" rel="stylesheet" type="text/css" />
+    @else
+        {{-- <link href="{{ asset('css/all.css') }}" rel="stylesheet" type="text/css" /> --}}
 
-    <link id="bootstrap" href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
-    <link id="bootstrap-grid" href="{{ asset('css/bootstrap-grid.min.css') }}" rel="stylesheet" type="text/css" />
-    <link id="bootstrap-reboot" href="{{ asset('css/bootstrap-reboot.min.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('css/animate.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('css/owl.carousel.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('css/owl.theme.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('css/owl.transitions.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('css/magnific-popup.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('css/jquery.countdown.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" />
-    <!-- color scheme -->
-    <link id="colors" href="{{ asset('css/colors/scheme-01.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('css/coloring.css') }}" rel="stylesheet" type="text/css" />
+        <link id="bootstrap" href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
+        <link id="bootstrap-grid" href="{{ asset('css/bootstrap-grid.min.css') }}" rel="stylesheet" type="text/css" />
+        <link id="bootstrap-reboot" href="{{ asset('css/bootstrap-reboot.min.css') }}" rel="stylesheet"
+            type="text/css" />
+        <link href="{{ asset('css/animate.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('css/owl.carousel.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('css/owl.theme.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('css/owl.transitions.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('css/magnific-popup.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('css/jquery.countdown.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" />
+        <!-- color scheme -->
+        <link id="colors" href="{{ asset('css/colors/scheme-01.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('css/coloring.css') }}" rel="stylesheet" type="text/css" />
 
-    <link rel="stylesheet" href="revolution/css/settings.css" type="text/css">
-    <link rel="stylesheet" href="revolution/css/layers.css" type="text/css">
-    <link rel="stylesheet" href="revolution/css/navigation.css" type="text/css">
-@endif
-<style type="text/css">
-    .navbar {
-        position: absolute;
-    }
+        <link rel="stylesheet" href="revolution/css/settings.css" type="text/css">
+        <link rel="stylesheet" href="revolution/css/layers.css" type="text/css">
+        <link rel="stylesheet" href="revolution/css/navigation.css" type="text/css">
+    @endif
+    <style type="text/css">
+        .navbar {
+            position: absolute;
+        }
 
-    .nav-link {
-        color: #fff !important;
-    }
+        .nav-link {
+            color: #fff !important;
+        }
 
-    .dropdown-menu {
-        background-color: rgb(0 54 74 / 80%);
-        color: #fff;
-    }
-
-    .navbar .megamenu {
-        padding: 1rem;
-    }
-
-    .navbar-collapse {
-        flex-grow: 0 !important;
-    }
-
-    /* ============ desktop view ============ */
-    @media all and (min-width: 992px) {
-
-        .navbar .has-megamenu {
-            position: static !important;
+        .dropdown-menu {
+            background-color: rgb(0 54 74 / 80%);
+            color: #fff;
         }
 
         .navbar .megamenu {
-            left: 0;
-            right: 0;
-            width: 100%;
-            margin-top: 0;
+            padding: 1rem;
         }
 
-    }
+        .navbar-collapse {
+            flex-grow: 0 !important;
+        }
 
-    /* ============ desktop view .end// ============ */
+        /* ============ desktop view ============ */
+        @media all and (min-width: 992px) {
 
-    .navbar .container,
-    .navbar .container-fluid,
-    .navbar .container-lg,
-    .navbar .container-md,
-    .navbar .container-sm,
-    .navbar .container-xl {
-        display: initial !important;
-    }
+            .navbar .has-megamenu {
+                position: static !important;
+            }
 
-    /* ============ mobile view ============ */
-    @media(max-width: 991px) {
+            .navbar .megamenu {
+                left: 0;
+                right: 0;
+                width: 100%;
+                margin-top: 0;
+            }
 
-        /* .navbar.fixed-top .navbar-collapse,
+        }
+
+        /* ============ desktop view .end// ============ */
+
+        .navbar .container,
+        .navbar .container-fluid,
+        .navbar .container-lg,
+        .navbar .container-md,
+        .navbar .container-sm,
+        .navbar .container-xl {
+            display: initial !important;
+        }
+
+        /* ============ mobile view ============ */
+        @media(max-width: 991px) {
+
+            /* .navbar.fixed-top .navbar-collapse,
         .navbar.sticky-top .navbar-collapse {
             overflow-y: auto;
             max-height: 90vh;
             margin-top: 10px;
         } */
-        h1,
-        .h1 {
-            font-size: 28px;
-            margin-bottom: 20px;
-            line-height: 39px;
-            letter-spacing: -1px;
+            h1,
+            .h1 {
+                font-size: 28px;
+                margin-bottom: 20px;
+                line-height: 39px;
+                letter-spacing: -1px;
+            }
         }
-    }
 
-    /* ============ mobile view .end// ============ */
-    .border-gray {
-        border: 1px solid rgb(207, 203, 203) !important;
-    }
-</style>
+        /* ============ mobile view .end// ============ */
+        .border-gray {
+            border: 1px solid rgb(207, 203, 203) !important;
+        }
+    </style>
 </head>
 
 <body>

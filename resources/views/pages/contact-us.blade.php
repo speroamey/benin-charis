@@ -37,11 +37,10 @@
                                 </span>
 
                             </span>
-                            <span> <a href="tel:+229 96 14 32 13"><i class="id-color fa fa-phone fa-lg"></i>+229 96 14 32 13</a> </span>
-                            <span> <a href="tel:+229 96 80 75 70"><i class="id-color fa fa-phone fa-lg"></i>+229 96 80 75 70</a> </span>
-                            <span> <a href="tel:+229 57 07 29 48"><i class="id-color fa fa-phone fa-lg"></i>+229 57 07 29 48</a> </span>
+                            <span> <a href="tel:+229 90 09 06  09"><i class="id-color fa fa-phone fa-lg"></i>+229 90 09 06  09</a> </span>
+                            <span> <a href="tel:+229 64 54 66 66"><i class="id-color fa fa-phone fa-lg"></i>+229 64 54 66 66</a> </span>
 
-                            <span><i class="id-color fa fa-envelope-o fa-lg"></i><a href="mailto:info@lajoyconsulting.com">info@benin-charis.com</a></span>
+                            <span><i class="id-color fa fa-envelope-o fa-lg"></i><a href="mailto:info@lajoyconsulting.com">info@benin-charis.org</a></span>
                             <!-- <span><i class="id-color fa fa-file-pdf-o fa-lg"></i><a href="#">Download Brochure</a></span> -->
                         </address>
                     </div>
@@ -62,7 +61,7 @@
                                 <input type="number" name="phone" id="phone" class="form-control border-gray" placeholder="Votre numéro de téléphone" required />
                             </div>
                             <div class="field-set">
-                                <input type="text" name="object" id="object" class="form-control border-gray" placeholder="Objet du message" required/>
+                                <input type="text" name="subject" id="subject" class="form-control border-gray" placeholder="Objet du message" required/>
                             </div>
                             <div class="field-set">
                                 <textarea name="message" min="30" id="message" class="form-control border-gray" placeholder="Votre Message" required></textarea>
@@ -92,16 +91,16 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-7 offset-lg-5">
-                        <span class="p-title">Qui sommes-nous?</span><br>
+                        <span class="p-title">BÉNIN CHARIS ONG?</span><br>
                         <h2>
-                            Notre Expérience<br>Notre Dévouement
+                            Qui sommes-nous?
                         </h2>
 
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
                                 aria-labelledby="pills-home-tab">
                                 <p>
-                                    Bénin CHARIS ONG est une Organisation Non Gouvernementale à but non lucratif et est apolitique. Elle a été créée en 2023 en République du Bénin conformément aux dispositions de la loi du 1er Juillet 1901 et le décret du 16 Août portant création des associations, soutenant les actions du développement durable en général sans distinction de sexe, de race et de religion. Le siège de Bénin CHARIS est situé à Cotonou dans le 9ème arrondissement au quartier Kindonou. Est membre de cette organisation toute personne physique qui manifeste un intérêt pour l’organisation. Elle est composée des membres fondateurs, des membres actifs, de sympathisants et de membres d’honneur. L’objectif général est de contribuer durablement à la réduction de la pauvreté au Bénin. De cet objectif général découle quatre objectifs spécifiques que sont :
+                                    BÉNIN CHARIS ONG est une Organisation Non Gouvernementale à but non lucratif et est apolitique. Elle a été créée en 2023 en République du Bénin conformément aux dispositions de la loi du 1er Juillet 1901 et le décret du 16 Août portant création des associations, soutenant les actions du développement durable en général sans distinction de sexe, de race et de religion. Le siège de BÉNIN CHARIS est situé à Cotonou dans le 9ème arrondissement au quartier Kindonou. Est membre de cette organisation toute personne physique qui manifeste un intérêt pour l’organisation. Elle est composée des membres fondateurs, des membres actifs, de sympathisants et de membres d’honneur. L’objectif général est de contribuer durablement à la réduction de la pauvreté au Bénin. De cet objectif général découle quatre objectifs spécifiques que sont :
                                     <ol>
                                         <li>contribuer à la sécurité alimentaire et nutritionnelle;</li>
                                         <li>promouvoir la transition agroécologique et l’économie circulaire;</li>

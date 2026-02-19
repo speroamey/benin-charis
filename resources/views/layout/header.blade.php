@@ -1,13 +1,13 @@
 <div id="topbar" class="topbar-noborder">
     <div class="container">
-        <div class="topbar-left sm-hide">
+        {{-- <div class="topbar-left sm-hide">
             <span class="topbar-widget tb-social">
                 <a href="https://www.facebook.com/dgainternaionalltee?mibextid=ZbWKwL"><i class="fa fa-facebook fa-lg"></i></a>
                 <a href="https://www.linkedin.com/company/dga-international/"><i class="fa fa-linkedin fa-lg"></i></a>
                 <a href="https://instagram.com/dgainternational?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa fa-instagram fa-lg"></i></a>
 
             </span>
-        </div>
+        </div> --}}
         <div class="topbar-right">
             <div class="topbar-right">
                 {{-- <span class="topbar-widget"><a href="#">Politique de confidentialité</a></span> --}}
@@ -25,8 +25,8 @@
                 <div class="de-flex sm-pt1">
                     <div class="de-flex-col">
                         <!-- logo begin -->
-                                <a href="{{url('/')}}"> <img alt="" class="logo" src="{{asset('images/logo.png')}}" width="165" /></a>
-                                <a href="{{url('/')}}"> <img alt="" class="logo-2" src="{{asset('images/logo-light.png')}}" width="150" /></a>
+                                <a href="{{url('/')}}"> <img alt="" class="logo" src="{{asset('images/logo.png')}}" width="205" /></a>
+                                <a href="{{url('/')}}"> <img alt="" class="logo-2" src="{{asset('images/logo-light.png')}}" width="250" /></a>
                         <!-- logo close -->
                     </div>
                     <div class="de-flex-col header-col-mid">
@@ -42,8 +42,8 @@
                             </li>
                             <li><a href="{{route('ce-que-nous-faisons')}}">Ce que nous faisons</a></li>
                             <li><a href="/nous-contacter">Nous Contacter</a></li>
-                            <li><a href="/formulaire-preliminaire">Nous Rejoindre</a>
-                                
+                            <li><a href="/nous-rejoindre">Nous Rejoindre</a>
+
                             </li>
                             <li><a href="{{route('articles')}}">News</a></li>
                         </ul>
@@ -52,7 +52,7 @@
 
                     <div class="de-flex-col">
                         <div class="h-phone md-hide"><span>Prendre rendez-vous</span><i
-                                class="fa fa-phonee"></i><a href="tel: +229 96 14 32 13" class="text-white"> +229 96 14 32 13
+                                class="fa fa-phonee"></i><a href="tel: +229 90 09 06  09" class="text-white"> +229 90 09 06  09
                                 </a> </div>
                         <span id="menu-btn"></span>
                     </div>

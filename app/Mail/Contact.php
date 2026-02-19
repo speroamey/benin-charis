@@ -34,9 +34,9 @@ class Contact extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            from: new Address('info@dgainternational.ca', $this->details['fullname']?? "Visiteur"),
-            to:['info@dgainternational.ca'],
-            subject: 'Inscription',
+            from: new Address('info@benin-charis.org', $this->details['fullname']?? "Visiteur"),
+            to:[\env('MAIL_TO_ADDRESS')],
+            subject:$this->details['subject'] ,
         );
     }
 

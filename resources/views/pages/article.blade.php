@@ -9,17 +9,15 @@
     <div class="no-bottom no-top" id="content">
         <div id="top"></div>
         <!-- section begin -->
-        <section id="subheader" class="jarallax text-white" data-bgcolor="#073B84">
+        <section id="subheader" class="jarallax text-white" style="background-color: #073B84">
             <!-- <img src="images/background/subheader3.jpg" class="jarallax-img" alt=""> -->
             <div class="center-y relative text-center">
                 <div class="container">
                     <div class="row">
                         <div class="col text-center">
                             <div class="spacer-single"></div>
-                            <div class="col-md-5 mb-sm-30 text-lg-center text-sm-center mx-auto my-aut"  data-bgcolor="#073B84">
-                                <h2 style="border-bottom-color:white">Dernières nouvelles</h2>
-                            </div>
-                            {{-- <p>Réputation. Respect. Resultat.</p> --}}
+                            <h1>Article</h1>
+                            <p>{{$post->title}}</p>
                         </div>
                         <div class="clearfix"></div>
                     </div>
@@ -27,117 +25,47 @@
             </div>
         </section>
         <!-- section close -->
-        
         <section aria-label="section">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="text-center">
-                            <h2>Nos Articles</h2>
+                    <div class="col-md-8">
+                        <blockquote>
+                            {{ $post->title}}
+                         </blockquote>
+                            <div class="blog-read">
+                                <img alt="" src="images/news/5.jpg" class="img-fullwidth">
+                                <div class="post-text">
+                                    {!! $post->body  !!}
+                                </div>
+                            </div>
+
+                    </div>
+                    <div id="sidebar" class="col-md-4">
+                        {{-- <div class="widget widget-post">
+                            <h4>Autres Sujets</h4>
                             <div class="small-border"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 mb30">
-                        <div class="bloglist item">
-                            <div class="post-content">
-                                <div class="date-box">
-                                    <div class="m">01</div>
-                                </div>
-                                <div class="post-image">
-                                    <img alt="" src="images/news/1.jpg">
-                                </div>
-                                <div class="post-text">
-                                    <span class="p-tagline">------</span>
-                                    <h4><a href="{{ route('blog', ['la-transformation-digitale-gestion-du-changement']) }}">Titre
-                                            de la vidéo
-                                            <span></span></a></h4>
-                                    <span class="p-author"><a
-                                            href="{{ route('blog', ['la-transformation-digitale-gestion-du-changement']) }}">Lire
-                                            la vidéo</a></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb30">
-                        <div class="bloglist item">
-                            <div class="post-content">
-                                <div class="date-box">
-                                    <div class="m">02</div>
-                                </div>
-                                <div class="post-image">
-                                    <img alt="" src="images/news/2.jpg">
-                                </div>
-                                <div class="post-text">
-                                    <span class="p-tagline">----</span>
-                                    <h4><a href="{{ route('blog', ['femmes-leaders-dans-l-economie-ivoirienne']) }}">Titre
-                                            de la vidéo
-                                            <span></span></a></h4>
-                                    <span class="p-author"><a
-                                            href="{{ route('blog', ['femmes-leaders-dans-l-economie-ivoirienne']) }}">Lire
-                                            la vidéo</a></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb30">
-                        <div class="bloglist item">
-                            <div class="post-content">
-                                <div class="date-box">
-                                    <div class="m">03</div>
-                                </div>
-                                <div class="post-image">
-                                    <img alt="" src="images/news/3.jpg">
-                                </div>
-                                <div class="post-text">
-                                    <span class="p-tagline">-----</span>
-                                    <h4><a href="{{ route('blog', ['l-innovation-disruptive']) }}">Titre dela vidéo
-                                            <span></span></a></h4>
+                            <ul>
+                                <li><span class="date">01</span><a href="{{route('blog','marketing-par-les-donnees')}}">Marketing par les données</a></li>
+                                <li><span class="date">02</span><a href="{{route('blog','le-marketing-de-donnees')}}">Marketing de données</a></li>
+                                <li><span class="date">03 </span><a href="{{route('blog','le-marketing-et-la-communication')}}">Marketing & Communication</a></li>
+                                <li><span class="date">04 </span><a href="{{route('blog','la-transformation-digitale-gestion-du-changement')}}">Transformation digitale, gestion du changement</a></li>
+                                <li><span class="date">05</span><a href="{{route('blog','femmes-leaders-dans-l-economie-ivoirienne')}}">Femmes leaders dans l’économie ivoirienne</a></li>
+                                <li><span class="date">06</span><a href="{{route('blog','l-innovation-disruptive')}}">L'innovation disruptive</a></li>
 
-                                    <span class="p-author"><a href="{{ route('blog', ['l-innovation-disruptive']) }}">Lire
-                                            la vidéo </span></span>
-                                </div>
-                            </div>
+                            </ul>
+                        </div> --}}
+                        <div class="widget widget-text">
+                            <h4>A Propos</h4>
+                            <div class="small-border"></div>
+                            BÉNIN CHARIS ONG est une Organisation Non Gouvernementale à but non lucratif et est apolitique. Elle a été créée en 2023 en République du Bénin conformément aux dispositions de la loi du 1er Juillet 1901 et le décret du 16 Août portant création des associations, soutenant les actions du développement durable en général sans distinction de sexe, de race et de religion. Le siège de BÉNIN CHARIS ONG est situé à Cotonou dans le 9ème arrondissement au quartier Kindonou. Est membre de cette organisation toute personne physique qui manifeste un intérêt pour l’organisation. Elle est composée des membres fondateurs, des membres actifs, de sympathisants et de membres d’honneur. L’objectif général est de contribuer durablement à la réduction de la pauvreté au Bénin. De cet objectif général découle quatre objectifs spécifiques que sont :
                         </div>
+
                     </div>
                 </div>
             </div>
         </section>
-        
-
-
-        <section data-bgcolor="#111111" class="text-light">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-5 offset-lg-7">
-                        <span class="p-title">Qui sommes-nous?</span><br>
-                        <h2>
-                            Notre Expérience<br>Notre Expertise
-                        </h2>
-
-                        <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                                <p>
-                                    Notre clientèle cible comprend des entreprises et des particuliers qui cherchent à s’installer au Canada et en Côte d’Ivoire. Nous comprenons que la navigation dans de nouveaux environnements peut être difficile et nous nous engageons à offrir un soutien émotionnel et pratique à nos clients. Nous offrons une approche personnalisée à chaque client, en nous adaptant à leurs besoins spécifiques et en leur offrant des solutions innovantes.
-                                </p>
-                                <p>
-                                    Notre méthode de travail est fondée sur une communication ouverte et transparente
-                                </p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="jarallax image-container col-md-6 pull-right">
-                <img src="images/background/bel.JPEG" class="jarallax-img" alt="">
-            </div>
-        </section>
-
     </div>
     <!-- content close -->
-
 @endsection
 
 @push('custom-scripts')

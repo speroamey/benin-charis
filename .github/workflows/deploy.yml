@@ -1,0 +1,99 @@
+name: 🚀 Deploy Laravel (Prod & Preprod)
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+
+jobs:
+  deploy:
+    name: 🔧 Deployment
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Récupération du code
+      - name: 🧱 Checkout repository
+        uses: actions/checkout@v4
+
+      # 2️⃣ Configuration SSH
+      - name: 🔑 Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          echo "Host mowondoo
+            HostName panel.mowondoo.com
+            User root
+            IdentityFile ~/.ssh/id_ed25519
+            StrictHostKeyChecking no" > ~/.ssh/config
+
+      # 3️⃣ Node.js
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      # 4️⃣ Dépendances JS
+      - name: 📦 Install NPM dependencies
+        run: npm ci
+
+      # 5️⃣ Build frontend
+      - name: 🏗️ Build frontend assets
+        run: npm run build
+
+      # 6️⃣ Définition de l’environnement selon la branche
+      - name: 🧠 Define deployment target
+        run: |
+          if [ "${GITHUB_REF_NAME}" = "main" ]; then
+            echo "DEPLOY_PATH=/var/www/benincharis.org/web" >> $GITHUB_ENV
+            echo "ENV_NAME=production" >> $GITHUB_ENV
+          elif [ "${GITHUB_REF_NAME}" = "dev" ]; then
+            echo "DEPLOY_PATH=/var/www/dev.benincharis.org/web" >> $GITHUB_ENV
+            echo "ENV_NAME=staging" >> $GITHUB_ENV
+          fi
+
+      # 7️⃣ Synchronisation des fichiers
+      - name: 📤 Deploy code via rsync
+        run: |
+          rsync -avz --chown=web18:client0 \
+            --exclude ".git/" \
+            --exclude ".github/" \
+            --exclude "node_modules/" \
+            --exclude "vendor/" \
+            --exclude ".env" \
+            ./ mowondoo:${{ env.DEPLOY_PATH }}
+
+      # 8️⃣ Commandes Laravel côté serveur
+      - name: ⚙️ Run Laravel deployment commands
+        run: |
+          ssh -i ~/.ssh/id_ed25519 mowondoo << EOF
+            cd ${{ env.DEPLOY_PATH }}
+
+            echo "📦 Installation des dépendances PHP..."
+            COMPOSER_ALLOW_SUPERUSER=1 composer install --no-dev --optimize-autoloader
+
+            # 🚨 Sur DEV seulement : copie .env si absent + génération APP_KEY
+            if [ "${{ env.ENV_NAME }}" = "staging" ]; then
+              cp -n .env.example .env || true
+              echo "🔑 Génération de APP_KEY..."
+              php artisan key:generate --force
+            fi
+
+            echo "🗄️ Exécution des migrations..."
+            php artisan migrate --force
+
+            echo "⚡ Optimisation Laravel..."
+            php artisan config:clear
+            php artisan config:cache
+            php artisan route:cache
+            php artisan view:cache
+            php artisan event:cache
+            php artisan optimize
+
+            echo "🧹 Permissions..."
+            sudo chown -R web18:client0 storage bootstrap/cache
+            sudo chmod -R 775 storage bootstrap/cache
+
+            echo "✅ Déploiement terminé pour ${{ env.ENV_NAME }}"
+          EOF

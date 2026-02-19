@@ -989,7 +989,7 @@ section.no-bg,
 /* ================================================== */
 
 footer {
-    background: #111111;
+    background: rgb(140 136 136);
     color: #ffffff;
     padding: 80px 0 0 0;
 }
@@ -2730,6 +2730,12 @@ a.btn-custom.btn-black {
     background: #111111;
 }
 
+a.btn-custom.btn-green{
+    background:#008000;
+    box-shadow: 2px 2px 20px 0px rgba(20, 20, 20, 0.3);
+
+}
+
 header a.btn-custom {
     padding: 2px 20px !important;
 }
@@ -4423,11 +4429,12 @@ i.font60 {
     font-family: "FontAwesome";
     content: "\f00c";
     margin-right: 15px;
-    background: #111111;
+    background: #f8f8f8;
     padding: 5px;
     border-radius: 3px;
     font-size: 12px;
 }
+
 
 .ul-style-2.s2 li:before,
 .ul-style-2.s2 li:after{
@@ -9398,6 +9405,14 @@ body.dark-mode,
     box-shadow: 2px 20px 30px 0px rgba(20, 20, 20, 0.3);
 }
 
+.de-images-rounded img
+ {
+    border-radius: 50%;
+    -webkit-box-shadow: 2px 20px 30px 0px rgba(20, 20, 20, 0.3);
+    -moz-box-shadow: 2px 20px 30px 0px rgba(20, 20, 20, 0.3);
+    box-shadow: 2px 20px 30px 0px rgba(20, 20, 20, 0.3);
+}
+
 .di-small {
     position: absolute;
     width: 40%;
@@ -11175,7 +11190,7 @@ a.read_more i {
 .mask {
     width: 100%;
     position: relative;
-    overflow: hidden !important;
+    /* overflow: hidden !important; */
     display: inline-block;
     -webkit-box-shadow: 2px 2px 30px 0px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 2px 2px 30px 0px rgba(0, 0, 0, 0.2);
@@ -11187,9 +11202,21 @@ a.read_more i {
     height: 100%;
 }
 
-.mask .cover {
+/* .mask .cover {
     display: table;
     position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 70px;
+    padding: 25px;
+    background: #000000;
+    bottom: 0px;
+    top: 100%;
+    margin-top: -70px;
+} */
+.mask .cover {
+    display: table;
+    /* position: absolute; */
     z-index: 100;
     width: 100%;
     height: 70px;
@@ -11211,7 +11238,7 @@ a.read_more i {
 
 .mask .cover h3 {
     font-size: 18px;
-    color: #fff;
+    color: #063b85;
     line-height: 1em;
     padding-left: 30px;
 }
@@ -11221,7 +11248,7 @@ a.read_more i {
 }
 
 .mask .cover p {
-    color: #bbbbbb;
+    color: #343a41;
     padding-top: 15px;
     padding-right: 25px;
 }
@@ -11230,19 +11257,19 @@ a.read_more i {
     color: #777777;
 }
 
-/* .mask .cover {
+.mask .cover {
     height: 100%;
     top: 0;
     margin-top: -0px;
-    background: rgba(0, 0, 0, .5) !important;
-} */
+    background: rgba(246, 246, 246, .1) !important;
+}
 
-.mask:hover .cover {
+/* .mask:hover .cover {
     height: 100%;
     top: 0;
     margin-top: -0px;
     background: rgba(7, 59, 132, .4) !important;
-}
+} */
 
 .mask:hover .cover p {
     opacity: 1;

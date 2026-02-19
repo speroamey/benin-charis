@@ -12,10 +12,7 @@
                     <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-thumb="">
                         <!--  BACKGROUND IMAGE -->
                         <img alt="" class="rev-slidebg" data-bgposition="top center" data-bgfit="cover"
-                            data-bgrepeat="no-repeat" data-bgparallax="10" src="images/background/Banner-web.jpg">
-                        {{-- <div class="tp-caption big-s1" data-x="0" data-y="230" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on">
-                            <h3 class="id-color"></h3>
-                        </div> --}}
+                            data-bgrepeat="no-repeat" data-bgparallax="10" src="{{asset(('images/background/Banner-web-axe-1.jpg'))}}">
                         <div class="tp-caption very-big-white" data-x="0" data-y="280" data-width="none"
                             data-height="none" data-whitespace="nowrap"
                             data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
@@ -33,17 +30,14 @@
                         <div class="tp-caption" data-x="0" data-y="450" data-width="none" data-height="none"
                             data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
                             data-transform_out="opacity:0;y:-100;s:800;e:Power2.easeInOut;" data-start="800">
-                            <a class="btn-custom" href="{{ url('nous-contacter') }}">Nous Soutenir</a>
+                            <a class="btn-custom btn-green" href="{{ url('nous-contacter') }}">Nous Soutenir</a>
                         </div>
                     </li>
 
                     <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-thumb="">
                         <!--  BACKGROUND IMAGE -->
                         <img alt="" class="rev-slidebg" data-bgposition="top center" data-bgfit="cover"
-                            data-bgrepeat="no-repeat" data-bgparallax="10" src="images/background/Banner-web-2.jpg">
-                        {{-- <div class="tp-caption big-s1" data-x="0" data-y="230" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on">
-                            <h3 class="id-color"></h3>
-                        </div> --}}
+                            data-bgrepeat="no-repeat" data-bgparallax="10" src="{{asset('images/background/Banner-web-axe-2.jpg')}}">
                         <div class="tp-caption very-big-white" data-x="0" data-y="280" data-width="none"
                             data-height="none" data-whitespace="nowrap"
                             data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
@@ -63,17 +57,14 @@
                         <div class="tp-caption" data-x="0" data-y="450" data-width="none" data-height="none"
                             data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
                             data-transform_out="opacity:0;y:-100;s:800;e:Power2.easeInOut;" data-start="800">
-                            <a class="btn-custom" href="{{ url('nous-contacter') }}">Nous Soutenir</a>
+                            <a class="btn-custom btn-green" href="{{ url('nous-contacter') }}">Nous Soutenir</a>
                         </div>
                     </li>
 
                     <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-thumb="">
                         <!--  BACKGROUND IMAGE -->
                         <img alt="" class="rev-slidebg" data-bgposition="top center" data-bgfit="cover"
-                            data-bgrepeat="no-repeat" data-bgparallax="10" src="images/background/Banner-web-3.jpg">
-                        {{-- <div class="tp-caption big-s1" data-x="0" data-y="230" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on">
-                            <h3 class="id-color"></h3>
-                        </div> --}}
+                            data-bgrepeat="no-repeat" data-bgparallax="10" src="{{asset('images/background/Banner-web-axe-3.jpg')}}">
                         <div class="tp-caption very-big-white" data-x="0" data-y="280" data-width="none"
                             data-height="none" data-whitespace="nowrap"
                             data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
@@ -85,13 +76,13 @@
                             data-whitespace="wrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
                             data-transform_out="opacity:0;y:-100;s:600;e:Power2.easeInOut;" data-start="700">
                             <p class="lead xs-hide">
-                                Notre axe Nutrition et Santé s'engage à prévenir la malnutrition chez les enfants et les femmes vulnérables, et à soutenir des centres de prise en charge et des Groupes d'Assistance en Nutrition au Bénin!
+                                Notre axe Nutrition et Santé s'engage à prévenir la malnutrition sous toutes ses formes  chez les enfants et les femmes vulnérables, et à soutenir des centres de prise en charge et Groupes d'Assistance en Nutrition au Bénin!
                             </p>
                         </div>
                         <div class="tp-caption" data-x="0" data-y="450" data-width="none" data-height="none"
                             data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
                             data-transform_out="opacity:0;y:-100;s:800;e:Power2.easeInOut;" data-start="800">
-                            <a class="btn-custom" href="{{ url('nous-contacter') }}">Nous Soutenir</a>
+                            <a class="btn-custom btn-green" href="{{ url('nous-contacter') }}">Nous Soutenir</a>
                         </div>
                     </li>
                 </ul>
@@ -107,7 +98,7 @@
                         </h3>
                     </div>
                     <div class="col-md-4 text-lg-right rtl-lg-left text-sm-center">
-                        <a href="{{ url('nous-contacter') }}" class="btn-custom btn-black light">Contactez-nous</a>
+                        <a href="{{ url('nous-contacter') }}" class="btn-custom btn-green light">Contactez-nous</a>
                     </div>
                 </div>
             </div>
@@ -127,7 +118,7 @@
                         <p>
                             Avec une expérience cumulée diversifiée et une vision claire de notre mission, les co-fondateurs de notre ONG incarnent une détermination profonde à créer un impact positif durable. Chaque décision est guidée par notre engagement personnel, avec des capitaux investis de manière stratégique pour concrétiser notre vision. Dans notre quête pour transformer des vies, nous naviguons avec résolution, prêts à surmonter tous les défis sur notre chemin.
                             <br>
-                           
+
                         </p>
                     </div>
                 </div>
@@ -135,52 +126,59 @@
             </div>
         </section>
 
-        <section class="no-top relative z1000">
+        <section class="no-top relative z1000 bg-light">
             <div class="container">
                 <div class="row mt-100">
                     <div class="col-md-4 wow fadeInRight" data-wow-delay=".2s">
                         <div class="mask">
                             <div class="cover">
                                 <div class="c-inner">
-                                    <h3><i class="icofont-data"></i><span>Axes Stratégiques</span></h3>
-                                    <p class="xs-hide md-hide">Spécialement conçus pour répondre aux différents besoins des
-                                     populations.</p>
+
+                                    <a href="{{ route('ce-que-nous-faisons') }}" class="">
+                                        <h3><i class="icofont-data"></i><span>Axes Stratégiques</span></h3>
+                                        <p class="xs- md-">
+                                            Spécialement conçus pour répondre aux différents besoins des
+                                         populations.
+                                        </p>
+                                    </a>
                                     <div class="spacer20"></div>
-                                    <a href="{{ route('ce-que-nous-faisons') }}" class="btn-custom capsule">Voir
-                                     plus</a>
+
                                 </div>
                             </div>
-                            <img src="images/services/1.jpg" alt="" class="img-responsive" />
+                            {{-- <img src="{{(asset('images/services/1.jpg'))}}" alt="" class="img-responsive" /> --}}
                         </div>
                     </div>
                     <div class="col-md-4 wow fadeInRight" data-wow-delay=".4s">
                         <div class="mask">
                             <div class="cover">
                                 <div class="c-inner">
-                                    <h3><i class="icofont-user-alt-1"></i><span>Les dernières nouvelles</span></h3>
-                                    <p class="xs-hide md-hide">L'actuailité concernant nos domaines d'activités et actions
-                                        .</p>
+
+                                    <a href="{{ route('articles') }}" class="">
+                                        <h3><i class="icofont-user-alt-1"></i><span>Les dernières nouvelles</span></h3>
+                                        <p class="xs- md-">
+                                            L'actuailité concernant nos domaines d'activités et actions.</p>
+                                    </a>
                                     <div class="spacer20"></div>
-                                    <a href="{{ route('conciergerie-de-particulier') }}" class="btn-custom capsule">Lire
-                                        plus</a>
                                 </div>
                             </div>
-                            <img src="images/services/2.jpg" alt="" class="img-responsive" />
+                            {{-- <img src="images/services/2.jpg" alt="" class="img-responsive" /> --}}
                         </div>
                     </div>
                     <div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
                         <div class="mask">
                             <div class="cover">
                                 <div class="c-inner">
-                                    <h3><i class="icofont-location-arrow"></i><span>FAQ
+                                    <a href="{{ route('faq') }}" class="">
+                                        <h3><i class="icofont-location-arrow"></i><span>FAQ
                                         </span></h3>
-                                    <p class="xs-hide md-hide"> Retrouvez ici, une liste exhaustive des questions que vous pourrez vous poser et qui revient le plus souvent</p>
+                                        <p class="xs- md-">
+                                         La liste exhaustive des questions qui reviennent le plus souvent et leur réponse
+                                        </p>
+                                    </a>
                                     <div class="spacer20"></div>
-                                    <a href="{{ route('faq') }}" class="btn-custom capsule">Lire
-                                        plus</a>
                                 </div>
                             </div>
-                            <img src="images/services/3.jpg" alt="" class="img-responsive" />
+                            {{-- <img src="images/services/3.jpg" alt="" class="img-responsive" /> --}}
                         </div>
                     </div>
                 </div>
@@ -192,23 +190,22 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-7 offset-lg-5">
-                        <span class="p-title">Qui sommes-nous?</span><br>
+                        <span class="p-title">BÉNIN CHARIS ONG</span><br>
                         <h2>
-                            Notre Expérience<br>Notre Dévouement
+                            Qui sommes-nous?
                         </h2>
 
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
                                 aria-labelledby="pills-home-tab">
                                 <p class="text-justify">
-                                    Bénin CHARIS ONG est une Organisation Non Gouvernementale à but non lucratif et est apolitique. Elle a été créée en 2023 en République du Bénin conformément aux dispositions de la loi du 1er Juillet 1901 et le décret du 16 Août portant création des associations, soutenant les actions du développement durable en général sans distinction de sexe, de race et de religion. Le siège de Bénin CHARIS est situé à Cotonou dans le 9ème arrondissement au quartier Kindonou. Est membre de cette organisation toute personne physique qui manifeste un intérêt pour l’organisation. Elle est composée des membres fondateurs, des membres actifs, de sympathisants et de membres d’honneur. L’objectif général est de contribuer durablement à la réduction de la pauvreté au Bénin. De cet objectif général découle quatre objectifs spécifiques que sont :
-                                    <ol>
+                                    BÉNIN CHARIS ONG est une Organisation Non Gouvernementale à but non lucratif et est apolitique. Elle a été créée en 2023 en République du Bénin conformément aux dispositions de la loi du 1er Juillet 1901 et le décret du 16 Août portant création des associations, soutenant les actions du développement durable en général sans distinction de sexe, de race et de religion. Le siège de BÉNIN CHARIS ONG est situé à Cotonou dans le 9ème arrondissement au quartier Kindonou. Est membre de cette organisation toute personne physique qui manifeste un intérêt pour l’organisation. Elle est composée des membres fondateurs, des membres actifs, de sympathisants et de membres d’honneur. L’objectif général est de contribuer durablement à la réduction de la pauvreté au Bénin. De cet objectif général découle quatre objectifs spécifiques que sont :
+                                    <ul>
                                         <li>contribuer à la sécurité alimentaire et nutritionnelle;</li>
                                         <li>promouvoir la transition agroécologique et l’économie circulaire;</li>
                                         <li>accompagner l’autonomisation des jeunes et des femmes et</li>
-                                        <li>promouvoir l’accès à l’eau potable, l’hygiène et l’assainissement</li>
-                                    </ol>
-                                    
+                                    </ul>
+
                                 </p>
 
 
@@ -223,7 +220,7 @@
             </div>
         </section>
 
-        <section class="pt40 pb40 bg-color text-light" data-bgcolor="#111111" id="notre-mission">
+        <section class="pt40 pb40 bg-color text-light" data-bgcolor="" id="notre-mission">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 text-center my-auto">
@@ -234,7 +231,7 @@
                     <div class="col-lg-7  py-auto text-center text-lg-left text-sm-center">
                         {{-- <div class="big-border" style="font-weight: bold;font-size:20px">Notre Mission</div> --}}
                         <p style="font-size: 18px" class="wow fadeInRight" data-wow-delay=".2s">
-                            La mission de Bénin CHARIS est de contribuer à la réduction de la pauvreté à travers des interventions à impact durable sur la sécurité alimentaire et nutritionnelle, la transition agroécologique et l’insertion socioéconomique des populations vulnérables.
+                            La mission de BÉNIN CHARIS ONG est de contribuer à la réduction de la pauvreté à travers des interventions à impact durable sur la sécurité alimentaire et nutritionnelle, la transition agroécologique et l’insertion socioéconomique des populations vulnérables.
                         </p>
                     </div>
                 </div>
@@ -253,7 +250,7 @@
                     </div>
                     <div class="col-md-6 offset-md-3 text-center">
                         <p>
-                            Bénin CHARIS ONG travaille à impacter positivement les sept (07) groupes cibles suivants:
+                            BÉNIN CHARIS ONG travaille à impacter positivement les sept (07) groupes cibles suivants:
                         </p>
                     </div>
                     <div class="spacer-single"></div>
@@ -266,7 +263,7 @@
                     </div>
                     <div class="col-md-4">
                         <ul class="ul-style-2 wow fadeInRight" data-wow-delay=".2s">
-                            <li>Malades chronique</li>
+                            <li>Malades chroniques</li>
                             <li>Personnes âgées</li>
                             <li>Ménages en milieux ruraux et urbains</li>
                         </ul>
@@ -277,19 +274,19 @@
                             <li>Rechercher d’opportunités d’affaires et d’investissement</li>
                         </ul>
                     </div>
-                    
+
 
                 </div>
             </div>
         </section>
 
 
-        <section aria-label="section" class="jarallax text-light" id="nos-valeurs">
-            <img src="images/background/3-bw.jpg" class="jarallax-img" alt="">
+        <section aria-label="section" class="jarallax text-dark" id="nos-valeurs">
+            {{-- <img src="images/background/3-bwx.jpg" class="jarallax-img" alt=""> --}}
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="text-center text-light">
+                        <div class="text-center text-dark">
                             <h2>Nos valeurs</h2>
                             <div class="small-border"></div>
                         </div>
@@ -298,7 +295,7 @@
                                 <div class="de_testi opt-2 review">
                                     <blockquote>
                                         <i class="fa fa-quote-left id-color"></i>
-                                        <h3 class="id-color text-white">Intégrité</h3>
+                                        <h3 class="id-color">Intégrité</h3>
                                         <p>
                                             Nous croyons que l’intégrité est essentielle pour établir une relation de
                                             confiance sur du long terme avec les populations. Nous nous engageons à servir les
@@ -313,7 +310,7 @@
                                 <div class="de_testi opt-2 review">
                                     <blockquote>
                                         <i class="fa fa-quote-left id-color"></i>
-                                        <h3 class="id-color text-white">Impact durable </h3>
+                                        <h3 class="id-color">Impact durable </h3>
                                         <p>
                                             Nous valorisons également le professionnalisme en restant à l’affût des
                                             dernières tendances et des meilleures pratiques de notre secteur pour offrir des
@@ -328,7 +325,7 @@
                                 <div class="de_testi opt-2 review">
                                     <blockquote>
                                         <i class="fa fa-quote-left id-color"></i>
-                                        <h3 class="id-color text-white">Charité</h3>
+                                        <h3 class="id-color">Charité</h3>
                                         <p>Nous sommes conscients que naviguer dans certains environnements
                                             peut être difficile pour les populatiosns que nous accompagnons. Nous sommes donc là pour les soutenir
                                             émotionnellement et pratiquement, en faisant preuve d’empathie et de
@@ -341,7 +338,7 @@
                                 <div class="de_testi opt-2 review">
                                     <blockquote>
                                         <i class="fa fa-quote-left id-color"></i>
-                                        <h3 class="id-color text-white">Équité sociale</h3>
+                                        <h3 class="id-color ">Équité sociale</h3>
                                         <p>
                                             Nous sommes conscients que naviguer dans un nouvel environnement peut être
                                             difficile. Nous sommes donc là pour soutenir nos clients émotionnellement et
@@ -358,55 +355,7 @@
             </div>
         </section>
 
-        {{-- <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="text-center">
-                            <h2>Témoignages</h2>
-                            <div class="small-border"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 mb30">
-                        <div class="f-box f-icon-left f-icon-rounded">
-                            <i class="icofont-group bg-color text-light"></i>
-                            <div class="fb-text">
-                                <h4>Paul S</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum velit dignissimos alias possimus repudiandae laborum nemo sint repellendus eaque obcaecati tempora odio mollitia ad, suscipit laudantium quibusdam. Maxime, fugit laborum?
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb30">
-                        <div class="f-box f-icon-left f-icon-rounded">
-                            <i class="icofont-group bg-color text-light"></i>
-                            <div class="fb-text">
-                                <h4>John Doe</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellendus incidunt quod odit placeat, vero molestiae minima ipsum esse, cumque impedit nulla provident ducimus nam iste tenetur labore, perferendis culpa.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-lg-4 col-md-6 mb30">
-                        <div class="f-box f-icon-left f-icon-rounded">
-                            <i class="icofont-group bg-color text-light"></i>
-                            <div class="fb-text">
-                                <h4>Sylvie T</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eum animi illum delectus architecto suscipit, molestiae quis, quae quaerat nesciunt non.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section> --}}
 
         <section aria-label="section">
             <div class="container">
@@ -419,68 +368,30 @@
                     </div>
                 </div>
                 <div class="row">
+                    {{-- {{dd($posts)}} --}}
+                    @foreach ($posts as $post)
                     <div class="col-lg-4 col-md-6 mb30">
                         <div class="bloglist item">
                             <div class="post-content">
                                 <div class="date-box">
-                                    <div class="m">01</div>
+                                    <div class="m">{{$post->id}}</div>
                                 </div>
                                 <div class="post-image">
-                                    <img alt="" src="images/news/1.jpg">
+                                    <img alt="" src="{{Storage::url($post->image)}}">
                                 </div>
                                 <div class="post-text">
-                                    <span class="p-tagline">------</span>
-                                    <h4><a href="{{ route('blog', ['la-transformation-digitale-gestion-du-changement']) }}">Titre
-                                            de la vidéo
+                                    <h4><a href="{{ route('article', [$post->id]) }}">
+                                            {{$post->title}}
                                             <span></span></a></h4>
                                     <span class="p-author"><a
-                                            href="{{ route('blog', ['la-transformation-digitale-gestion-du-changement']) }}">Lire
-                                            la vidéo</a></span>
+                                            href="{{ route('article', [$post->id]) }}">Lire l'article</a></span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 mb30">
-                        <div class="bloglist item">
-                            <div class="post-content">
-                                <div class="date-box">
-                                    <div class="m">02</div>
-                                </div>
-                                <div class="post-image">
-                                    <img alt="" src="images/news/2.jpg">
-                                </div>
-                                <div class="post-text">
-                                    <span class="p-tagline">----</span>
-                                    <h4><a href="{{ route('blog', ['femmes-leaders-dans-l-economie-ivoirienne']) }}">Titre
-                                            de la vidéo
-                                            <span></span></a></h4>
-                                    <span class="p-author"><a
-                                            href="{{ route('blog', ['femmes-leaders-dans-l-economie-ivoirienne']) }}">Lire
-                                            la vidéo</a></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb30">
-                        <div class="bloglist item">
-                            <div class="post-content">
-                                <div class="date-box">
-                                    <div class="m">03</div>
-                                </div>
-                                <div class="post-image">
-                                    <img alt="" src="images/news/3.jpg">
-                                </div>
-                                <div class="post-text">
-                                    <span class="p-tagline">-----</span>
-                                    <h4><a href="{{ route('blog', ['l-innovation-disruptive']) }}">Titre dela vidéo
-                                            <span></span></a></h4>
+                    @endforeach
 
-                                    <span class="p-author"><a href="{{ route('blog', ['l-innovation-disruptive']) }}">Lire
-                                            la vidéo </span></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </section>
