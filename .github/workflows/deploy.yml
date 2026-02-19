@@ -16,15 +16,16 @@ jobs:
       - name: 🧱 Checkout repository
         uses: actions/checkout@v4
 
-      # 2️⃣ Configuration SSH
+      # 2️⃣ Configuration SSH pour deploy
       - name: 🔑 Setup SSH
         run: |
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
+          # Fichier config pour host mowondoo
           echo "Host mowondoo
             HostName panel.mowondoo.com
-            User root
+            User deploy
             IdentityFile ~/.ssh/id_ed25519
             StrictHostKeyChecking no" > ~/.ssh/config
 
@@ -53,10 +54,10 @@ jobs:
             echo "ENV_NAME=staging" >> $GITHUB_ENV
           fi
 
-      # 7️⃣ Synchronisation des fichiers
+      # 7️⃣ Synchronisation des fichiers via deploy
       - name: 📤 Deploy code via rsync
         run: |
-          rsync -avz --chown=web18:client0 \
+          rsync -avz \
             --exclude ".git/" \
             --exclude ".github/" \
             --exclude "node_modules/" \
@@ -67,14 +68,14 @@ jobs:
       # 8️⃣ Commandes Laravel côté serveur
       - name: ⚙️ Run Laravel deployment commands
         run: |
-          ssh -i ~/.ssh/id_ed25519 mowondoo << EOF
-            cd ${{ env.DEPLOY_PATH }}
+          ssh mowondoo << 'EOF'
+            cd $DEPLOY_PATH
 
             echo "📦 Installation des dépendances PHP..."
             COMPOSER_ALLOW_SUPERUSER=1 composer install --no-dev --optimize-autoloader
 
             # 🚨 Sur DEV seulement : copie .env si absent + génération APP_KEY
-            if [ "${{ env.ENV_NAME }}" = "staging" ]; then
+            if [ "$ENV_NAME" = "staging" ]; then
               cp -n .env.example .env || true
               echo "🔑 Génération de APP_KEY..."
               php artisan key:generate --force
@@ -92,8 +93,8 @@ jobs:
             php artisan optimize
 
             echo "🧹 Permissions..."
-            sudo chown -R web18:client0 storage bootstrap/cache
-            sudo chmod -R 775 storage bootstrap/cache
+            chown -R deploy:deploy storage bootstrap/cache
+            chmod -R 775 storage bootstrap/cache
 
-            echo "✅ Déploiement terminé pour ${{ env.ENV_NAME }}"
+            echo "✅ Déploiement terminé pour $ENV_NAME"
           EOF
