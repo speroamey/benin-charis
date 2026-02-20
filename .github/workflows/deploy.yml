@@ -57,13 +57,18 @@ jobs:
       # 7️⃣ Synchronisation des fichiers via deploy
       - name: 📤 Deploy code via rsync
         run: |
-          rsync -avz \
+          rsync -rz --delete \
+            --no-perms \
+            --no-owner \
+            --no-group \
+            --omit-dir-times \
             --exclude ".git/" \
             --exclude ".github/" \
             --exclude "node_modules/" \
             --exclude "vendor/" \
             --exclude ".env" \
             ./ mowondoo:${{ env.DEPLOY_PATH }}
+
 
       # 8️⃣ Commandes Laravel côté serveur
       - name: ⚙️ Run Laravel deployment commands
