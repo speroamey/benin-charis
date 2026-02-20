@@ -16,30 +16,29 @@ jobs:
       - name: 🧱 Checkout repository
         uses: actions/checkout@v4
 
-      # 2️⃣ Configuration SSH pour deploy
+      # 2️⃣ Configuration SSH
       - name: 🔑 Setup SSH
         run: |
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
-          # Fichier config pour host mowondoo
           echo "Host mowondoo
             HostName panel.mowondoo.com
-            User deploy
+            User root
             IdentityFile ~/.ssh/id_ed25519
             StrictHostKeyChecking no" > ~/.ssh/config
 
       # 3️⃣ Node.js
-      - name: 🟢 Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
+      # - name: 🟢 Setup Node.js
+      #   uses: actions/setup-node@v4
+      #   with:
+      #     node-version: 18
 
-      # 4️⃣ Dépendances JS
-      - name: 📦 Install NPM dependencies
-        run: npm ci
+      # # 4️⃣ Dépendances JS
+      # - name: 📦 Install NPM dependencies
+      #   run: npm ci
 
-      # 5️⃣ Build frontend
+      # # 5️⃣ Build frontend
       # - name: 🏗️ Build frontend assets
       #   run: npm run build
 
@@ -47,21 +46,17 @@ jobs:
       - name: 🧠 Define deployment target
         run: |
           if [ "${GITHUB_REF_NAME}" = "main" ]; then
-            echo "DEPLOY_PATH=/var/www/benincharis.org/web" >> $GITHUB_ENV
+            echo "DEPLOY_PATH=/var/www/benincharis.com/web" >> $GITHUB_ENV
             echo "ENV_NAME=production" >> $GITHUB_ENV
           elif [ "${GITHUB_REF_NAME}" = "dev" ]; then
-            echo "DEPLOY_PATH=/var/www/dev.benincharis.org/web" >> $GITHUB_ENV
+            echo "DEPLOY_PATH=/var/www/dev.benincharis.com/web" >> $GITHUB_ENV
             echo "ENV_NAME=staging" >> $GITHUB_ENV
           fi
 
-      # 7️⃣ Synchronisation des fichiers via deploy
+      # 7️⃣ Synchronisation des fichiers
       - name: 📤 Deploy code via rsync
         run: |
-          rsync -rz --delete \
-            --no-perms \
-            --no-owner \
-            --no-group \
-            --omit-dir-times \
+          rsync -avz --chown=web25:client4 \
             --exclude ".git/" \
             --exclude ".github/" \
             --exclude "node_modules/" \
@@ -69,28 +64,20 @@ jobs:
             --exclude ".env" \
             ./ mowondoo:${{ env.DEPLOY_PATH }}
 
-      - name: 🔁 Fix ownership
-        run: |
-          ssh mowondoo "
-            chown -R web25:client4 $DEPLOY_PATH
-          "
-
       # 8️⃣ Commandes Laravel côté serveur
       - name: ⚙️ Run Laravel deployment commands
         run: |
-          ssh mowondoo << EOF
-            cd $DEPLOY_PATH
+          ssh -i ~/.ssh/id_ed25519 mowondoo << EOF
+            cd ${{ env.DEPLOY_PATH }}
 
             echo "📦 Installation des dépendances PHP..."
             COMPOSER_ALLOW_SUPERUSER=1 composer install --no-dev --optimize-autoloader
 
-            # Création .env si absent (staging seulement)
-            if [ "$ENV_NAME" = "staging" ]; then
-              if [ ! -f .env ]; then
-                echo "📄 Création du fichier .env..."
-                cp .env.example .env
-                php artisan key:generate --force
-              fi
+            # 🚨 Sur DEV seulement : copie .env si absent + génération APP_KEY
+            if [ "${{ env.ENV_NAME }}" = "staging" ]; then
+              cp -n .env.example .env || true
+              echo "🔑 Génération de APP_KEY..."
+              php artisan key:generate --force
             fi
 
             echo "🗄️ Exécution des migrations..."
@@ -105,7 +92,8 @@ jobs:
             php artisan optimize
 
             echo "🧹 Permissions..."
-            chmod -R 775 storage bootstrap/cache
+            sudo chown -R web18:client0 storage bootstrap/cache
+            sudo chmod -R 775 storage bootstrap/cache
 
-            echo "✅ Déploiement terminé pour $ENV_NAME"
+            echo "✅ Déploiement terminé pour ${{ env.ENV_NAME }}"
           EOF
