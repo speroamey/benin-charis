@@ -93,7 +93,7 @@ jobs:
             php artisan optimize
 
             echo "🧹 Permissions..."
-            chown -R deploy:deploy storage bootstrap/cache
+            # chown -R deploy:deploy storage bootstrap/cache
             chmod -R 775 storage bootstrap/cache
 
             echo "✅ Déploiement terminé pour $ENV_NAME"
