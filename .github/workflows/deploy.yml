@@ -69,21 +69,28 @@ jobs:
             --exclude ".env" \
             ./ mowondoo:${{ env.DEPLOY_PATH }}
 
+      - name: 🔁 Fix ownership
+        run: |
+          ssh mowondoo "
+            chown -R web25:client4 $DEPLOY_PATH
+          "
 
       # 8️⃣ Commandes Laravel côté serveur
       - name: ⚙️ Run Laravel deployment commands
         run: |
-          ssh mowondoo << 'EOF'
+          ssh mowondoo << EOF
             cd $DEPLOY_PATH
 
             echo "📦 Installation des dépendances PHP..."
             COMPOSER_ALLOW_SUPERUSER=1 composer install --no-dev --optimize-autoloader
 
-            # 🚨 Sur DEV seulement : copie .env si absent + génération APP_KEY
+            # Création .env si absent (staging seulement)
             if [ "$ENV_NAME" = "staging" ]; then
-              cp -n .env.example .env || true
-              echo "🔑 Génération de APP_KEY..."
-              php artisan key:generate --force
+              if [ ! -f .env ]; then
+                echo "📄 Création du fichier .env..."
+                cp .env.example .env
+                php artisan key:generate --force
+              fi
             fi
 
             echo "🗄️ Exécution des migrations..."
@@ -98,7 +105,6 @@ jobs:
             php artisan optimize
 
             echo "🧹 Permissions..."
-            # chown -R deploy:deploy storage bootstrap/cache
             chmod -R 775 storage bootstrap/cache
 
             echo "✅ Déploiement terminé pour $ENV_NAME"
