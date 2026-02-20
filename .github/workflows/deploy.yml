@@ -40,8 +40,8 @@ jobs:
         run: npm ci
 
       # 5️⃣ Build frontend
-      - name: 🏗️ Build frontend assets
-        run: npm run build
+      # - name: 🏗️ Build frontend assets
+      #   run: npm run build
 
       # 6️⃣ Définition de l’environnement selon la branche
       - name: 🧠 Define deployment target
