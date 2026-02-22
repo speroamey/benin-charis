@@ -29,18 +29,18 @@ jobs:
             StrictHostKeyChecking no" > ~/.ssh/config
 
       # 3️⃣ Node.js
-      # - name: 🟢 Setup Node.js
-      #   uses: actions/setup-node@v4
-      #   with:
-      #     node-version: 18
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
 
-      # # 4️⃣ Dépendances JS
-      # - name: 📦 Install NPM dependencies
-      #   run: npm ci
+      # 4️⃣ Dépendances JS
+      - name: 📦 Install NPM dependencies
+        run: npm ci
 
-      # # 5️⃣ Build frontend
-      # - name: 🏗️ Build frontend assets
-      #   run: npm run build
+      # 5️⃣ Build frontend
+      - name: 🏗️ Build frontend assets
+        run: npm run build
 
       # 6️⃣ Définition de l’environnement selon la branche
       - name: 🧠 Define deployment target
@@ -92,7 +92,7 @@ jobs:
             php artisan optimize
 
             echo "🧹 Permissions..."
-            sudo chown -R web18:client0 storage bootstrap/cache
+            sudo chown -R web25:client4 storage bootstrap/cache
             sudo chmod -R 775 storage bootstrap/cache
 
             echo "✅ Déploiement terminé pour ${{ env.ENV_NAME }}"
