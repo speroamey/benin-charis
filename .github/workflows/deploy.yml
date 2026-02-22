@@ -33,7 +33,7 @@ jobs:
       - name: 🧠 Define deployment target
         run: |
           if [ "${GITHUB_REF_NAME}" = "main" ]; then
-            echo "DEPLOY_PATH=/var/www/benincharis.com/web" >> $GITHUB_ENV
+            echo "DEPLOY_PATH=/var/www/clients/client4/web25/web" >> $GITHUB_ENV
             echo "ENV_NAME=production" >> $GITHUB_ENV
           elif [ "${GITHUB_REF_NAME}" = "dev" ]; then
             echo "DEPLOY_PATH=/var/www/dev.benincharis.com/web" >> $GITHUB_ENV
