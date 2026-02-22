@@ -29,7 +29,6 @@ jobs:
             StrictHostKeyChecking no" > ~/.ssh/config
 
 
-
       # 6️⃣ Définition de l’environnement selon la branche
       - name: 🧠 Define deployment target
         run: |
