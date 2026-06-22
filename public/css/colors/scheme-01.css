@@ -667,3 +667,359 @@
   }
 }
 
+/* Ce que nous faisons page - responsive styling */
+@media (max-width: 1024px) {
+  .de-images-rounded {
+    margin-bottom: 1.5rem;
+  }
+
+  #subheader h2 {
+    font-size: clamp(1.6rem, 5vw, 2.4rem) !important;
+  }
+
+  .bloglist .post-text h4 {
+    font-size: clamp(1.1rem, 3vw, 1.4rem) !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .de-images-rounded {
+    max-width: 200px;
+    margin: 0 auto 1.5rem;
+  }
+
+  .col-lg-3,
+  .col-lg-7 {
+    padding: clamp(12px, 2vw, 20px) !important;
+  }
+
+  .bloglist .post-text {
+    padding: clamp(16px, 3vw, 24px) !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-lg-3,
+  .col-lg-7,
+  .col-lg-2 {
+    padding: clamp(10px, 2vw, 16px) !important;
+  }
+
+  .de-images-rounded img {
+    max-width: 150px;
+  }
+
+  .order-lg-1,
+  .order-lg-2 {
+    order: initial !important;
+  }
+
+  .mt-4 {
+    margin-top: 1rem !important;
+  }
+
+  .bloglist {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* ===== ENHANCED UX/UI STYLES FOR "CE QUE NOUS FAISONS" PAGE ===== */
+
+/* Ambitions Section - Modern Card-Based Design */
+.ambition-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: clamp(24px, 4vw, 40px);
+  box-shadow: 0 4px 12px rgba(7, 59, 132, 0.08);
+  border: 1px solid rgba(7, 59, 132, 0.06);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 2rem;
+}
+
+.ambition-card:hover {
+  box-shadow: 0 12px 28px rgba(7, 59, 132, 0.15);
+  transform: translateY(-4px);
+}
+
+/* Axe Color Coding */
+.ambition-card.axe-1 {
+  border-left: 5px solid #0B6B32;
+}
+
+.ambition-card.axe-1 .axe-badge {
+  background: linear-gradient(135deg, #0B6B32 0%, #0d8a3d 100%);
+}
+
+.ambition-card.axe-2 {
+  border-left: 5px solid #FF9500;
+}
+
+.ambition-card.axe-2 .axe-badge {
+  background: linear-gradient(135deg, #FF9500 0%, #FFA500 100%);
+}
+
+.ambition-card.axe-3 {
+  border-left: 5px solid #17A2B8;
+}
+
+.ambition-card.axe-3 .axe-badge {
+  background: linear-gradient(135deg, #17A2B8 0%, #20B2D8 100%);
+}
+
+.axe-badge {
+  display: inline-block;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: clamp(0.75rem, 1.5vw, 0.85rem);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.ambition-card h3 {
+  font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+  font-weight: 700;
+  color: #073B84;
+  margin-bottom: 0.8rem;
+  letter-spacing: -0.3px;
+}
+
+.ambition-card p {
+  color: #4a4a4a;
+  font-size: clamp(0.9rem, 1.8vw, 0.95rem);
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+}
+
+.ambition-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ambition-card li {
+  padding: 0.6rem 0;
+  padding-left: 24px;
+  position: relative;
+  font-size: clamp(0.85rem, 1.6vw, 0.95rem);
+  line-height: 1.6;
+  color: #555;
+}
+
+.ambition-card li:before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #0B6B32;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.ambition-card li span {
+  color: #073B84;
+  font-weight: 600;
+}
+
+/* Axe Icon Container */
+.axe-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.axe-icon-wrapper img {
+  max-width: 140px;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.1));
+  transition: transform 0.3s ease;
+}
+
+.ambition-card:hover .axe-icon-wrapper img {
+  transform: scale(1.05);
+}
+
+/* Section Backgrounds */
+#subheader {
+  background: linear-gradient(135deg, #073B84 0%, #0a4fa8 100%) !important;
+  position: relative;
+  overflow: hidden;
+}
+
+#subheader::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* Ambitions Section Background */
+.section-ambitions {
+  background: linear-gradient(180deg, #f8f9fb 0%, #ffffff 100%);
+  padding: clamp(3rem, 8vw, 5rem) 0;
+}
+
+.section-ambitions .small-border {
+  background: linear-gradient(90deg, transparent, var(--primary-color) 20%, var(--primary-color) 80%, transparent);
+  height: 3px;
+  width: 80px;
+}
+
+/* Realizations & Perspectives Cards */
+.bloglist {
+  overflow: hidden;
+  border-radius: 12px;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  background: white;
+}
+
+.bloglist:hover {
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+  transform: translateY(-6px);
+}
+
+.post-image {
+  position: relative;
+  overflow: hidden;
+  height: 240px;
+}
+
+.post-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bloglist:hover .post-image img {
+  transform: scale(1.08);
+}
+
+.post-image::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(7, 59, 132, 0.15) 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.bloglist:hover .post-image::after {
+  opacity: 1;
+}
+
+.post-text {
+  padding: clamp(20px, 4vw, 28px);
+  background: white;
+}
+
+.post-text h4 {
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+  font-weight: 700;
+  color: #073B84;
+  margin-bottom: 1rem;
+  letter-spacing: -0.2px;
+  line-height: 1.3;
+}
+
+.post-text h4 a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.post-text h4 a:hover {
+  color: #0B6B32;
+}
+
+.p-author a {
+  display: inline-block;
+  background: linear-gradient(135deg, #073B84 0%, #0a4fa8 100%);
+  color: white;
+  padding: 8px 18px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: clamp(0.8rem, 1.5vw, 0.9rem);
+  font-weight: 600;
+  transition: all 0.3s ease;
+  letter-spacing: 0.3px;
+}
+
+.p-author a:hover {
+  transform: translateX(2px);
+  box-shadow: 0 4px 12px rgba(7, 59, 132, 0.25);
+}
+
+/* Perspectives Section */
+.section-perspectives {
+  background: linear-gradient(180deg, #ffffff 0%, #f8f9fb 100%);
+  padding: clamp(3rem, 8vw, 5rem) 0;
+}
+
+/* Small Border Accent */
+.small-border {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, #0B6B32 20%, #0B6B32 80%, transparent);
+  margin: 1.5rem auto;
+}
+
+/* Typography Improvements */
+h2 {
+  font-weight: 700;
+  color: #073B84;
+  letter-spacing: -0.4px;
+}
+
+strong {
+  font-weight: 700;
+  color: #073B84;
+}
+
+/* Container Padding Optimization */
+/* .container {
+  padding: clamp(1.5rem, 3vw, 2.5rem) !important;
+} */
+
+/* Accessibility Improvements */
+.bloglist:focus-within {
+  outline: 3px solid rgba(7, 59, 132, 0.2);
+  outline-offset: 2px;
+}
+
+@media (max-width: 1024px) {
+  .ambition-card {
+    padding: clamp(20px, 3vw, 32px);
+  }
+
+  .post-image {
+    height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ambition-card {
+    margin-bottom: 1.5rem;
+  }
+
+  .post-image {
+    height: 180px;
+  }
+
+  .section-ambitions,
+  .section-perspectives {
+    padding: 2rem 0;
+  }
+}
+
