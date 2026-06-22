@@ -159,7 +159,7 @@
                     </div>
                     <div class="col-md-8">
                         <p class="lead" style="font-size: 1.05rem; line-height: 1.9; color: #4d4d4d; max-width: 680px; margin: 0 auto 0 0;">
-                            Les cofondateurs de BÉNIN CHARIS ONG mettent en commun une expertise terrain, une feuille de route claire et une volonté inébranlable pour générer un impact durable. Nous investissons dans des projets concrets, en phase avec les priorités des communautés, pour transformer des idées en progrès mesurable.
+                            Les cofondateurs de CHARIS ONG mettent en commun une expertise terrain, une feuille de route claire et une volonté inébranlable pour générer un impact durable. Nous investissons dans des projets concrets, en phase avec les priorités des communautés, pour transformer des idées en progrès mesurable.
                         </p>
                     </div>
                 </div>
@@ -266,10 +266,10 @@
             <div class="container">
                 <div class="row align-items-center mb-5">
                     <div class="col-lg-5 mb-4 mb-lg-0">
-                        <span class="p-title d-block mb-2" style="letter-spacing:0.18em; font-size:clamp(0.85rem,2vw,1rem);">BÉNIN CHARIS ONG</span>
+                        <span class="p-title d-block mb-2" style="letter-spacing:0.18em; font-size:clamp(0.85rem,2vw,1rem);">CHARIS ONG</span>
                         <h2 class="no-bottom" style="font-weight: 700; font-size: clamp(1.8rem, 5vw, 2.8rem); margin: 0 0 1.5rem 0; line-height:1.1;">Qui sommes-nous?</h2>
                         <p class="text-justify" style="line-height: 1.9; color: #4a5568; font-size:clamp(0.9rem,2.2vw,1rem);">
-                            BÉNIN CHARIS ONG est une Organisation Non Gouvernementale à but non lucratif et apolitique créée en 2023 en République du Bénin. Elle soutient les actions du développement durable en faveur de tous, sans distinction. Notre siège est situé à Cotonou, dans le 9ème arrondissement au quartier Kindonou.
+                            CHARIS ONG est une Organisation Non Gouvernementale à but non lucratif et apolitique créée en 2023 en République du Bénin. Elle soutient les actions du développement durable en faveur de tous, sans distinction. Notre siège est situé à Cotonou, dans le 9ème arrondissement au quartier Kindonou.
                         </p>
                         <p style="line-height: 1.9; color: #4a5568; margin-top: 1rem; font-size:clamp(0.9rem,2.2vw,1rem);">
                             L'objectif général est de contribuer durablement à la réduction de la pauvreté au Bénin en plaçant l'agriculture résiliente, la nutrition et l'insertion socioéconomique au cœur de nos actions.
@@ -277,7 +277,7 @@
                     </div>
                     <div class="col-lg-7">
                         <div style="max-width: 100%; margin: 0 auto; width: 100%;">
-                            <img src="{{ asset('images/background/bel.png') }}" alt="BÉNIN CHARIS ONG" style="width: 100%; height: auto; border-radius: 12px; max-width: 450px; margin: 0 auto;">
+                            <img src="{{ asset('images/background/bel.png') }}" alt="CHARIS ONG" style="width: 100%; height: auto; border-radius: 12px; max-width: 450px; margin: 0 auto;">
                         </div>
                     </div>
                 </div>
@@ -368,7 +368,7 @@
                     <div class="col-lg-7">
                         <div style="background: rgba(255,255,255,0.96); border-radius: 30px; padding: clamp(24px,5vw,36px) clamp(22px,4vw,32px); box-shadow: 0 24px 48px rgba(0,0,0,0.08);">
                             <p style="font-size: clamp(0.95rem,2.2vw,1.05rem); line-height: 1.9; color: #163f2d; margin-bottom: 0;">
-                                La mission de BÉNIN CHARIS ONG est de contribuer à la réduction de la pauvreté par des actions durables en sécurité alimentaire et nutritionnelle, en transition agroécologique et en insertion socioéconomique des populations vulnérables.
+                                La mission de CHARIS ONG est de contribuer à la réduction de la pauvreté par des actions durables en sécurité alimentaire et nutritionnelle, en transition agroécologique et en insertion socioéconomique des populations vulnérables.
                             </p>
                         </div>
                     </div>
@@ -384,7 +384,7 @@
                         <h2>Groupes cibles</h2>
                         <div class="small-border mx-auto"></div>
                         <p class="section-practice-areas__intro mt-4">
-                            BÉNIN CHARIS ONG travaille à impacter positivement les sept (07) groupes cibles suivants :
+                            CHARIS ONG travaille à impacter positivement les sept (07) groupes cibles suivants :
                         </p>
                     </div>
                 </div>
@@ -430,7 +430,7 @@
                         <h2 style="font-size:clamp(1.6rem,4vw,2.2rem);">Nos valeurs</h2>
                         <div class="small-border mx-auto"></div>
                         <p class="section-practice-areas__intro mt-3" style="font-size:clamp(0.95rem,2vw,1.05rem);">
-                            Les valeurs qui guident les actions de BÉNIN CHARIS ONG et renforcent notre engagement auprès des communautés.
+                            Les valeurs qui guident les actions de CHARIS ONG et renforcent notre engagement auprès des communautés.
                         </p>
                     </div>
                 </div>

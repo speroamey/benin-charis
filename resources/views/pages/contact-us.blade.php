@@ -30,7 +30,7 @@
                         <!-- <img src="images/misc/p3.jpg" alt="" class="img-fluid mb30"> -->
                         {{-- <h3>Nos Cordonnées</h3> --}}
                         <address class="s1 my-auto text-center">
-                            <h3>BÉNIN CHARIS ONG</h3>
+                            <h3>CHARIS ONG</h3>
                             <span cla><i class="id-color fa fa-map-marker fa-lg"></i>
                                 <span class="fb-text">
                                     Littoral, Cotonou, 9eme Arrondissement, Kindonou C/2147
@@ -87,38 +87,72 @@
                 </div>
             </div>
         </section>
-        <section data-bgcolor="#f2f2f2" class="text-dark" id="qui-sommes-nous">
+                <section data-bgcolor="#f8fafb" class="text-dark pt80 pb80" id="qui-sommes-nous">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-7 offset-lg-5">
-                        <span class="p-title">BÉNIN CHARIS ONG?</span><br>
-                        <h2>
-                            Qui sommes-nous?
-                        </h2>
-
-                        <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                                aria-labelledby="pills-home-tab">
-                                <p>
-                                    BÉNIN CHARIS ONG est une Organisation Non Gouvernementale à but non lucratif et est apolitique. Elle a été créée en 2023 en République du Bénin conformément aux dispositions de la loi du 1er Juillet 1901 et le décret du 16 Août portant création des associations, soutenant les actions du développement durable en général sans distinction de sexe, de race et de religion. Le siège de BÉNIN CHARIS est situé à Cotonou dans le 9ème arrondissement au quartier Kindonou. Est membre de cette organisation toute personne physique qui manifeste un intérêt pour l’organisation. Elle est composée des membres fondateurs, des membres actifs, de sympathisants et de membres d’honneur. L’objectif général est de contribuer durablement à la réduction de la pauvreté au Bénin. De cet objectif général découle quatre objectifs spécifiques que sont :
-                                    <ol>
-                                        <li>contribuer à la sécurité alimentaire et nutritionnelle;</li>
-                                        <li>promouvoir la transition agroécologique et l’économie circulaire;</li>
-                                        <li>accompagner l’autonomisation des jeunes et des femmes et</li>
-                                        <li>promouvoir l’accès à l’eau potable, l’hygiène et l’assainissement</li>
-                                    </ol>
-                                    .
-                                </p>
-
-
-                            </div>
-
+                <div class="row align-items-center mb-5">
+                    <div class="col-lg-5 mb-4 mb-lg-0">
+                        <span class="p-title d-block mb-2" style="letter-spacing:0.18em; font-size:clamp(0.85rem,2vw,1rem);">CHARIS ONG</span>
+                        <h2 class="no-bottom" style="font-weight: 700; font-size: clamp(1.8rem, 5vw, 2.8rem); margin: 0 0 1.5rem 0; line-height:1.1;">Qui sommes-nous?</h2>
+                        <p class="text-justify" style="line-height: 1.9; color: #4a5568; font-size:clamp(0.9rem,2.2vw,1rem);">
+                            CHARIS ONG est une Organisation Non Gouvernementale à but non lucratif et apolitique créée en 2023 en République du Bénin. Elle soutient les actions du développement durable en faveur de tous, sans distinction. Notre siège est situé à Cotonou, dans le 9ème arrondissement au quartier Kindonou.
+                        </p>
+                        <p style="line-height: 1.9; color: #4a5568; margin-top: 1rem; font-size:clamp(0.9rem,2.2vw,1rem);">
+                            L'objectif général est de contribuer durablement à la réduction de la pauvreté au Bénin en plaçant l'agriculture résiliente, la nutrition et l'insertion socioéconomique au cœur de nos actions.
+                        </p>
+                    </div>
+                    <div class="col-lg-7">
+                        <div style="max-width: 100%; margin: 0 auto; width: 100%;">
+                            <img src="{{ asset('images/background/bel.png') }}" alt="CHARIS ONG" style="width: 100%; height: auto; border-radius: 12px; max-width: 450px; margin: 0 auto;">
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="jarallax image-container col-md-4 pull-right xs-hide">
-                <img src="{{ asset('images/background/bel.png') }}" class="jarallax-img" alt="">
+
+                <div class="row mb-5">
+                    <div class="col-lg-12">
+                        <div style="text-align: center; margin-bottom: 3rem;">
+                            <h3 style="font-size: clamp(1.3rem,3.5vw,1.5rem); font-weight: 700; color: #0f3a72; margin-bottom: 0.5rem;">Nos Trois Objectifs Stratégiques</h3>
+                            <p style="color: #6b7280; margin: 0; font-size:clamp(0.9rem,2vw,1rem);">Trois piliers qui guident nos actions et nos interventions</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="objective-card h-100">
+                            <div class="objective-card__icon">
+                                <i class="icofont-flora"></i>
+                            </div>
+                            <h4 class="objective-card__title">Agriculture Résiliente</h4>
+                            <p class="objective-card__text">
+                                Promouvoir des systèmes de production agricoles et d'élevage résilients face aux changements climatiques, à travers la diffusion de pratiques agroécologiques et l'amélioration durable de la productivité.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="objective-card h-100">
+                            <div class="objective-card__icon">
+                                <i class="icofont-food-cart"></i>
+                            </div>
+                            <h4 class="objective-card__title">Nutrition & Santé</h4>
+                            <p class="objective-card__text">
+                                Contribuer à l'amélioration durable de l'état nutritionnel et sanitaire des populations vulnérables par des actions de prévention, de sensibilisation et d'appui aux structures communautaires.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="objective-card h-100">
+                            <div class="objective-card__icon">
+                                <i class="icofont-briefcase"></i>
+                            </div>
+                            <h4 class="objective-card__title">Autonomie Économique</h4>
+                            <p class="objective-card__text">
+                                Renforcer l'autonomie économique des femmes et des jeunes à travers l'appui à l'entrepreneuriat productif, l'accès aux marchés et le développement d'activités génératrices de revenus durables.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
