@@ -37,8 +37,8 @@
                                 </span>
 
                             </span>
-                            <span> <a href="tel:+229 90 09 06  09"><i class="id-color fa fa-phone fa-lg"></i>+229 90 09 06  09</a> </span>
-                            <span> <a href="tel:+229 64 54 66 66"><i class="id-color fa fa-phone fa-lg"></i>+229 64 54 66 66</a> </span>
+                            <span> <a href="tel:+2290196143213"><i class="id-color fa fa-phone fa-lg"></i>(+229) 01 96 14 32 13</a> </span>
+                            <span> <a href="tel:+2290196696060"><i class="id-color fa fa-phone fa-lg"></i>(+229) 01 96 69 60 60</a> </span>
 
                             <span><i class="id-color fa fa-envelope-o fa-lg"></i><a href="mailto:info@lajoyconsulting.com">info@benin-charis.org</a></span>
                             <!-- <span><i class="id-color fa fa-file-pdf-o fa-lg"></i><a href="#">Download Brochure</a></span> -->

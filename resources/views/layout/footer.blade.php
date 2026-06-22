@@ -10,8 +10,8 @@
                     </a>
                     <address class="s1">
                         <span><i class="id-color fa fa-map-marker fa-lg"></i>Littoral, Cotonou, 9eme Arrondissement, Kindonou</span>
-                        <span><i class="id-color fa fa-phone fa-lg"></i> <a href="tel:(+229) 90 09 06  09">(+229) 90 09 06  09</a> </span>
-                        <span><i class="id-color fa fa-phone fa-lg"></i><a href="tel:(+229) 96 80 75 70">(+229) 64 54 66 66 </a></span>
+                        <span><i class="id-color fa fa-phone fa-lg"></i> <a href="tel:+2290196143213">(+229) 01 96 14 32 13</a> </span>
+                        <span><i class="id-color fa fa-phone fa-lg"></i><a href="tel:+2290196696060">(+229) 01 96 69 60 60</a></span>
                         <span><i class="id-color fa fa-envelope-o fa-lg"></i><a
                                 href="mailto:contact@example.com">info@benin-charis.org</a></span>
                         <!-- <span><i class="id-color fa fa-file-pdf-o fa-lg"></i><a href="#">info@lajoyconsulting.com</a></span> -->
@@ -58,7 +58,7 @@
                 <div class="col-md-12">
                     <div class="de-flex">
                         <div class="de-flex-col">
-                            &copy; Copyright 2024 - BÉNIN CHARIS ONG par Spero AMEY
+                            &copy; Copyright 2026 -  CHARIS ONG par <a href="https://www.mowondoo.com" target="_blank">MOWONDOO</a> - Tous droits réservés
                         </div>
                         <div class="de-flex-col">
                             <div class="social-icons">

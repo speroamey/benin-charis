@@ -10,95 +10,140 @@
             <div id="slider-revolution">
                 <ul>
                     <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-thumb="">
-                        <!--  BACKGROUND IMAGE -->
                         <img alt="" class="rev-slidebg" data-bgposition="top center" data-bgfit="cover"
-                            data-bgrepeat="no-repeat" data-bgparallax="10" src="{{asset(('images/background/Banner-web-axe-1.jpg'))}}">
-                        <div class="tp-caption very-big-white" data-x="0" data-y="280" data-width="none"
-                            data-height="none" data-whitespace="nowrap"
-                            data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-                            data-transform_out="opacity:0;y:-100;s:400;e:Power2.easeInOut;" data-start="600"
-                            data-splitin="none" data-splitout="none" data-responsive_offset="on">
-                            <h1>Redonnons le sourire</h1>
-                        </div>
-                        <div class="tp-caption" data-x="0" data-y="360" data-width="480" data-height="none"
-                            data-whitespace="wrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-                            data-transform_out="opacity:0;y:-100;s:600;e:Power2.easeInOut;" data-start="700">
-                            <p class="lead xs-hide">
-                                Notre axe Eau, Assainissement et Hygiène s'engage à plaider en faveur des villages enclavés et à contribuer à la mise en place d'infrastructures sociocommunautaires dans ces communautés.
-                            </p>
-                        </div>
-                        <div class="tp-caption" data-x="0" data-y="450" data-width="none" data-height="none"
-                            data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-                            data-transform_out="opacity:0;y:-100;s:800;e:Power2.easeInOut;" data-start="800">
-                            <a class="btn-custom btn-green" href="{{ url('nous-contacter') }}">Nous Soutenir</a>
-                        </div>
-                    </li>
+                            data-bgrepeat="no-repeat" data-bgparallax="10"
+                            src="{{ asset('images/background/Banner-web-axe-2.png') }}">
 
-                    <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-thumb="">
-                        <!--  BACKGROUND IMAGE -->
-                        <img alt="" class="rev-slidebg" data-bgposition="top center" data-bgfit="cover"
-                            data-bgrepeat="no-repeat" data-bgparallax="10" src="{{asset('images/background/Banner-web-axe-2.jpg')}}">
-                        <div class="tp-caption very-big-white" data-x="0" data-y="280" data-width="none"
-                            data-height="none" data-whitespace="nowrap"
+                        <div class="tp-caption very-big-white"
+                            data-x="['0','0','center','center']"
+                            data-hoffset="['0','0','0','0']"
+                            data-y="['220','180','center','center']"
+                            data-voffset="['0','0','0','0']"
+                            data-width="['720','580','420','300']"
+                            data-height="none"
+                            data-whitespace="normal"
                             data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-                            data-transform_out="opacity:0;y:-100;s:400;e:Power2.easeInOut;" data-start="600"
-                            data-splitin="none" data-splitout="none" data-responsive_offset="on">
-                            <h1>
-                                Vers un avenir dynamique
+                            data-transform_out="opacity:0;y:-100;s:400;e:Power2.easeInOut;"
+                            data-start="600"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-responsive_offset="on"
+                            style="background: rgba(0,0,0,0.45); padding: 28px 32px; border-radius: 24px;">
+
+                            <h1 style="font-size: clamp(1.4rem, 4vw, 3.6rem); line-height: 1.1;
+                                    margin-bottom: 1rem; text-align: center;">
+                                Agriculture et élevage intelligents au climat
                             </h1>
-                        </div>
-                        <div class="tp-caption" data-x="0" data-y="360" data-width="480" data-height="none"
-                            data-whitespace="wrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-                            data-transform_out="opacity:0;y:-100;s:600;e:Power2.easeInOut;" data-start="700">
-                            <p class="lead xs-hide">
-                                Notre axe Autonomisation des Femmes et des Jeunes vise à établir des centres de formation, promouvoir les AGR dans les groupements de femmes, et encourager la scolarisation des jeunes.
+                            <p class="lead xs-hide"
+                            style="font-size: clamp(0.85rem, 2vw, 1.05rem); line-height: 1.8;
+                                    margin-bottom: 1.5rem; text-align: center;">
+                                Promouvoir des systèmes de production agricoles et d'élevage résilients
+                                face aux changements climatiques, à travers la diffusion de pratiques
+                                agroécologiques et l'amélioration durable de la productivité.
                             </p>
-                        </div>
-                        <div class="tp-caption" data-x="0" data-y="450" data-width="none" data-height="none"
-                            data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-                            data-transform_out="opacity:0;y:-100;s:800;e:Power2.easeInOut;" data-start="800">
-                            <a class="btn-custom btn-green" href="{{ url('nous-contacter') }}">Nous Soutenir</a>
+                            <a class="btn-custom btn-green" href="{{ url('nous-contacter') }}"
+                            style="padding: 1rem 2rem; font-size: 0.98rem; letter-spacing: 0.12em;
+                                    display: block; text-align: center; width: fit-content; margin: 0 auto;">
+                                Nous soutenir
+                            </a>
                         </div>
                     </li>
 
                     <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-thumb="">
-                        <!--  BACKGROUND IMAGE -->
                         <img alt="" class="rev-slidebg" data-bgposition="top center" data-bgfit="cover"
-                            data-bgrepeat="no-repeat" data-bgparallax="10" src="{{asset('images/background/Banner-web-axe-3.jpg')}}">
-                        <div class="tp-caption very-big-white" data-x="0" data-y="280" data-width="none"
-                            data-height="none" data-whitespace="nowrap"
+                            data-bgrepeat="no-repeat" data-bgparallax="10" src="{{ asset('images/background/Banner-web-axe-3.jpg') }}">
+                        <div class="tp-caption very-big-white"
+                            data-x="['0','0','center','center']"
+                            data-hoffset="['0','0','0','0']"
+                            data-y="['220','180','center','center']"
+                            data-voffset="['0','0','0','0']"
+                            data-width="['720','580','420','380']"
+                            data-height="none"
+                            data-whitespace="normal"
                             data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-                            data-transform_out="opacity:0;y:-100;s:400;e:Power2.easeInOut;" data-start="600"
-                            data-splitin="none" data-splitout="none" data-responsive_offset="on">
-                            <h1>Nutrition & Santé</h1>
-                        </div>
-                        <div class="tp-caption" data-x="0" data-y="360" data-width="480" data-height="none"
-                            data-whitespace="wrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-                            data-transform_out="opacity:0;y:-100;s:600;e:Power2.easeInOut;" data-start="700">
-                            <p class="lead xs-hide">
-                                Notre axe Nutrition et Santé s'engage à prévenir la malnutrition sous toutes ses formes  chez les enfants et les femmes vulnérables, et à soutenir des centres de prise en charge et Groupes d'Assistance en Nutrition au Bénin!
+                            data-transform_out="opacity:0;y:-100;s:400;e:Power2.easeInOut;"
+                            data-start="600"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-responsive_offset="on"
+                            style="background: rgba(0,0,0,0.45); padding: 28px 32px; border-radius: 24px;">
+                            <h1 style="font-size: clamp(1.4rem, 4vw, 3.6rem); line-height: 1.1; margin-bottom: 1rem; text-align: center;">
+                                Nutrition et santé communautaire
+                            </h1>
+                            <p class="lead xs-hide" style="font-size: clamp(0.85rem, 2vw, 1.05rem); line-height: 1.8; margin-bottom: 1.5rem; text-align: center;">
+                                Contribuer à l'amélioration durable de l'état nutritionnel et sanitaire des populations
+                                vulnérables par des actions de prévention, de sensibilisation et d'appui aux structures
+                                communautaires.
                             </p>
+                            <a class="btn-custom btn-green" href="{{ url('nous-contacter') }}"
+                                style="padding: 1rem 2rem; font-size: 0.98rem; letter-spacing: 0.12em; display: block; text-align: center; width: fit-content; margin: 0 auto;">
+                                Nous soutenir
+                            </a>
                         </div>
-                        <div class="tp-caption" data-x="0" data-y="450" data-width="none" data-height="none"
-                            data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-                            data-transform_out="opacity:0;y:-100;s:800;e:Power2.easeInOut;" data-start="800">
-                            <a class="btn-custom btn-green" href="{{ url('nous-contacter') }}">Nous Soutenir</a>
+                    </li>
+
+                    <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-thumb="">
+                        <img alt="" class="rev-slidebg" data-bgposition="top center" data-bgfit="cover"
+                            data-bgrepeat="no-repeat" data-bgparallax="10" src="{{ asset('images/background/Banner-web-axe-3.png') }}">
+                        <div class="tp-caption very-big-white"
+                            data-x="['0','0','center','center']"
+                            data-hoffset="['0','0','0','0']"
+                            data-y="['220','180','center','center']"
+                            data-voffset="['0','0','0','0']"
+                            data-width="['720','580','420','380']"
+                            data-height="none"
+                            data-whitespace="normal"
+                            data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
+                            data-transform_out="opacity:0;y:-100;s:400;e:Power2.easeInOut;"
+                            data-start="600"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-responsive_offset="on"
+                            style="background: rgba(0,0,0,0.45); padding: 28px 32px; border-radius: 24px;">
+                            <h1 style="font-size: clamp(1.4rem, 4vw, 3.6rem); line-height: 1.1; margin-bottom: 1rem; text-align: center;">
+                                Autonomisation des femmes et des jeunes par l'entrepreneuriat
+                            </h1>
+                            <p class="lead xs-hide" style="font-size: clamp(0.85rem, 2vw, 1.05rem); line-height: 1.8; margin-bottom: 1.5rem; text-align: center;">
+                                Renforcer l'autonomie économique des femmes et des jeunes à travers l'appui à
+                                l'entrepreneuriat productif, l'accès aux marchés et le développement d'activités
+                                génératrices de revenus durables.
+                            </p>
+                            <a class="btn-custom btn-green" href="{{ url('nous-contacter') }}"
+                                style="padding: 1rem 2rem; font-size: 0.98rem; letter-spacing: 0.12em; display: block; text-align: center; width: fit-content; margin: 0 auto;">
+                                Nous soutenir
+                            </a>
                         </div>
                     </li>
                 </ul>
             </div>
         </section>
-        <section class="pt40 pb40 bg-color text-light">
+        <section id="section-devise" class="pt80 pb80 bg-color text-light">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-8 mb-sm-30 text-lg-left text-sm-center">
-                        <h3 class="no-bottom">
-                            {{-- Nous répondons à tous vos besoins en maximisant votre temps! --}}
-                            Contribuons durablement à la réduction de la pauvreté au Bénin!
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-6 text-center text-lg-left">
+                        <span class="p-title text-uppercase" style="letter-spacing:0.28em; font-weight:700; opacity:0.9;">Notre devise</span>
+                        <h3 class="no-bottom mt-4" style="font-weight:700; letter-spacing:0.08em; font-size: clamp(2rem, 3vw, 3rem); line-height:1.05;">
+                            Agir. Vaincre la pauvreté.
                         </h3>
+                        <p class="mt-4" style="max-width: 760px; margin: 0 auto 0 0; font-size: 1.05rem; line-height: 1.9; opacity: 0.92;">
+                            Ensemble, nous renforçons la dignité des populations vulnérables en menant des actions durables et adaptées qui construisent un avenir plus juste pour tous.
+                        </p>
+                        <div class="mt-4">
+                            <a href="{{ url('nous-contacter') }}" class="btn-custom btn-green" style="min-width: 220px; padding: 1rem 2rem; font-size: 0.98rem; letter-spacing: 0.12em;">
+                                Contactez-nous
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-md-4 text-lg-right rtl-lg-left text-sm-center">
-                        <a href="{{ url('nous-contacter') }}" class="btn-custom btn-green light">Contactez-nous</a>
+                    <div class="col-lg-5 mt-5 mt-lg-0">
+                        <div class="devise-support-card">
+                            <h4 style="font-size: 1.75rem; font-weight: 700; margin-bottom: 1rem; color: #0b3b73;">Contribuons durablement à la réduction de la pauvreté</h4>
+                            <p style="font-size: 1rem; line-height: 1.9; color: #42504c; margin-bottom: 2rem;">
+                                CHARIS ONG mobilise des actions ciblées pour améliorer les conditions de vie et donner aux communautés les moyens de bâtir un avenir durable.
+                            </p>
+                            <a href="{{ url('nous-contacter') }}" class="btn-custom btn-white-outline" style="min-width: 180px; padding: 0.95rem 1.8rem; font-size: 0.95rem; letter-spacing: 0.12em;">
+                                Nous soutenir
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -106,27 +151,61 @@
         <div id="nos-forces"></div>
         <section id="section-highlight" class="relative">
             <div class="container">
-                <div class="row align-items-center">
+                <div class="row align-items-start">
                     <div class="col-md-4">
-                        <span class="p-title">Nos Forces</span><br>
-                        <h2>
-                            Expérience, Vision, Détermination, Investissement
-                        </h2>
-                        <div class="small-border sm-left"></div>
-                    </div>
-                    <div class="col-md-8 text-justify">
-                        <p>
-                            Avec une expérience cumulée diversifiée et une vision claire de notre mission, les co-fondateurs de notre ONG incarnent une détermination profonde à créer un impact positif durable. Chaque décision est guidée par notre engagement personnel, avec des capitaux investis de manière stratégique pour concrétiser notre vision. Dans notre quête pour transformer des vies, nous naviguons avec résolution, prêts à surmonter tous les défis sur notre chemin.
-                            <br>
+                        <span class="p-title text-uppercase" style="letter-spacing:0.2em; font-weight:700;">Nos forces</span><br>
 
+                        <div class="small-border sm-left mt-2"></div>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="lead" style="font-size: 1.05rem; line-height: 1.9; color: #4d4d4d; max-width: 680px; margin: 0 auto 0 0;">
+                            Les cofondateurs de BÉNIN CHARIS ONG mettent en commun une expertise terrain, une feuille de route claire et une volonté inébranlable pour générer un impact durable. Nous investissons dans des projets concrets, en phase avec les priorités des communautés, pour transformer des idées en progrès mesurable.
                         </p>
+                    </div>
+                </div>
+                <div class="row g-4 mt-5 text-center text-md-start justify-content-center">
+                    <div class="col-md-3 col-sm-6">
+                        <div style="background:#fff; border-radius:28px; padding:clamp(20px,4vw,32px) clamp(18px,3.5vw,30px); min-height:auto; box-shadow:0 16px 40px rgba(0,0,0,0.06); border:1px solid rgba(15,23,42,0.06);">
+                            <div style="width:48px; height:48px; border-radius:16px; margin:0 auto 1rem; display:flex; align-items:center; justify-content:center; background:rgba(11,59,115,0.08);">
+                                <i class="icofont-flora" style="color:#0b3b73; font-size:1.25rem;"></i>
+                            </div>
+                            <h4 style="font-weight:700; margin-bottom:0.85rem; color:#0b3b73; font-size:clamp(1rem,2vw,1.15rem);">Expérience</h4>
+                            <p style="color:#6d6d6d; line-height:1.8; font-size:0.95rem;">Une présence reconnue sur le terrain et des actions éprouvées en agriculture, nutrition et autonomisation.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div style="background:#fff; border-radius:28px; padding:clamp(20px,4vw,32px) clamp(18px,3.5vw,30px); min-height:auto; box-shadow:0 16px 40px rgba(0,0,0,0.06); border:1px solid rgba(15,23,42,0.06);">
+                            <div style="width:48px; height:48px; border-radius:16px; margin:0 auto 1rem; display:flex; align-items:center; justify-content:center; background:rgba(11,59,115,0.08);">
+                                <i class="icofont-eye-alt" style="color:#0b3b73; font-size:1.25rem;"></i>
+                            </div>
+                            <h4 style="font-weight:700; margin-bottom:0.85rem; color:#0b3b73; font-size:clamp(1rem,2vw,1.15rem);">Vision</h4>
+                            <p style="color:#6d6d6d; line-height:1.8; font-size:0.95rem;">Une stratégie ambitieuse pour un développement social durable et une meilleure qualité de vie pour tous.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div style="background:#fff; border-radius:28px; padding:clamp(20px,4vw,32px) clamp(18px,3.5vw,30px); min-height:auto; box-shadow:0 16px 40px rgba(0,0,0,0.06); border:1px solid rgba(15,23,42,0.06);">
+                            <div style="width:48px; height:48px; border-radius:16px; margin:0 auto 1rem; display:flex; align-items:center; justify-content:center; background:rgba(11,59,115,0.08);">
+                                <i class="icofont-fire-burn" style="color:#0b3b73; font-size:1.25rem;"></i>
+                            </div>
+                            <h4 style="font-weight:700; margin-bottom:0.85rem; color:#0b3b73; font-size:clamp(1rem,2vw,1.15rem);">Détermination</h4>
+                            <p style="color:#6d6d6d; line-height:1.8; font-size:0.95rem;">Une équipe engagée, prête à surmonter les défis pour donner aux familles les moyens de réussir.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div style="background:#fff; border-radius:28px; padding:clamp(20px,4vw,32px) clamp(18px,3.5vw,30px); min-height:auto; box-shadow:0 16px 40px rgba(0,0,0,0.06); border:1px solid rgba(15,23,42,0.06);">
+                            <div style="width:48px; height:48px; border-radius:16px; margin:0 auto 1rem; display:flex; align-items:center; justify-content:center; background:rgba(11,59,115,0.08);">
+                                <i class="icofont-chart-line" style="color:#0b3b73; font-size:1.25rem;"></i>
+                            </div>
+                            <h4 style="font-weight:700; margin-bottom:0.85rem; color:#0b3b73; font-size:clamp(1rem,2vw,1.15rem);">Investissement</h4>
+                            <p style="color:#6d6d6d; line-height:1.8; font-size:0.95rem;">Des ressources humaines et financières ciblées pour construire des résultats durables et visibles.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="spacer-double"></div>
             </div>
         </section>
 
-        <section class="no-top relative z1000 bg-light">
+        {{-- <section class="no-top relative z1000 bg-light">
             <div class="container">
                 <div class="row mt-100">
                     <div class="col-md-4 wow fadeInRight" data-wow-delay=".2s">
@@ -145,7 +224,6 @@
 
                                 </div>
                             </div>
-                            {{-- <img src="{{(asset('images/services/1.jpg'))}}" alt="" class="img-responsive" /> --}}
                         </div>
                     </div>
                     <div class="col-md-4 wow fadeInRight" data-wow-delay=".4s">
@@ -161,7 +239,6 @@
                                     <div class="spacer20"></div>
                                 </div>
                             </div>
-                            {{-- <img src="images/services/2.jpg" alt="" class="img-responsive" /> --}}
                         </div>
                     </div>
                     <div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
@@ -178,177 +255,220 @@
                                     <div class="spacer20"></div>
                                 </div>
                             </div>
-                            {{-- <img src="images/services/3.jpg" alt="" class="img-responsive" /> --}}
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
 
 
-        <section data-bgcolor="#f2f2f2" class="text-dark" id="qui-sommes-nous">
+        <section data-bgcolor="#f8fafb" class="text-dark pt80 pb80" id="qui-sommes-nous">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-7 offset-lg-5">
-                        <span class="p-title">BÉNIN CHARIS ONG</span><br>
-                        <h2>
-                            Qui sommes-nous?
-                        </h2>
-
-                        <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                                aria-labelledby="pills-home-tab">
-                                <p class="text-justify">
-                                    BÉNIN CHARIS ONG est une Organisation Non Gouvernementale à but non lucratif et est apolitique. Elle a été créée en 2023 en République du Bénin conformément aux dispositions de la loi du 1er Juillet 1901 et le décret du 16 Août portant création des associations, soutenant les actions du développement durable en général sans distinction de sexe, de race et de religion. Le siège de BÉNIN CHARIS ONG est situé à Cotonou dans le 9ème arrondissement au quartier Kindonou. Est membre de cette organisation toute personne physique qui manifeste un intérêt pour l’organisation. Elle est composée des membres fondateurs, des membres actifs, de sympathisants et de membres d’honneur. L’objectif général est de contribuer durablement à la réduction de la pauvreté au Bénin. De cet objectif général découle quatre objectifs spécifiques que sont :
-                                    <ul>
-                                        <li>contribuer à la sécurité alimentaire et nutritionnelle;</li>
-                                        <li>promouvoir la transition agroécologique et l’économie circulaire;</li>
-                                        <li>accompagner l’autonomisation des jeunes et des femmes et</li>
-                                    </ul>
-
-                                </p>
-
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="jarallax image-container col-md-4 pull-right xs-hide">
-                <img src="{{ asset('images/background/bel.png') }}" class="jarallax-img" alt="">
-            </div>
-        </section>
-
-        <section class="pt40 pb40 bg-color text-light" data-bgcolor="" id="notre-mission">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 text-center my-auto">
-                        <h2 class="no-bottom wow fadeInLeft" data-wow-delay=".4s" style="font-weight: 500">Notre Mission
-                        </h2>
-                    </div>
-
-                    <div class="col-lg-7  py-auto text-center text-lg-left text-sm-center">
-                        {{-- <div class="big-border" style="font-weight: bold;font-size:20px">Notre Mission</div> --}}
-                        <p style="font-size: 18px" class="wow fadeInRight" data-wow-delay=".2s">
-                            La mission de BÉNIN CHARIS ONG est de contribuer à la réduction de la pauvreté à travers des interventions à impact durable sur la sécurité alimentaire et nutritionnelle, la transition agroécologique et l’insertion socioéconomique des populations vulnérables.
+                <div class="row align-items-center mb-5">
+                    <div class="col-lg-5 mb-4 mb-lg-0">
+                        <span class="p-title d-block mb-2" style="letter-spacing:0.18em; font-size:clamp(0.85rem,2vw,1rem);">BÉNIN CHARIS ONG</span>
+                        <h2 class="no-bottom" style="font-weight: 700; font-size: clamp(1.8rem, 5vw, 2.8rem); margin: 0 0 1.5rem 0; line-height:1.1;">Qui sommes-nous?</h2>
+                        <p class="text-justify" style="line-height: 1.9; color: #4a5568; font-size:clamp(0.9rem,2.2vw,1rem);">
+                            BÉNIN CHARIS ONG est une Organisation Non Gouvernementale à but non lucratif et apolitique créée en 2023 en République du Bénin. Elle soutient les actions du développement durable en faveur de tous, sans distinction. Notre siège est situé à Cotonou, dans le 9ème arrondissement au quartier Kindonou.
                         </p>
+                        <p style="line-height: 1.9; color: #4a5568; margin-top: 1rem; font-size:clamp(0.9rem,2.2vw,1rem);">
+                            L'objectif général est de contribuer durablement à la réduction de la pauvreté au Bénin en plaçant l'agriculture résiliente, la nutrition et l'insertion socioéconomique au cœur de nos actions.
+                        </p>
+                    </div>
+                    <div class="col-lg-7">
+                        <div style="max-width: 100%; margin: 0 auto; width: 100%;">
+                            <img src="{{ asset('images/background/bel.png') }}" alt="BÉNIN CHARIS ONG" style="width: 100%; height: auto; border-radius: 12px; max-width: 450px; margin: 0 auto;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="col-lg-12">
+                        <div style="text-align: center; margin-bottom: 3rem;">
+                            <h3 style="font-size: clamp(1.3rem,3.5vw,1.5rem); font-weight: 700; color: #0f3a72; margin-bottom: 0.5rem;">Nos Trois Objectifs Stratégiques</h3>
+                            <p style="color: #6b7280; margin: 0; font-size:clamp(0.9rem,2vw,1rem);">Trois piliers qui guident nos actions et nos interventions</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="objective-card h-100">
+                            <div class="objective-card__icon">
+                                <i class="icofont-flora"></i>
+                            </div>
+                            <h4 class="objective-card__title">Agriculture Résiliente</h4>
+                            <p class="objective-card__text">
+                                Promouvoir des systèmes de production agricoles et d'élevage résilients face aux changements climatiques, à travers la diffusion de pratiques agroécologiques et l'amélioration durable de la productivité.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="objective-card h-100">
+                            <div class="objective-card__icon">
+                                <i class="icofont-food-cart"></i>
+                            </div>
+                            <h4 class="objective-card__title">Nutrition & Santé</h4>
+                            <p class="objective-card__text">
+                                Contribuer à l'amélioration durable de l'état nutritionnel et sanitaire des populations vulnérables par des actions de prévention, de sensibilisation et d'appui aux structures communautaires.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="objective-card h-100">
+                            <div class="objective-card__icon">
+                                <i class="icofont-briefcase"></i>
+                            </div>
+                            <h4 class="objective-card__title">Autonomie Économique</h4>
+                            <p class="objective-card__text">
+                                Renforcer l'autonomie économique des femmes et des jeunes à travers l'appui à l'entrepreneuriat productif, l'accès aux marchés et le développement d'activités génératrices de revenus durables.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt80 pb80 bg-light text-dark" id="notre-vision">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-4 text-center text-lg-start mb-4 mb-lg-0">
+                        <div style="max-width: 380px; margin: 0 auto 0 0; text-align: left;">
+                            <span class="p-title d-block mb-2" style="letter-spacing:0.18em; font-size:clamp(0.85rem,2vw,1rem);">Notre Vision</span>
+                            <h2 class="no-bottom" style="font-weight: 700; font-size: clamp(1.8rem, 5vw, 3rem); margin: 0; line-height:1.1;">Notre Vision</h2>
+                            <div class="small-border mt-3" style="width: 70px;"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div style="max-width: 700px;">
+                            <p class="lead" style="font-size: clamp(1rem,2.2vw,1.15rem); line-height: 1.95; color: #2d3748;">
+                                CHARIS ONG porte la vision d'un monde juste et équitable où toutes les communautés vivent dignement dans un environnement sain, sans compromettre la capacité des générations futures à répondre à leurs besoins.
+                            </p>
+                            <p style="font-size: clamp(0.9rem,2vw,1rem); line-height: 1.85; color: #4a5568; margin-top: 1rem;">
+                                Nous agissons pour une transformation durable en plaçant l'agriculture résiliente, la nutrition et l'insertion socioéconomique au cœur de nos actions collectives.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt80 pb80" id="notre-mission" style="background: linear-gradient(135deg, #0f6b39 0%, #0c4b72 100%);">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-4 text-center text-lg-start mb-4 mb-lg-0">
+                        <div style="max-width: 380px; margin: 0 auto 0 0; text-align: left;">
+                            <span class="p-title d-block mb-2 text-light" style="letter-spacing:0.18em; font-size:clamp(0.85rem,2vw,1rem);">Notre Mission</span>
+                            <h2 class="no-bottom text-light" style="font-weight: 700; font-size: clamp(1.8rem, 5vw, 3rem); margin: 0; line-height:1.1;">Notre Mission</h2>
+                            <div class="small-border mt-3" style="width: 70px; border-color: rgba(255,255,255,0.7);"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div style="background: rgba(255,255,255,0.96); border-radius: 30px; padding: clamp(24px,5vw,36px) clamp(22px,4vw,32px); box-shadow: 0 24px 48px rgba(0,0,0,0.08);">
+                            <p style="font-size: clamp(0.95rem,2.2vw,1.05rem); line-height: 1.9; color: #163f2d; margin-bottom: 0;">
+                                La mission de BÉNIN CHARIS ONG est de contribuer à la réduction de la pauvreté par des actions durables en sécurité alimentaire et nutritionnelle, en transition agroécologique et en insertion socioéconomique des populations vulnérables.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <div id="nos-services"></div>
-        <section id="section-practice-areas ">
-            <div class="container" id="nos-services">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="text-center">
-                            <h2>Groupes cibles</h2>
-                            <div class="small-border"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 offset-md-3 text-center">
-                        <p>
-                            BÉNIN CHARIS ONG travaille à impacter positivement les sept (07) groupes cibles suivants:
+        <section id="section-practice-areas" class="pt80 pb80 bg-light text-dark">
+            <div class="container">
+                <div class="row justify-content-center text-center mb-5">
+                    <div class="col-lg-8">
+                        <h2>Groupes cibles</h2>
+                        <div class="small-border mx-auto"></div>
+                        <p class="section-practice-areas__intro mt-4">
+                            BÉNIN CHARIS ONG travaille à impacter positivement les sept (07) groupes cibles suivants :
                         </p>
                     </div>
-                    <div class="spacer-single"></div>
-                    <div class="col-md-4">
-                        <ul class="ul-style-2 wow fadeInRight" data-wow-delay=".2s">
-                            <li>Femmes vulnérables </li>
-                            <li> Enfants</li>
-                            <li>Petits agriculteurs: hommes; femmes et jeunes</li>
-                        </ul>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="practice-card wow fadeInRight" data-wow-delay=".2s">
+                            <h5 class="practice-card__heading">Communautés prioritaires</h5>
+                            <ul class="practice-card__list">
+                                <li>Femmes vulnérables</li>
+                                <li>Enfants</li>
+                                <li>Petits agriculteurs : hommes, femmes et jeunes</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <ul class="ul-style-2 wow fadeInRight" data-wow-delay=".2s">
-                            <li>Malades chroniques</li>
-                            <li>Personnes âgées</li>
-                            <li>Ménages en milieux ruraux et urbains</li>
-                        </ul>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="practice-card wow fadeInRight" data-wow-delay=".25s">
+                            <h5 class="practice-card__heading">Groupes fragilisés</h5>
+                            <ul class="practice-card__list">
+                                <li>Malades chroniques</li>
+                                <li>Personnes âgées</li>
+                                <li>Ménages en milieux ruraux et urbains</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <ul class="ul-style-2 wow fadeInRight" data-wow-delay=".4s">
-                            <li>Jeunes entrepreneurs</li>
-                            <li>Rechercher d’opportunités d’affaires et d’investissement</li>
-                        </ul>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="practice-card wow fadeInRight" data-wow-delay=".3s">
+                            <h5 class="practice-card__heading">Acteurs économiques</h5>
+                            <ul class="practice-card__list">
+                                <li>Jeunes entrepreneurs</li>
+                                <li>Rechercher d’opportunités d’affaires et d’investissement</li>
+                            </ul>
+                        </div>
                     </div>
-
-
                 </div>
             </div>
         </section>
 
 
-        <section aria-label="section" class="jarallax text-dark" id="nos-valeurs">
-            {{-- <img src="images/background/3-bwx.jpg" class="jarallax-img" alt=""> --}}
+        <section aria-label="section" id="nos-valeurs" class="pt80 pb80 bg-light text-dark">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="text-center text-dark">
-                            <h2>Nos valeurs</h2>
-                            <div class="small-border"></div>
+                <div class="row justify-content-center text-center mb-5">
+                    <div class="col-lg-8">
+                        <h2 style="font-size:clamp(1.6rem,4vw,2.2rem);">Nos valeurs</h2>
+                        <div class="small-border mx-auto"></div>
+                        <p class="section-practice-areas__intro mt-3" style="font-size:clamp(0.95rem,2vw,1.05rem);">
+                            Les valeurs qui guident les actions de BÉNIN CHARIS ONG et renforcent notre engagement auprès des communautés.
+                        </p>
+                    </div>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="value-card h-100">
+                            <div class="value-card__icon">
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+                            <h5 class="value-card__title">Intégrité</h5>
+                            <p class="value-card__text">Respect des principes d'éthique, de transparence et de responsabilité dans la gestion et la mise en œuvre des interventions.</p>
                         </div>
-                        <div class="owl-carousel owl-theme" id="testimonial-carousel">
-                            <div class="item">
-                                <div class="de_testi opt-2 review">
-                                    <blockquote>
-                                        <i class="fa fa-quote-left id-color"></i>
-                                        <h3 class="id-color">Intégrité</h3>
-                                        <p>
-                                            Nous croyons que l’intégrité est essentielle pour établir une relation de
-                                            confiance sur du long terme avec les populations. Nous nous engageons à servir les
-                                            populations dans le respect et avec honnêteté, en faisant preuve de tanpérance
-                                            dans toutes nos démarches.
-                                        </p>
-
-                                    </blockquote>
-                                </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="value-card h-100">
+                            <div class="value-card__icon">
+                                <i class="fa fa-quote-left"></i>
                             </div>
-                            <div class="item">
-                                <div class="de_testi opt-2 review">
-                                    <blockquote>
-                                        <i class="fa fa-quote-left id-color"></i>
-                                        <h3 class="id-color">Impact durable </h3>
-                                        <p>
-                                            Nous valorisons également le professionnalisme en restant à l’affût des
-                                            dernières tendances et des meilleures pratiques de notre secteur pour offrir des
-                                            solutions de qualité aux populations. En fournissant une expertise de pointe, nous
-                                            aidons les populations à atteindre leurs épanouissement social.
-                                        </p>
-                                        {{-- <div class="de_testi_by"><span>Sarah, Midokpodistribution</span></div> --}}
-                                    </blockquote>
-                                </div>
+                            <h5 class="value-card__title">Impact durable</h5>
+                            <p class="value-card__text">Recherche de résultats mesurables et pérennes, contribuant à l'amélioration durable des conditions de vie des bénéficiaires.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="value-card h-100">
+                            <div class="value-card__icon">
+                                <i class="fa fa-quote-left"></i>
                             </div>
-                            <div class="item">
-                                <div class="de_testi opt-2 review">
-                                    <blockquote>
-                                        <i class="fa fa-quote-left id-color"></i>
-                                        <h3 class="id-color">Charité</h3>
-                                        <p>Nous sommes conscients que naviguer dans certains environnements
-                                            peut être difficile pour les populatiosns que nous accompagnons. Nous sommes donc là pour les soutenir
-                                            émotionnellement et pratiquement, en faisant preuve d’empathie et de
-                                            compréhension de leurs défis.</p>
-                                        {{-- <div class="de_testi_by"><span>Michael, Mindeba</span></div> --}}
-                                    </blockquote>
-                                </div>
+                            <h5 class="value-card__title">Charité</h5>
+                            <p class="value-card__text">Engagement à agir avec humanité, solidarité et sens du service au profit des communautés vulnérables.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="value-card h-100">
+                            <div class="value-card__icon">
+                                <i class="fa fa-quote-left"></i>
                             </div>
-                            <div class="item">
-                                <div class="de_testi opt-2 review">
-                                    <blockquote>
-                                        <i class="fa fa-quote-left id-color"></i>
-                                        <h3 class="id-color ">Équité sociale</h3>
-                                        <p>
-                                            Nous sommes conscients que naviguer dans un nouvel environnement peut être
-                                            difficile. Nous sommes donc là pour soutenir nos clients émotionnellement et
-                                            concrètement, en faisant preuve d’empathie et de compréhension.
-                                        </p>
-                                        {{-- <div class="de_testi_by"><span>Michael, Mindeba</span></div> --}}
-                                    </blockquote>
-                                </div>
-                            </div>
-
+                            <h5 class="value-card__title">Équité sociale</h5>
+                            <p class="value-card__text">Promotion de l'inclusion et de l'égalité des chances, sans discrimination liée au genre, à l'origine ou à la condition sociale.</p>
                         </div>
                     </div>
                 </div>
@@ -357,41 +477,43 @@
 
 
 
-        <section aria-label="section">
+        <section id="section-articles" class="pt80 pb80 bg-light text-dark">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="text-center">
-                            <h2>Nos Articles</h2>
-                            <div class="small-border"></div>
-                        </div>
+                <div class="row justify-content-center text-center mb-5">
+                    <div class="col-lg-8">
+                        <h2 style="font-size:clamp(1.6rem,4vw,2.2rem);">Nos Articles</h2>
+                        <div class="small-border mx-auto"></div>
+                        <p class="section-practice-areas__intro mt-3" style="font-size:clamp(0.95rem,2vw,1.05rem);">
+                            Découvrez nos derniers articles et actualités sur nos domaines d'intervention et nos réalisations.
+                        </p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row g-4">
                     {{-- {{dd($posts)}} --}}
                     @foreach ($posts as $post)
-                    <div class="col-lg-4 col-md-6 mb30">
-                        <div class="bloglist item">
-                            <div class="post-content">
-                                <div class="date-box">
-                                    <div class="m">{{$post->id}}</div>
-                                </div>
-                                <div class="post-image">
-                                    <img alt="" src="{{Storage::url($post->image)}}">
-                                </div>
-                                <div class="post-text">
-                                    <h4><a href="{{ route('article', [$post->id]) }}">
-                                            {{$post->title}}
-                                            <span></span></a></h4>
-                                    <span class="p-author"><a
-                                            href="{{ route('article', [$post->id]) }}">Lire l'article</a></span>
+                    <div class="col-lg-4 col-md-6">
+                        <article class="article-card h-100">
+                            <div class="article-card__image-wrapper">
+                                <img alt="{{$post->title}}" src="{{Storage::url($post->image)}}" class="article-card__image">
+                                <div class="article-card__date">
+                                    {{ $post->created_at->format('d') }}
                                 </div>
                             </div>
-                        </div>
+                            <div class="article-card__body">
+                                <h3 class="article-card__title">
+                                    <a href="{{ route('article', [$post->id]) }}">{{$post->title}}</a>
+                                </h3>
+                                <p class="article-card__meta">
+                                    {{ $post->created_at->format('d M Y') }}
+                                </p>
+                                <a href="{{ route('article', [$post->id]) }}" class="article-card__link">
+                                    Lire l'article
+                                    <i class="fa fa-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </article>
                     </div>
                     @endforeach
-
-
                 </div>
             </div>
         </section>

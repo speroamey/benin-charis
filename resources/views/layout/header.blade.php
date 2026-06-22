@@ -52,7 +52,7 @@
 
                     <div class="de-flex-col">
                         <div class="h-phone md-hide"><span>Prendre rendez-vous</span><i
-                                class="fa fa-phonee"></i><a href="tel: +229 90 09 06  09" class="text-white"> +229 90 09 06  09
+                                class="fa fa-phonee"></i><a href="tel: +229 01 96 14 32 13" class="text-white"> +229 01 96 14 32 13
                                 </a> </div>
                         <span id="menu-btn"></span>
                     </div>

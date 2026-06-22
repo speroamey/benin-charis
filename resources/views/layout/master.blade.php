@@ -45,6 +45,31 @@ Author: Spero AMEY / WAKPARE-AMEY M'pouamon
         <link rel="stylesheet" href="revolution/css/settings.css" type="text/css">
         <link rel="stylesheet" href="revolution/css/layers.css" type="text/css">
         <link rel="stylesheet" href="revolution/css/navigation.css" type="text/css">
+        <style type="text/css">
+            /* Desktop screens: keep left alignment */
+            /* Empêche le caption RS de dépasser la largeur de l'écran */
+@media (max-width: 1024px) {
+    #slider-revolution .tp-caption.very-big-white {
+        max-width: calc(100vw - 30px) !important;
+        box-sizing: border-box !important;
+        padding: 20px 22px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    #slider-revolution .tp-caption.very-big-white {
+        max-width: calc(100vw - 20px) !important;
+        padding: 14px 16px !important;
+    }
+    #slider-revolution .tp-caption.very-big-white h1 {
+        font-size: clamp(1.1rem, 5vw, 1.4rem) !important;
+    }
+    #slider-revolution .tp-caption.very-big-white p.lead {
+        font-size: 0.82rem !important;
+        line-height: 1.5 !important;
+    }
+}
+        </style>
     @endif
     <style type="text/css">
         .navbar {
@@ -202,10 +227,11 @@ Author: Spero AMEY / WAKPARE-AMEY M'pouamon
                     speed: 2000,
                     levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50],
                 },
-                responsiveLevels: [1920, 1380, 1240],
-                gridwidth: [1200, 1200, 940],
+                responsiveLevels: [1920, 1380, 1240, 768],
+                gridwidth:        [1200, 1200,  940, 480],
+                gridheight:         [700,  700,  600, 500],
+
                 spinner: "off",
-                gridheight: 700,
                 disableProgressBar: "on"
             });
         });
