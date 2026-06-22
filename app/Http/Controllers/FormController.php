@@ -4,10 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Models\Offer;
 use Illuminate\Http\Request;
-use stdClass;
-use Swift_Mailer;
-use Swift_Message;
-use Swift_SmtpTransport;
 
 // use Swift_Message;
 // use Swift_SmtpTransport;
@@ -64,7 +60,7 @@ class FormController extends Controller
 
     public function nousRejoindre()
     {
-        $offers = Offer::get()->last()->take(10)->get();
+        $offers = Offer::latest('id')->take(10)->get();
         return view('pages.nous-rejoindre', compact('offers'));
     }
     public function nousRejoindreDetails($id){
