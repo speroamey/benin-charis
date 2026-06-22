@@ -18,6 +18,8 @@ jobs:
 
       # 2️⃣ Configuration SSH
       - name: 🔑 Setup SSH
+        env:
+          SSH_PORT: ${{ secrets.SSH_PORT }}
         run: |
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
@@ -25,6 +27,7 @@ jobs:
           echo "Host mowondoo
             HostName panel.mowondoo.com
             User root
+            Port $SSH_PORT
             IdentityFile ~/.ssh/id_ed25519
             StrictHostKeyChecking no" > ~/.ssh/config
 
