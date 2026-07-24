@@ -289,9 +289,9 @@
                             <div class="objective-card__icon">
                                 <i class="icofont-flora"></i>
                             </div>
-                            <h4 class="objective-card__title">Agriculture Résiliente</h4>
+                            <h4 class="objective-card__title"> Agriculture et élevage intelligents au climat</h4>
                             <p class="objective-card__text">
-                                Promouvoir des systèmes de production agricoles et d'élevage résilients face aux changements climatiques, à travers la diffusion de pratiques agroécologiques et l'amélioration durable de la productivité.
+                                Promotion des pratiques agroécologiques, agriculture résiliente face aux changements climatiques, formation et accompagnement des producteurs, sites de démonstration et innovation rurale.
                             </p>
                         </div>
                     </div>
@@ -301,9 +301,9 @@
                             <div class="objective-card__icon">
                                 <i class="icofont-food-cart"></i>
                             </div>
-                            <h4 class="objective-card__title">Nutrition & Santé</h4>
+                            <h4 class="objective-card__title">Nutrition et santé communautaire</h4>
                             <p class="objective-card__text">
-                                Contribuer à l'amélioration durable de l'état nutritionnel et sanitaire des populations vulnérables par des actions de prévention, de sensibilisation et d'appui aux structures communautaires.
+                                Prévention de la malnutrition, sensibilisation nutritionnelle, appui aux centres communautaires, renforcement des relais communautaires.
                             </p>
                         </div>
                     </div>
@@ -313,9 +313,9 @@
                             <div class="objective-card__icon">
                                 <i class="icofont-briefcase"></i>
                             </div>
-                            <h4 class="objective-card__title">Autonomie Économique</h4>
+                            <h4 class="objective-card__title">Autonomisation des femmes et des jeunes</h4>
                             <p class="objective-card__text">
-                                Renforcer l'autonomie économique des femmes et des jeunes à travers l'appui à l'entrepreneuriat productif, l'accès aux marchés et le développement d'activités génératrices de revenus durables.
+                                Appui à l'entrepreneuriat, coaching et formation, développement des activités génératrices de revenus, facilitation de l'accès aux marchés.
                             </p>
                         </div>
                     </div>
@@ -381,7 +381,7 @@
                 <div class="row g-4 justify-content-center">
                     <div class="col-md-6 col-lg-4">
                         <div class="practice-card wow fadeInRight" data-wow-delay=".2s">
-                            <h5 class="practice-card__heading">Communautés ruraales</h5>
+                            <h5 class="practice-card__heading">Communautés rurales</h5>
                             <ul class="practice-card__list">
                                 <li>Petits agriculteurs : hommes, femmes et jeunes</li>
                                 <li>Éleveurs</li>

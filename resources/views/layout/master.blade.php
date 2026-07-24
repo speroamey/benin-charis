@@ -7,7 +7,7 @@ Author: Spero AMEY / WAKPARE-AMEY M'pouamon
 
 <head>
     <meta charset="utf-8" />
-    <title>BENIN CHARIS ONG - Une ONG basé au Bénin</title>
+    <title>CHARIS ONG - Une ONG basée au Bénin</title>
     <link rel="icon" href="{{ asset('images/logo.ico') }}" type="image/ico" sizes="16x16">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="csrf-token" content="{{ csrf_token() }}" />
