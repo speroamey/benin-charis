@@ -214,7 +214,7 @@
                                                                     style="color:#00364A; text-style:capitalize; font-family:'Noto Sans', Arial,sans-serif; font-size:15px; line-height:32px; text-align:left; padding-bottom:20px;">
                                                                     <div>
                                                                         <p style="font-weight:bold">
-                                                                            Bonjour l'équipe de BÉNIN CHARIS ONG,
+                                                                            Bonjour l'équipe de CHARIS ONG,
                                                                         </p>
                                                                         ceci est le recapitulatif généré d'une candidatue  via
                                                                         le formulaire de  candidature <br>

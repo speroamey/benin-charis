@@ -6,14 +6,13 @@
         <div id="top"></div>
 
         <!-- section begin -->
-        <section id="subheader" class="jarallax text-white" data-bgcolor="#073b84">
-            {{-- <img src="images/background/subheader4.jpg" class="jarallax-img" alt=""> --}}
+        <section id="subheader" class="jarallax text-white" data-bgcolor="#073b84" style="background: linear-gradient(135deg, rgba(7, 59, 132, 0.82) 0%, rgba(10, 79, 168, 0.88) 100%), url('{{ asset('images/background/Banner-web-axe-1.jpg') }}') center center / cover no-repeat !important;">
             <div class="center-y relative text-center">
                 <div class="container">
                     <div class="row">
                         <div class="col text-center">
                             <div class="spacer-single"></div>
-                            <h2>BÉNIN CHARIS ONG</h2>
+                            <h2>CHARIS ONG</h2>
                             <p> {{$offer->title ?? $offer['title']}}</p>
                         </div>
                         {{-- <div class="clearfix"></div> --}}

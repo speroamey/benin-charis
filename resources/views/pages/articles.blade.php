@@ -9,8 +9,7 @@
     <div class="no-bottom no-top" id="content">
         <div id="top"></div>
         <!-- section begin -->
-        <section id="subheader" class="jarallax text-white" data-bgcolor="#073B84">
-            <!-- <img src="images/background/subheader3.jpg" class="jarallax-img" alt=""> -->
+        <section id="subheader" class="jarallax text-white" data-bgcolor="#073B84" style="background: linear-gradient(135deg, rgba(7, 59, 132, 0.82) 0%, rgba(10, 79, 168, 0.88) 100%), url('{{ asset('images/background/Banner-web-axe-1.jpg') }}') center center / cover no-repeat !important;">
             <div class="center-y relative text-center">
                 <div class="container">
                     <div class="row">
@@ -102,7 +101,7 @@
                 <div class="row mb-5">
                     <div class="col-lg-12">
                         <div style="text-align: center; margin-bottom: 3rem;">
-                            <h3 style="font-size: clamp(1.3rem,3.5vw,1.5rem); font-weight: 700; color: #0f3a72; margin-bottom: 0.5rem;">Nos Trois Objectifs Stratégiques</h3>
+                            <h3 style="font-size: clamp(1.3rem,3.5vw,1.5rem); font-weight: 700; color: #0f3a72; margin-bottom: 0.5rem;">Nos Trois Axes Stratégiques</h3>
                             <p style="color: #6b7280; margin: 0; font-size:clamp(0.9rem,2vw,1rem);">Trois piliers qui guident nos actions et nos interventions</p>
                         </div>
                     </div>

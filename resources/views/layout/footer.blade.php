@@ -13,7 +13,7 @@
                         <span><i class="id-color fa fa-phone fa-lg"></i> <a href="tel:+2290196143213">(+229) 01 96 14 32 13</a> </span>
                         <span><i class="id-color fa fa-phone fa-lg"></i><a href="tel:+2290196696060">(+229) 01 96 69 60 60</a></span>
                         <span><i class="id-color fa fa-envelope-o fa-lg"></i><a
-                                href="mailto:contact@example.com">info@benin-charis.org</a></span>
+                                href="mailto:info@benin-charis.org ">info@benin-charis.org</a></span>
                         <!-- <span><i class="id-color fa fa-file-pdf-o fa-lg"></i><a href="#">info@lajoyconsulting.com</a></span> -->
                     </address>
                 </div>
@@ -62,9 +62,9 @@
                         </div>
                         <div class="de-flex-col">
                             <div class="social-icons">
-                                <a href="https://www.facebook.com/dgainternaionalltee?mibextid=ZbWKwL"><i class="fa fa-facebook fa-lg"></i></a>
-                                <a href="https://www.linkedin.com/company/dga-international/"><i class="fa fa-linkedin fa-lg"></i></a>
-                                <a href="https://instagram.com/dgainternational?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa fa-instagram fa-lg"></i></a>
+                                <a href="https://www.facebook.com/benincharisong/"><i class="fa fa-facebook fa-lg"></i></a>
+                                <a href="https://www.linkedin.com/in/charis-ong-1090383b8/"><i class="fa fa-linkedin fa-lg"></i></a>
+                                {{-- <a href="https://instagram.com/dgainternational?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa fa-instagram fa-lg"></i></a> --}}
                             </div>
                         </div>
                     </div>

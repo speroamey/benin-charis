@@ -37,9 +37,7 @@
                             <p class="lead xs-hide"
                             style="font-size: clamp(0.85rem, 2vw, 1.05rem); line-height: 1.8;
                                     margin-bottom: 1.5rem; text-align: center;">
-                                Promouvoir des systèmes de production agricoles et d'élevage résilients
-                                face aux changements climatiques, à travers la diffusion de pratiques
-                                agroécologiques et l'amélioration durable de la productivité.
+                                Promotion des pratiques agroécologiques, agriculture résiliente face aux changements climatiques, formation et accompagnement des producteurs, sites de démonstration et innovation rurale.
                             </p>
                             <a class="btn-custom btn-green" href="{{ url('nous-contacter') }}"
                             style="padding: 1rem 2rem; font-size: 0.98rem; letter-spacing: 0.12em;
@@ -51,7 +49,7 @@
 
                     <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-thumb="">
                         <img alt="" class="rev-slidebg" data-bgposition="top center" data-bgfit="cover"
-                            data-bgrepeat="no-repeat" data-bgparallax="10" src="{{ asset('images/background/Banner-web-axe-3.jpg') }}">
+                            data-bgrepeat="no-repeat" data-bgparallax="10" src="{{ asset('images/background/Banner-web-axe-1.png') }}">
                         <div class="tp-caption very-big-white"
                             data-x="['0','0','center','center']"
                             data-hoffset="['0','0','0','0']"
@@ -71,9 +69,7 @@
                                 Nutrition et santé communautaire
                             </h1>
                             <p class="lead xs-hide" style="font-size: clamp(0.85rem, 2vw, 1.05rem); line-height: 1.8; margin-bottom: 1.5rem; text-align: center;">
-                                Contribuer à l'amélioration durable de l'état nutritionnel et sanitaire des populations
-                                vulnérables par des actions de prévention, de sensibilisation et d'appui aux structures
-                                communautaires.
+                                Prévention de la malnutrition, sensibilisation nutritionnelle, appui aux centres communautaires, renforcement des relais communautaires.
                             </p>
                             <a class="btn-custom btn-green" href="{{ url('nous-contacter') }}"
                                 style="padding: 1rem 2rem; font-size: 0.98rem; letter-spacing: 0.12em; display: block; text-align: center; width: fit-content; margin: 0 auto;">
@@ -104,9 +100,7 @@
                                 Autonomisation des femmes et des jeunes par l'entrepreneuriat
                             </h1>
                             <p class="lead xs-hide" style="font-size: clamp(0.85rem, 2vw, 1.05rem); line-height: 1.8; margin-bottom: 1.5rem; text-align: center;">
-                                Renforcer l'autonomie économique des femmes et des jeunes à travers l'appui à
-                                l'entrepreneuriat productif, l'accès aux marchés et le développement d'activités
-                                génératrices de revenus durables.
+                                Appui à l'entrepreneuriat, coaching et formation, développement des activités génératrices de revenus, facilitation de l'accès aux marchés.
                             </p>
                             <a class="btn-custom btn-green" href="{{ url('nous-contacter') }}"
                                 style="padding: 1rem 2rem; font-size: 0.98rem; letter-spacing: 0.12em; display: block; text-align: center; width: fit-content; margin: 0 auto;">
@@ -269,11 +263,9 @@
                         <span class="p-title d-block mb-2" style="letter-spacing:0.18em; font-size:clamp(0.85rem,2vw,1rem);">CHARIS ONG</span>
                         <h2 class="no-bottom" style="font-weight: 700; font-size: clamp(1.8rem, 5vw, 2.8rem); margin: 0 0 1.5rem 0; line-height:1.1;">Qui sommes-nous?</h2>
                         <p class="text-justify" style="line-height: 1.9; color: #4a5568; font-size:clamp(0.9rem,2.2vw,1rem);">
-                            CHARIS ONG est une Organisation Non Gouvernementale à but non lucratif et apolitique créée en 2023 en République du Bénin. Elle soutient les actions du développement durable en faveur de tous, sans distinction. Notre siège est situé à Cotonou, dans le 9ème arrondissement au quartier Kindonou.
+                            CHARIS ONG est une organisation non gouvernementale à but non lucratif, basée à Cotonou, engagée dans la réduction durable de la pauvreté au Bénin à travers des actions à fort impact social, économique et environnemental. Reconnue en 2024 (N°2024/0011/MISP/DC/SHM/DAIC/SACC/SA), elle intervient auprès des communautés rurales sur l'agriculture climato-intelligente, la nutrition communautaire et l'autonomisation des femmes et des jeunes.
                         </p>
-                        <p style="line-height: 1.9; color: #4a5568; margin-top: 1rem; font-size:clamp(0.9rem,2.2vw,1rem);">
-                            L'objectif général est de contribuer durablement à la réduction de la pauvreté au Bénin en plaçant l'agriculture résiliente, la nutrition et l'insertion socioéconomique au cœur de nos actions.
-                        </p>
+
                     </div>
                     <div class="col-lg-7">
                         <div style="max-width: 100%; margin: 0 auto; width: 100%;">
@@ -285,7 +277,7 @@
                 <div class="row mb-5">
                     <div class="col-lg-12">
                         <div style="text-align: center; margin-bottom: 3rem;">
-                            <h3 style="font-size: clamp(1.3rem,3.5vw,1.5rem); font-weight: 700; color: #0f3a72; margin-bottom: 0.5rem;">Nos Trois Objectifs Stratégiques</h3>
+                            <h3 style="font-size: clamp(1.3rem,3.5vw,1.5rem); font-weight: 700; color: #0f3a72; margin-bottom: 0.5rem;">Nos Trois Axes Stratégiques</h3>
                             <p style="color: #6b7280; margin: 0; font-size:clamp(0.9rem,2vw,1rem);">Trois piliers qui guident nos actions et nos interventions</p>
                         </div>
                     </div>
@@ -344,11 +336,10 @@
                     <div class="col-lg-7">
                         <div style="max-width: 700px;">
                             <p class="lead" style="font-size: clamp(1rem,2.2vw,1.15rem); line-height: 1.95; color: #2d3748;">
-                                CHARIS ONG porte la vision d'un monde juste et équitable où toutes les communautés vivent dignement dans un environnement sain, sans compromettre la capacité des générations futures à répondre à leurs besoins.
-                            </p>
-                            <p style="font-size: clamp(0.9rem,2vw,1rem); line-height: 1.85; color: #4a5568; margin-top: 1rem;">
+                                    Un monde juste et équitable où toutes les communautés vivent dignement dans un environnement sain, en répondant à leurs besoins présents sans compromettre ceux des générations futures.                            </p>
+                            {{-- <p style="font-size: clamp(0.9rem,2vw,1rem); line-height: 1.85; color: #4a5568; margin-top: 1rem;">
                                 Nous agissons pour une transformation durable en plaçant l'agriculture résiliente, la nutrition et l'insertion socioéconomique au cœur de nos actions collectives.
-                            </p>
+                            </p> --}}
                         </div>
                     </div>
                 </div>
@@ -368,8 +359,7 @@
                     <div class="col-lg-7">
                         <div style="background: rgba(255,255,255,0.96); border-radius: 30px; padding: clamp(24px,5vw,36px) clamp(22px,4vw,32px); box-shadow: 0 24px 48px rgba(0,0,0,0.08);">
                             <p style="font-size: clamp(0.95rem,2.2vw,1.05rem); line-height: 1.9; color: #163f2d; margin-bottom: 0;">
-                                La mission de CHARIS ONG est de contribuer à la réduction de la pauvreté par des actions durables en sécurité alimentaire et nutritionnelle, en transition agroécologique et en insertion socioéconomique des populations vulnérables.
-                            </p>
+                            CHARIS ONG contribue à la réduction durable de la pauvreté au Bénin en agissant sur trois leviers : la sécurité alimentaire et nutritionnelle, la transition agroécologique, et l'insertion socioéconomique des populations vulnérables, en particulier les femmes et les jeunes.                            </p>
                         </div>
                     </div>
                 </div>
@@ -391,30 +381,31 @@
                 <div class="row g-4 justify-content-center">
                     <div class="col-md-6 col-lg-4">
                         <div class="practice-card wow fadeInRight" data-wow-delay=".2s">
-                            <h5 class="practice-card__heading">Communautés prioritaires</h5>
+                            <h5 class="practice-card__heading">Communautés ruraales</h5>
                             <ul class="practice-card__list">
-                                <li>Femmes vulnérables</li>
-                                <li>Enfants</li>
                                 <li>Petits agriculteurs : hommes, femmes et jeunes</li>
+                                <li>Éleveurs</li>
+                                <li>Communautés exposées aux effets du changement climatique</li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="practice-card wow fadeInRight" data-wow-delay=".25s">
-                            <h5 class="practice-card__heading">Groupes fragilisés</h5>
+                            <h5 class="practice-card__heading">Groupes vulnérables</h5>
                             <ul class="practice-card__list">
-                                <li>Malades chroniques</li>
-                                <li>Personnes âgées</li>
-                                <li>Ménages en milieux ruraux et urbains</li>
+                                <li>Enfants</li>
+                                <li>Femmes vulnérables</li>
+                                <li>Ménages en situation de vulnérabilité nutritionnelle</li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="practice-card wow fadeInRight" data-wow-delay=".3s">
-                            <h5 class="practice-card__heading">Acteurs économiques</h5>
+                            <h5 class="practice-card__heading">Entrepreneures</h5>
                             <ul class="practice-card__list">
+                                <li> Femmes entrepreneuses</li>
                                 <li>Jeunes entrepreneurs</li>
-                                <li>Rechercher d’opportunités d’affaires et d’investissement</li>
+                                <li>Groupements et coopératives portées par des femmes ou des jeunes </li>
                             </ul>
                         </div>
                     </div>
@@ -440,8 +431,28 @@
                             <div class="value-card__icon">
                                 <i class="fa fa-quote-left"></i>
                             </div>
+                            <h5 class="value-card__title">Charité</h5>
+                            <p class="value-card__text">Engagement à agir avec humanité, solidarité et sens du service au profit des communautés vulnérables.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="value-card h-100">
+                            <div class="value-card__icon">
+                                <i class="fa fa-quote-left"></i>
+                            </div>
                             <h5 class="value-card__title">Intégrité</h5>
                             <p class="value-card__text">Respect des principes d'éthique, de transparence et de responsabilité dans la gestion et la mise en œuvre des interventions.</p>
+                        </div>
+                    </div>
+                     <div class="col-md-6 col-lg-3">
+                        <div class="value-card h-100">
+                            <div class="value-card__icon">
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+                            <h5 class="value-card__title">Équité sociale</h5>
+                            <p class="value-card__text">
+                                Promotion de l'inclusion et de l'égalité des chances, sans discrimination liée au genre, à l'origine ou à la condition sociale.
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
@@ -453,24 +464,8 @@
                             <p class="value-card__text">Recherche de résultats mesurables et pérennes, contribuant à l'amélioration durable des conditions de vie des bénéficiaires.</p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="value-card h-100">
-                            <div class="value-card__icon">
-                                <i class="fa fa-quote-left"></i>
-                            </div>
-                            <h5 class="value-card__title">Charité</h5>
-                            <p class="value-card__text">Engagement à agir avec humanité, solidarité et sens du service au profit des communautés vulnérables.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="value-card h-100">
-                            <div class="value-card__icon">
-                                <i class="fa fa-quote-left"></i>
-                            </div>
-                            <h5 class="value-card__title">Équité sociale</h5>
-                            <p class="value-card__text">Promotion de l'inclusion et de l'égalité des chances, sans discrimination liée au genre, à l'origine ou à la condition sociale.</p>
-                        </div>
-                    </div>
+
+
                 </div>
             </div>
         </section>

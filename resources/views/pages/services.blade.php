@@ -7,8 +7,7 @@
     <div class="no-bottom no-top" id="content">
         <div id="top"></div>
         <!-- section begin -->
-        <section id="subheader" class="jarallax text-white" data-bgcolor="#073B84">
-            <!-- <img src="images/background/subheader3.jpg" class="jarallax-img" alt=""> -->
+        <section id="subheader" class="jarallax text-white" data-bgcolor="#073B84" style="background: linear-gradient(135deg, rgba(7, 59, 132, 0.82) 0%, rgba(10, 79, 168, 0.88) 100%), url('{{ asset('images/background/Banner-web-axe-1.jpg') }}') center center / cover no-repeat !important;">
             <div class="center-y relative text-center">
                 <div class="container">
                     <div class="row">

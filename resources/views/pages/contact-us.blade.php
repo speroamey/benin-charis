@@ -6,8 +6,7 @@
         <div id="top"></div>
 
         <!-- section begin -->
-        <section id="subheader" class="jarallax text-white" data-bgcolor="#073B84">
-            {{-- <img src="images/background/subheader4.jpg" class="jarallax-img" alt=""> --}}
+        <section id="subheader" class="jarallax text-white" data-bgcolor="#073B84" style="background: linear-gradient(135deg, rgba(7, 59, 132, 0.82) 0%, rgba(10, 79, 168, 0.88) 100%), url('{{ asset('images/background/Banner-web-axe-1.jpg') }}') center center / cover no-repeat !important;">
             <div class="center-y relative text-center">
                 <div class="container">
                     <div class="row">
@@ -94,11 +93,9 @@
                         <span class="p-title d-block mb-2" style="letter-spacing:0.18em; font-size:clamp(0.85rem,2vw,1rem);">CHARIS ONG</span>
                         <h2 class="no-bottom" style="font-weight: 700; font-size: clamp(1.8rem, 5vw, 2.8rem); margin: 0 0 1.5rem 0; line-height:1.1;">Qui sommes-nous?</h2>
                         <p class="text-justify" style="line-height: 1.9; color: #4a5568; font-size:clamp(0.9rem,2.2vw,1rem);">
-                            CHARIS ONG est une Organisation Non Gouvernementale à but non lucratif et apolitique créée en 2023 en République du Bénin. Elle soutient les actions du développement durable en faveur de tous, sans distinction. Notre siège est situé à Cotonou, dans le 9ème arrondissement au quartier Kindonou.
+                            CHARIS ONG est une organisation non gouvernementale à but non lucratif, basée à Cotonou, engagée dans la réduction durable de la pauvreté au Bénin à travers des actions à fort impact social, économique et environnemental. Reconnue en 2024 (N°2024/0011/MISP/DC/SHM/DAIC/SACC/SA), elle intervient auprès des communautés rurales sur l'agriculture climato-intelligente, la nutrition communautaire et l'autonomisation des femmes et des jeunes.
                         </p>
-                        <p style="line-height: 1.9; color: #4a5568; margin-top: 1rem; font-size:clamp(0.9rem,2.2vw,1rem);">
-                            L'objectif général est de contribuer durablement à la réduction de la pauvreté au Bénin en plaçant l'agriculture résiliente, la nutrition et l'insertion socioéconomique au cœur de nos actions.
-                        </p>
+
                     </div>
                     <div class="col-lg-7">
                         <div style="max-width: 100%; margin: 0 auto; width: 100%;">
@@ -110,7 +107,7 @@
                 <div class="row mb-5">
                     <div class="col-lg-12">
                         <div style="text-align: center; margin-bottom: 3rem;">
-                            <h3 style="font-size: clamp(1.3rem,3.5vw,1.5rem); font-weight: 700; color: #0f3a72; margin-bottom: 0.5rem;">Nos Trois Objectifs Stratégiques</h3>
+                            <h3 style="font-size: clamp(1.3rem,3.5vw,1.5rem); font-weight: 700; color: #0f3a72; margin-bottom: 0.5rem;">Nos Trois Axes Stratégiques</h3>
                             <p style="color: #6b7280; margin: 0; font-size:clamp(0.9rem,2vw,1rem);">Trois piliers qui guident nos actions et nos interventions</p>
                         </div>
                     </div>
